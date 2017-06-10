@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Grundfos.PriceManager">
+</Property><Property Name="Solution File" Value="C:\Projects\Grundfos\Grundfos.PriceManager-PRD\Grundfos.PriceManager.sln">
+</Property><Property Name="Date" Value="viernes, 09 de julio de 2010">
+</Property><Property Name="Time" Value="22:07 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="GrundFos.PriceManager.WebSite" Source="GrundFos.PriceManager.WebSite\GrundFos.PriceManager.WebSite.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GrundFos.PriceManager.WebSite" Source="GrundFos.PriceManager.WebSite\GrundFos.PriceManager.WebSite.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PriceManager.Core" Source="PriceManager.Core\PriceManager.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PriceManager.Core" Source="PriceManager.Core\PriceManager.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PriceManager.Business" Source="PriceManager.Business\PriceManager.Business.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PriceManager.Business" Source="PriceManager.Business\PriceManager.Business.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PriceManager.Common" Source="PriceManager.Common\PriceManager.Common.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PriceManager.Common" Source="PriceManager.Common\PriceManager.Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PriceManager.UnitTest" Source="PriceManager.UnitTest\PriceManager.UnitTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PriceManager.UnitTest" Source="PriceManager.UnitTest\PriceManager.UnitTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PriceManager.Integration.Service" Source="GrundFos.ScalaInterface\PriceManager.Integration.Service.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PriceManager.Integration.Service" Source="GrundFos.ScalaInterface\PriceManager.Integration.Service.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GrundFos.ScalaConnector" Source="GrundFos.Core\GrundFos.ScalaConnector.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GrundFos.ScalaConnector" Source="GrundFos.Core\GrundFos.ScalaConnector.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Grundfos.PriceManager.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Grundfos.PriceManager.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GrundFos.PriceManager.WebSite" Source="GrundFos.PriceManager.WebSite\GrundFos.PriceManager.WebSite.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PriceManager.Core" Source="PriceManager.Core\PriceManager.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PriceManager.Business" Source="PriceManager.Business\PriceManager.Business.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PriceManager.Common" Source="PriceManager.Common\PriceManager.Common.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PriceManager.UnitTest" Source="PriceManager.UnitTest\PriceManager.UnitTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PriceManager.Integration.Service" Source="GrundFos.ScalaInterface\PriceManager.Integration.Service.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GrundFos.ScalaConnector" Source="GrundFos.Core\GrundFos.ScalaConnector.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

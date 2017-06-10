@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="CtrRange" table="CtrRange" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+    
+    <property name="Min" column="Min" type="System.Decimal" not-null="true"/>
+    <property name="Max" column="Max" type="System.Decimal" not-null="true"/>
+
+	<property name="CreatedOn" column="CreatedOn" type="System.DateTime" not-null="true" />
+	<property name="CreatedBy" column="CreatedBy" type="System.Guid" not-null="true"/>
+	<property name="ModifiedOn" column="ModifiedOn" type="System.DateTime" not-null="true" />
+	<property name="ModifiedBy" column="ModifiedBy" type="System.Guid" not-null="true"/>
+  </class>
+</hibernate-mapping>

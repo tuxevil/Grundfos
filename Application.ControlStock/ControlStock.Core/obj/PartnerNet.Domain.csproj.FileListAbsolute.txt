@@ -1,0 +1,116 @@
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Domain.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Domain.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Common.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\ProjectBase.Data.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\ProjectBase.Utils.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\NHibernate.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Iesi.Collections.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Windsor.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\log4net.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.DynamicProxy.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Model.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.MicroKernel.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\NHibernate.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Iesi.Collections.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Windsor.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\log4net.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\ProjectBase.Data.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\ProjectBase.Utils.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.DynamicProxy.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Model.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Common.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.MicroKernel.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Forecast.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductSet.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.PurchaseOrder.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.PurchaseOrderItem.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.TransactionHistoryWeekly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Product.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductView.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.TransactionHistoryMonthly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductStatisticMonthly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductStatisticWeekly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Provider.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Country.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\NHibernate.Caches.SysCache.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\NHibernate.Caches.SysCache.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\PartnerNet.Domain.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\PartnerNet.Domain.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\NHibernate.Caches.SysCache.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\NHibernate.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\PartnerNet.Common.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\ProjectBase.Data.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\ProjectBase.Utils.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Iesi.Collections.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.MicroKernel.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.Windsor.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\log4net.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.DynamicProxy.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.Model.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\NHibernate.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Iesi.Collections.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.MicroKernel.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.Windsor.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\log4net.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\ProjectBase.Data.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\ProjectBase.Utils.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.DynamicProxy.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\Castle.Model.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\PartnerNet.Common.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Release\NHibernate.Caches.SysCache.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.Forecast.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.ProductSet.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.ProductStatisticMonthly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.ProductStatisticWeekly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.Provider.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.Country.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.PurchaseOrder.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.PurchaseOrderItem.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.TransactionHistoryWeekly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.Product.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.ProductView.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.TransactionHistoryMonthly.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Release\PartnerNet.Domain.Mapping.BreakDown.hbm.xml
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.BreakDown.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Domain.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Domain.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Common.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Iesi.Collections.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.MicroKernel.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Windsor.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\log4net.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.DynamicProxy.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Model.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\NHibernate.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Iesi.Collections.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.MicroKernel.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Windsor.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\log4net.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\ProjectBase.Data.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\ProjectBase.Utils.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.DynamicProxy.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\Castle.Model.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\PartnerNet.Common.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\bin\Debug\NHibernate.Caches.SysCache.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Forecast.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductSet.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductStatisticMonthly.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductStatisticWeekly.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Provider.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Country.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.PurchaseOrder.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.PurchaseOrderItem.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.TransactionHistoryWeekly.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.Product.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.ProductView.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.TransactionHistoryMonthly.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.Mapping.BreakDown.hbm.xml
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Core\obj\Debug\PartnerNet.Domain.pdb

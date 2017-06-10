@@ -1,0 +1,366 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="14DDABD5-0F6B-426F-B1EF-22AF00E497A9">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Control de Stock" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="WinExe" PreBuildEvent="" PostBuildEvent="" RootNamespace="Control de Stock" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="Microsoft.VisualBasic" AssemblyName="Microsoft.VisualBasic" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="CrystalDecisions.Shared" AssemblyName="CrystalDecisions.Shared" />
+        <Reference Name="CrystalDecisions.ReportSource" AssemblyName="CrystalDecisions.ReportSource" />
+        <Reference Name="CrystalDecisions.CrystalReports.Engine" AssemblyName="CrystalDecisions.CrystalReports.Engine" />
+        <Reference Name="CrystalDecisions.Windows.Forms" AssemblyName="CrystalDecisions.Windows.Forms" />
+        <Reference Name="mscorcfg" AssemblyName="mscorcfg" />
+        <Reference Name="System.DirectoryServices" AssemblyName="System.DirectoryServices" />
+        <Reference Name="System.ServiceProcess" AssemblyName="System.ServiceProcess" />
+        <Reference Name="System.Messaging" AssemblyName="System.Messaging" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="Interop.DateCalc" AssemblyName="Interop.DateCalc" HintPath="Interop.DateCalc.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\Variables.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRMDesp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRMDesp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRMCont5.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRMCont5.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRMCont4.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRMCont4.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRMCont3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRMCont3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRMCont2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRMCont2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRMCont.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRMCont.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRegPedExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRegPedExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepRechInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepRechInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepProdPend5.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepProdPend5.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepProdPend4.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepProdPend4.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepProdPend3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepProdPend3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepProdPend2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepProdPend2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepProdPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepProdPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOVPend3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOVPend3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOVPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOVPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOVPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOVPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOVExp2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOVExp2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOVExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOVExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOCPendConf.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOCPendConf.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOCPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOCPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOCPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOCPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOCConfPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOCConfPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOAPendCalAtr.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOAPendCalAtr.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOAPendCal.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOAPendCal.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepOAPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepOAPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepInvFis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepInvFis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepEnsXFechaXGrupo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepEnsXFechaXGrupo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepEnsXFecha.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepEnsXFecha.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepDifOCProv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepDifOCProv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\RepDifInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedRepDifInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\Recepcion.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\PaintRowEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\OCGenExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedOCGenExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\OCGen.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedOCGen.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\lisTerminales.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedlisTerminales.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\GenOCompraExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedGenOCompraExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\GenOCompra.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedGenOCompra.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmTerminales1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmTerminales.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmSelecDesp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepRMDesp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepRMDesp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepRMControlados1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepRMControlados.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepRegPedExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepRegPedExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepProdPendExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepProdPendExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOVPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOVPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOVExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOVExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOCPendConf1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOCPendConf.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOCPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOCPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOCConfPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOCConfPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOAPend2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOAPend1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepOAPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepInvFis1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepInvFis.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepEnsXFecha1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepEnsXFecha.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepDifInv2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepDifInv1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRepDifInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRecOCManual1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRecOCManual.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmReclamosOCManual.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmReclamosOC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRecepcionOC0.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmRecepcionOC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmPrepPed2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmPrepPed1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmPrepPed.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmMenuPpal.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmMenuOVExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmMenuOV.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmMenuOCompra.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmMenuExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmMenuEns.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmInventario.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOCExp3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOCExp2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOCExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOCExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOC3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOC2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOC1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenOC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenDifInv1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmGenDifInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmFcProfExp3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmFcProfExp2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmFcProfExp1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmFcProfExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmEtiqRetStkOE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmDiscrepanciasOC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmDifOCProv1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmDifOCProv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsultaOV3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsultaOV2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsultaOV1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsultaOV.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsInv2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsInv1_1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsInv1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsEns1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmConsEns.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmBusqProdxDesc.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmBusqClixNom.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\frmBorrarRecep.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\FcProfExpIng.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedFcProfExpIng.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\FcProfExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedFcProfExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DSPrepPed.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DSOVPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DSOCPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DSOAPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DSDifInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpRegPedExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpOVExped.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpOCompraExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpOCompra.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpOCGen.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpOCConfPend.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTmpGesEns.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataTermi.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataRMDesp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataOVExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataOCPendConf.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataNovedadesOV.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataInventario.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGrupoProd.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGridProgressBarColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGridLabelColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGridComboBoxColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGridColumnStylePadding.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGridButtonColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataGesEnsObs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataFcProfExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataDetDes.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\DataConsultaOE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CustomDataGridTextBoxColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ConsultaOVPendExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedConsultaOVPendExp.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ConsultaOVPendEnt.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedConsultaOVPendEnt.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ConsultaOVNov.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedConsultaOVNov.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ConsultaOVExped.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedConsultaOVExped.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ConsultaOE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedConsultaOE.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ConsPosSinInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\CachedConsPosSinInv.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC\ButtonColumnEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="SistemaPC.RepRechInv.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRechInv.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOCConfPend.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.GenOCompraExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmTerminales.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenDifInv1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsultaOVExped.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOVPend3.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOVPend.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOCPend1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmTerminales1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmSelecDesp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOCConfPend.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOCExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmFcProfExp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmDifOCProv1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepEnsXFechaXGrupo.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepDifInv.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepRMControlados1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepRMControlados.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOCPendConf1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmMenuExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.DataGridProgressBarColumn.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOCPend.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOAPend.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRecOCManual1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmMenuPpal.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsultaOV3.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsInv.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsEns1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmBusqClixNom.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.DataGridButtonColumn.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOCPendConf.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepProdPendExp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOCPend1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepDifInv2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmPrepPed1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmInventario.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOCExp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOC1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmDiscrepanciasOC.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsInv1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsultaOVNov.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsPosSinInv.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOAPendCalAtr.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepInvFis.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.OCGenExp.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepRegPedExp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOCConfPend1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepInvFis1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmMenuEns.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOAPend.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmFcProfExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.FcProfExp.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOCPend1.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepDifOCProv.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.lisTerminales.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOVExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRecOCManual.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmReclamosOCManual.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmFcProfExp3.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.FcProfExpIng.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.CustomDataGridTextBoxColumn.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRMCont.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.GenOCompra.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOAPend2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepRegPedExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOVPend.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOVExp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepInvFis.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmMenuOVExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmDifOCProv.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsultaOV2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsultaOV.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.DataGridComboBoxColumn.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsultaOVPendEnt.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsultaOE.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepEnsXFecha.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.GenOCompraExp.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepDifInv1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepDifInv.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRecepcionOC.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOCExp3.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOC3.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsInv1_1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmBorrarRecep.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.DataGridLabelColumn.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRMCont2.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.OCGenExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOVPend1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmMenuOV.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmMenuOCompra.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmEtiqRetStkOE.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.FcProfExpIng.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRMCont3.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepProdPend2.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepProdPend.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepProdPendExp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRecepcionOC0.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmPrepPed.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenDifInv.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmFcProfExp2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmBusqProdxDesc.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsultaOVPendExp.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRMCont4.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepProdPend3.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOAPendCal.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepRMDesp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepRMDesp.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOAPend1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOC.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRMCont5.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRegPedExp.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepProdPend4.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOVExp1.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOAPendCalAtr.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.OCGen.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepOCPendConf.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepEnsXFecha.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsultaOV1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsEns.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.ConsPosSinInv.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepRMDesp.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepProdPend5.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOVExp2.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmPrepPed2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOC2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmConsInv2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOVPend1.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOVExp1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepOCPend.rpt" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.RepEnsXFechaXGrupo.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmRepEnsXFecha1.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmReclamosOC.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="SistemaPC.frmGenOCExp2.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceAttribute" table="PriceAttribute" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="hilo">
+        <param name="max_lo">200</param>
+        <param name="where">table_name='PriceAttribute'</param>
+      </generator>
+    </id>
+
+    <property name="Price" column="Price" type="System.Decimal" not-null="true" />
+    <many-to-one name="PriceCurrency" column="PriceCurrencyId" class="Currency" cascade="none" />
+    
+    <many-to-one name="PriceBase" column="PriceBaseId" class="PriceBase" cascade="none" fetch="join" />
+    <many-to-one name="PriceGroup" column="PriceGroupId" class="PriceGroup" cascade="none" />
+    <many-to-one name="CurrencyRate" column="CurrencyRateId" class="CurrencyRate" cascade="none" />
+    <many-to-one name="PriceSuggestCurrencyRate" column="PriceSuggestCurrencyRateId" class="CurrencyRate" cascade="none" />
+    <many-to-one name="PricePurchaseCurrencyRate" column="PricePurchaseCurrencyRateId" class="CurrencyRate" cascade="none" />
+
+    <set name="WorkListItems" table="WorkListItem" lazy="true" cascade="none">
+      <key column="PriceAttributeId"/>
+      <one-to-many class="WorkListItem"/>
+    </set>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivateProductsAction" xml:space="preserve">
+    <value>Activar Productos</value>
+  </data>
+  <data name="AddProductsToMasterListAction" xml:space="preserve">
+    <value>Mover a Maestro Base</value>
+  </data>
+  <data name="AddToCategoryAction" xml:space="preserve">
+    <value>Agregar a categoría</value>
+  </data>
+  <data name="AddToPricegroupAction" xml:space="preserve">
+    <value>Agregar al país</value>
+  </data>
+  <data name="AddToSelectionAction" xml:space="preserve">
+    <value>Agregar a selección</value>
+  </data>
+  <data name="BothFrecuency" xml:space="preserve">
+    <value>50/60 Hz</value>
+  </data>
+  <data name="Category1" xml:space="preserve">
+    <value>Categoria 1</value>
+  </data>
+  <data name="Category2" xml:space="preserve">
+    <value>Categoria 2</value>
+  </data>
+  <data name="Category3" xml:space="preserve">
+    <value>Categoria 3</value>
+  </data>
+  <data name="CodeError" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="creationBtn" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="DeactivateProductsAction" xml:space="preserve">
+    <value>Desactivar productos</value>
+  </data>
+  <data name="DefaultCurrency" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="DuplicatedProduct" xml:space="preserve">
+    <value>Producto Duplicado</value>
+  </data>
+  <data name="EraseFromSelectionAction" xml:space="preserve">
+    <value>Quitar de la selección actual</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error Value</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>Error Translation Value</value>
+  </data>
+  <data name="ErrorIn" xml:space="preserve">
+    <value>Error en: </value>
+  </data>
+  <data name="ExportFile" xml:space="preserve">
+    <value>export.csv</value>
+  </data>
+  <data name="ExportToExcelAction" xml:space="preserve">
+    <value>Exportar a Excel</value>
+  </data>
+  <data name="ExportToPdfAction" xml:space="preserve">
+    <value>Exportar a PDF</value>
+  </data>
+  <data name="Frecuency" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="GridViewColumnCode" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="GridViewColumnType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="GridViewColumnCTM" xml:space="preserve">
+    <value>CTM</value>
+  </data>
+  <data name="GridViewColumnCTR" xml:space="preserve">
+    <value>CTR</value>
+  </data>
+  <data name="GridViewColumnDate" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="GridViewColumnDescription" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="GridViewColumnFile" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="GridViewColumnFrequency" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="GridViewColumnGRP" xml:space="preserve">
+    <value>GRP</value>
+  </data>
+  <data name="GridViewColumnImportError" xml:space="preserve">
+    <value>Errores</value>
+  </data>
+  <data name="GridViewColumnImportMod" xml:space="preserve">
+    <value>Modificados</value>
+  </data>
+  <data name="GridViewColumnImportNew" xml:space="preserve">
+    <value>Nuevos</value>
+  </data>
+  <data name="GridViewColumnIncoterm" xml:space="preserve">
+    <value>Condición de Venta</value>
+  </data>
+  <data name="GridViewColumnIndex" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="GridViewColumnListName" xml:space="preserve">
+    <value>Grupo de Precios</value>
+  </data>
+  <data name="GridViewColumnModel" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="GridViewColumnNetPrice" xml:space="preserve">
+    <value>PL</value>
+  </data>
+  <data name="GridViewColumnPriceList" xml:space="preserve">
+    <value>PL</value>
+  </data>
+  <data name="GridViewColumnPriceSell" xml:space="preserve">
+    <value>PV</value>
+  </data>
+  <data name="GridViewColumnProvider" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="GridViewColumnPublishDate" xml:space="preserve">
+    <value>Fecha de Publicación</value>
+  </data>
+  <data name="GridViewColumnStatus" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="GridViewColumnTP" xml:space="preserve">
+    <value>TP</value>
+  </data>
+  <data name="GridViewColumnUser" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="GridViewColumnVigencyDate" xml:space="preserve">
+    <value>Fecha de Vigencia</value>
+  </data>
+  <data name="GRP" xml:space="preserve">
+    <value>GRP</value>
+  </data>
+  <data name="GRPCurrency" xml:space="preserve">
+    <value>Moneda GRP</value>
+  </data>
+  <data name="ImportStatusInvalid" xml:space="preserve">
+    <value>Inválido</value>
+  </data>
+  <data name="ImportStatusProcessed" xml:space="preserve">
+    <value>Procesado</value>
+  </data>
+  <data name="ImportStatusUploaded" xml:space="preserve">
+    <value>Cargado</value>
+  </data>
+  <data name="ModifyPricesAction" xml:space="preserve">
+    <value>Modificar precio de lista</value>
+  </data>
+  <data name="MoveProductsOutOfListAction" xml:space="preserve">
+    <value>Mover a Fuera de Lista</value>
+  </data>
+  <data name="MoveProductsToBaseListAction" xml:space="preserve">
+    <value>Quitar de este País</value>
+  </data>
+  <data name="MoveProductsToOutOfListAction" xml:space="preserve">
+    <value>Mover a Fuera de Lista</value>
+  </data>
+  <data name="MoveToCategoryAction" xml:space="preserve">
+    <value>Agregar a categoría</value>
+  </data>
+  <data name="MoveToPricegroupAction" xml:space="preserve">
+    <value>Agregar a País</value>
+  </data>
+  <data name="MoveToSelectionAction" xml:space="preserve">
+    <value>Agregar a selección</value>
+  </data>
+  <data name="ObligatoryData" xml:space="preserve">
+    <value>Faltan datos obligatorios (Cod Grunfos o Cod Proveedor y Proveedor)</value>
+  </data>
+  <data name="PL" xml:space="preserve">
+    <value>PL</value>
+  </data>
+  <data name="PLCurrency" xml:space="preserve">
+    <value>Moneda PL</value>
+  </data>
+  <data name="PriceBaseDisable" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="PriceBaseNotVerified" xml:space="preserve">
+    <value>Fuera de Lista</value>
+  </data>
+  <data name="PriceBaseVerified" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="PriceImportationError" xml:space="preserve">
+    <value>Hubo un error en la carga del archivo. Por favor, revíselo y vuelva a intentarlo.</value>
+  </data>
+  <data name="PriceImportInvalid" xml:space="preserve">
+    <value>Inválido</value>
+  </data>
+  <data name="PriceImportProcessed" xml:space="preserve">
+    <value>Procesado</value>
+  </data>
+  <data name="PriceImportUploaded" xml:space="preserve">
+    <value>Subido</value>
+  </data>
+  <data name="PriceImportVerified" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="PriceImportVerifiedSomeValid" xml:space="preserve">
+    <value>Verificado/Errores</value>
+  </data>
+  <data name="PriceManager.Business.Filters.CurrencyFilter.ID" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="PriceManager.Core.CtrRange.ID" xml:space="preserve">
+    <value>CTR</value>
+  </data>
+  <data name="PriceManager.Core.Currency.ID" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="PriceManager.Core.Application.ID" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="PriceManager.Core.Frequency" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="PriceManager.Core.IndexPrice.ID" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="PriceManager.Core.PriceBase.TimeStamp.ModifiedOn" xml:space="preserve">
+    <value>Modificado desde </value>
+  </data>
+  <data name="PriceManager.Core.PriceBaseStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="PriceManager_Core_Product_Description" xml:space="preserve">
+    <value>Búsqueda</value>
+  </data>
+  <data name="PriceManager.Core.PublishListStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="PriceManager.Core.Provider.ID" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="PriceManager.Core.Selection.ID" xml:space="preserve">
+    <value>Selección</value>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="RemoveFromCategoryAction" xml:space="preserve">
+    <value>Quitar de categoría</value>
+  </data>
+  <data name="SavePricesAction" xml:space="preserve">
+    <value>Grabar precios</value>
+  </data>
+  <data name="System_Web_UI_Pair_TimeStampCheck" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="TakeOutFromCategoryAction" xml:space="preserve">
+    <value>Quitar de categoría</value>
+  </data>
+  <data name="Text512Charactes" xml:space="preserve">
+    <value>Descripción supera los 512 caracteres</value>
+  </data>
+  <data name="Text64Characters" xml:space="preserve">
+    <value>Modelo supera los 64 caracteres</value>
+  </data>
+  <data name="TP" xml:space="preserve">
+    <value>TP</value>
+  </data>
+  <data name="TPCurrency" xml:space="preserve">
+    <value>Moneda TP</value>
+  </data>
+  <data name="Validator_Invalid_Date" xml:space="preserve">
+    <value>Fecha inválida.</value>
+  </data>
+  <data name="Validator_Invalid_Range" xml:space="preserve">
+    <value>Rango inválido.</value>
+  </data>
+  <data name="PriceManager.Core.Distributor.ID" xml:space="preserve">
+    <value>Canal de Ventas</value>
+  </data>
+  <data name="PriceManager.Core.Incoterm.ID" xml:space="preserve">
+    <value>Condición de Venta</value>
+  </data>
+  <data name="PriceManager.Core.PriceListStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="PriceManager.Core.PriceGroup.ID" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Vigente</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Modificada</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Publicada</value>
+  </data>
+  <data name="PriceManager.Core.Frequency.ID" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="PendingToApprovecount" xml:space="preserve">
+    <value>Pend. Aprobar</value>
+  </data>
+  <data name="EraseList" xml:space="preserve">
+    <value>¿ Esta seguro que desea cambiar el estado del Grupo de Precios {0} ?</value>
+  </data>
+  <data name="GridViewColumnListCountry" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="GridViewColumnListID" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="PriceManager.Core.Family.ID" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="PriceManager.Core.Line.ID" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="PriceManager.Core.ProductType.ID" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="PriceManager.Core.PriceImport.ID" xml:space="preserve">
+    <value> Importado</value>
+  </data>
+  <data name="ActionConfirmText" xml:space="preserve">
+    <value>¿ Está seguro que desea {0} realizados en estos Productos ?</value>
+  </data>
+  <data name="PriceManager.Core.WorkListItemStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="MoveToPriceListAction" xml:space="preserve">
+    <value>Agregar a Grupo de Precios</value>
+  </data>
+  <data name="EraseFromPriceListAction" xml:space="preserve">
+    <value>Quitar de Grupo de Precio Actual</value>
+  </data>
+  <data name="WorkListItemApproved" xml:space="preserve">
+    <value>Aprobado</value>
+  </data>
+  <data name="WorkListItemModified" xml:space="preserve">
+    <value>Modificado</value>
+  </data>
+  <data name="WorkListItemPublished" xml:space="preserve">
+    <value>Publicado</value>
+  </data>
+  <data name="ApprovePriceListItemsAction" xml:space="preserve">
+    <value>Aprobar Cambios</value>
+  </data>
+  <data name="RejectPriceListItemsAction" xml:space="preserve">
+    <value>Rechazar Cambios</value>
+  </data>
+  <data name="Publish" xml:space="preserve">
+    <value>Publicar Cambios</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Incomplete" xml:space="preserve">
+    <value>Incompleto</value>
+  </data>
+  <data name="GridViewColumnContact" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="GridViewColumnDiscount" xml:space="preserve">
+    <value>Descuento</value>
+  </data>
+  <data name="GridViewColumnPaymentTerm" xml:space="preserve">
+    <value>Condición de Pago</value>
+  </data>
+  <data name="PriceManager.Core.Country.ID" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="PriceManager.Core.DistributorStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="PriceManager.Core.PaymentTerm.ID" xml:space="preserve">
+    <value>Condiciones de Pago</value>
+  </data>
+  <data name="PriceManager.Core.PriceList.ID" xml:space="preserve">
+    <value>Grupo de Precios</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>50Hz/60Hz</value>
+  </data>
+  <data name="Hz50" xml:space="preserve">
+    <value>50Hz</value>
+  </data>
+  <data name="Hz60" xml:space="preserve">
+    <value>60Hz</value>
+  </data>
+  <data name="Amarillo" xml:space="preserve">
+    <value>Amarillo</value>
+  </data>
+  <data name="Azul" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="Rojo" xml:space="preserve">
+    <value>Rojo</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Aprobada</value>
+  </data>
+  <data name="GridViewColumnName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="GridViewColumnAddress" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="GridViewColumnCity" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="GridViewColumnCountry" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="GridViewColumnFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="GridViewColumnLeadTime" xml:space="preserve">
+    <value>Días de Demora</value>
+  </data>
+  <data name="GridViewColumnPurchaseYTD" xml:space="preserve">
+    <value>Compras de año actual</value>
+  </data>
+  <data name="GridViewColumnPurchPrevYear" xml:space="preserve">
+    <value>Compras de año anterior</value>
+  </data>
+  <data name="GridViewColumnTaxCode" xml:space="preserve">
+    <value>Codigo Impuesto</value>
+  </data>
+  <data name="GridViewColumnTelephone" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="GridViewColumnCurrency" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="GridViewColumnPrice" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="GridViewColumnPCR" xml:space="preserve">
+    <value>PCR</value>
+  </data>
+  <data name="PriceManager.Core.ProductStatus.ID" xml:space="preserve">
+    <value>Actividad del producto</value>
+  </data>
+  <data name="GridViewColumnDistributorName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="WorkListItemAdded" xml:space="preserve">
+    <value>Agregado</value>
+  </data>
+  <data name="WorkListItemAddedMod" xml:space="preserve">
+    <value>Agregado/Modificado</value>
+  </data>
+  <data name="PriceManager.Core.ProviderStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="ProviderTitle" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nueva</value>
+  </data>
+  <data name="WithOutCatalogPage" xml:space="preserve">
+    <value>Sin Página Definida</value>
+  </data>
+  <data name="ProviderActivity" xml:space="preserve">
+    <value>¿ Esta seguro que desea cambiar el estado del proveedor {0} ?</value>
+  </data>
+  <data name="DistributorActivity" xml:space="preserve">
+    <value>¿ Esta seguro que desea cambiar el estado el distribuidor {0} ?</value>
+  </data>
+  <data name="GridViewColumnParent" xml:space="preserve">
+    <value>Padre</value>
+  </data>
+  <data name="PriceManager.Core.CategoryBase.ID" xml:space="preserve">
+    <value>Padre</value>
+  </data>
+  <data name="System.Type.FullName" xml:space="preserve">
+    <value>Tipo de Categoría</value>
+  </data>
+  <data name="PriceManager.Core.Lookup.ID" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CategoryType1" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="CategoryType2" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="CategoryType3" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="CategoryType4" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="PriceManager.Core.Application" xml:space="preserve">
+    <value>Aplicación</value>
+  </data>
+  <data name="PriceManager.Core.Family" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="PriceManager.Core.Line" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="PriceManager.Core.ProductType" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="EraseCategory" xml:space="preserve">
+    <value>¿ Esta seguro que desea eliminar la Categoría {0} del sistema ?</value>
+  </data>
+  <data name="tooltipC&amp;#243;digo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="ToCurrencyOriginal" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="UpdateCurrency" xml:space="preserve">
+    <value>¿ Esta seguro que desea actualizar la Moneda {0} del sistema ?</value>
+  </data>
+  <data name="GridViewColumnValue" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="EraseLookup" xml:space="preserve">
+    <value>¿ Esta seguro que desea eliminar {0} del sistema ?</value>
+  </data>
+  <data name="DistributorType" xml:space="preserve">
+    <value>Tipo de Canal de Ventas</value>
+  </data>
+  <data name="GridViewColumnLookupType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="PriceListType" xml:space="preserve">
+    <value>Tipo de Lista de Precio</value>
+  </data>
+  <data name="PriceManager.Core.LookupType.ID" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="PurchaseType" xml:space="preserve">
+    <value>Tipo de Condición de Compra</value>
+  </data>
+  <data name="tooltipCTM" xml:space="preserve">
+    <value>Contribución Nominal</value>
+  </data>
+  <data name="tooltipCTR" xml:space="preserve">
+    <value>Contribución Porcentual</value>
+  </data>
+  <data name="tooltipFrecuencia" xml:space="preserve">
+    <value>Frecuencia</value>
+  </data>
+  <data name="tooltipGRP" xml:space="preserve">
+    <value>Precio Sugerido</value>
+  </data>
+  <data name="tooltipIndex" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="tooltipModelo" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="tooltipP.Neto" xml:space="preserve">
+    <value>Precio de Lista</value>
+  </data>
+  <data name="tooltipPL" xml:space="preserve">
+    <value>Precio de Lista</value>
+  </data>
+  <data name="tooltipProveedor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="tooltipPV" xml:space="preserve">
+    <value>Precio de Venta</value>
+  </data>
+  <data name="tooltipTP" xml:space="preserve">
+    <value>Precio de Compra</value>
+  </data>
+  <data name="GridViewColumnCategory" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="GridViewColumnFormula" xml:space="preserve">
+    <value>Fórmula</value>
+  </data>
+  <data name="GridViewColumnLevel" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="GridViewColumnPriority" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="ErasePriceCalculation" xml:space="preserve">
+    <value>¿ Esta seguro que desea eliminar la Política de Precios {0} del sistema ?</value>
+  </data>
+  <data name="PriceManager.Core.PriceCalculationPriority.ID" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="GridViewColumnAdjust" xml:space="preserve">
+    <value>Ajuste</value>
+  </data>
+  <data name="GridViewColumnListCurrency" xml:space="preserve">
+    <value>Moneda</value>
+  </data>
+  <data name="GridViewColumnDistributor" xml:space="preserve">
+    <value>Canal de Ventas</value>
+  </data>
+  <data name="GridViewColumnDistributorObservation" xml:space="preserve">
+    <value>Obs. del Canal de Ventas</value>
+  </data>
+  <data name="GridViewColumnNumber" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="GridViewColumnObservations" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="GridViewColumnFormulaSec" xml:space="preserve">
+    <value>Fórmula Secundaria</value>
+  </data>
+  <data name="UpdateAllCurrencyRate" xml:space="preserve">
+    <value>Actualizar todo</value>
+  </data>
+  <data name="RejectQuote" xml:space="preserve">
+    <value>¿ Esta seguro que desea rechazar la cotización {0} del sistema ?</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Borrador</value>
+  </data>
+  <data name="Rejected" xml:space="preserve">
+    <value>Rechazada</value>
+  </data>
+  <data name="Sent" xml:space="preserve">
+    <value>Enviada</value>
+  </data>
+  <data name="AdministratorReceiveMail" xml:space="preserve">
+    <value>Mail a Administrador</value>
+  </data>
+  <data name="ComercialCondition" xml:space="preserve">
+    <value>Condiciones Comerciales</value>
+  </data>
+  <data name="QuoteCondition" xml:space="preserve">
+    <value>Condición de Cotización</value>
+  </data>
+  <data name="QuoteIntroText" xml:space="preserve">
+    <value>Texto Introducción de Cotización</value>
+  </data>
+  <data name="QuoteVigency" xml:space="preserve">
+    <value>Vigencia de Cotización</value>
+  </data>
+  <data name="RollbackBaseHistory" xml:space="preserve">
+    <value>¿ Esta seguro ?</value>
+  </data>
+  <data name="RollbackAttributeHistory" xml:space="preserve">
+    <value>¿ Esta seguro ?</value>
+  </data>
+  <data name="RollbackPriceListHistory" xml:space="preserve">
+    <value>¿ Esta seguro ?</value>
+  </data>
+  <data name="PriceManager.Core.QuoteStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="CurrencyTitle" xml:space="preserve">
+    <value>Monedas</value>
+  </data>
+  <data name="LookUpTitle" xml:space="preserve">
+    <value>Datos Generales</value>
+  </data>
+  <data name="PriceGroupTitle" xml:space="preserve">
+    <value>Maestros de Precios</value>
+  </data>
+  <data name="PricePoliticTitle" xml:space="preserve">
+    <value>Política de Precios</value>
+  </data>
+  <data name="QuoteTitle" xml:space="preserve">
+    <value>Cotizaciones</value>
+  </data>
+  <data name="GridViewColumnPriceListName" xml:space="preserve">
+    <value>Lista de Precios</value>
+  </data>
+  <data name="QuoteBody" xml:space="preserve">
+    <value>Envío adjunto con cotización solicitada.</value>
+  </data>
+  <data name="ProductTitle" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="QuoteReject" xml:space="preserve">
+    <value>La cotización # {0}, {1} ha sido rechazada.</value>
+  </data>
+  <data name="PriceManager.Core.Area" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="PriceManager.Core.CatalogPage" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="PriceManager.Core.CatalogPage.ID" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="PriceManager.Core.Area.ID" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="Guid?" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="PriceManager.Core.CategoryBase" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="PriceManager.Business.Filters.LinkedDropDownFilters" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="PriceManager.Business.Filters.LinkedDropDownFilters.ID" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="PriceManager.Core.ImportStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="PriceManager_Core_CategoryBase_ID" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="GridViewColumnConvertionFactor" xml:space="preserve">
+    <value>Factor de Conversión</value>
+  </data>
+  <data name="PriceImportationEmptyFileError" xml:space="preserve">
+    <value>El archivo se encuentra vacio o en uso. Cierrelo antes de continuar.</value>
+  </data>
+  <data name="PriceImportationExtensionError" xml:space="preserve">
+    <value>Verifique que el archivo sea de extension CSV.</value>
+  </data>
+  <data name="System.Guid.UserId" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>Importación</value>
+  </data>
+  <data name="Invalid" xml:space="preserve">
+    <value>Inválido</value>
+  </data>
+  <data name="Processed" xml:space="preserve">
+    <value>Procesado</value>
+  </data>
+  <data name="Uploaded" xml:space="preserve">
+    <value>Subido</value>
+  </data>
+  <data name="Verified" xml:space="preserve">
+    <value>Verificado</value>
+  </data>
+  <data name="VerifiedSomeInvalid" xml:space="preserve">
+    <value>Verificado/Errores</value>
+  </data>
+  <data name="AdminTooltip" xml:space="preserve">
+    <value>Administración</value>
+  </data>
+  <data name="Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="GridViewColumnSource" xml:space="preserve">
+    <value>Procedencia</value>
+  </data>
+  <data name="OutOfList" xml:space="preserve">
+    <value>Fuera de Lista</value>
+  </data>
+  <data name="CategoryType5" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="CategoryType6" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="PaymentTerm" xml:space="preserve">
+    <value>Condición de Pago</value>
+  </data>
+  <data name="PriceManager.Core.Lookup.Payment" xml:space="preserve">
+    <value>Condición de Pago</value>
+  </data>
+  <data name="PageListTitle" xml:space="preserve">
+    <value>Lista de Precios</value>
+  </data>
+  <data name="PageListActivity" xml:space="preserve">
+    <value>¿ Esta seguro que desea cambiar el estado de la lista de precios {0} ?</value>
+  </data>
+  <data name="PriceManager.Core.CategoryPageStatus.ID" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="AddPagesToPriceListAction" xml:space="preserve">
+    <value>Agregar a Grupo de Precios</value>
+  </data>
+  <data name="EraseFromCatalogPageAction" xml:space="preserve">
+    <value>Borrar de Lista de Precios</value>
+  </data>
+  <data name="GridViewColumnChildTotal" xml:space="preserve">
+    <value>Paginas Asignadas</value>
+  </data>
+  <data name="GridViewColumnProductsTotal" xml:space="preserve">
+    <value>Cantidad de Productos</value>
+  </data>
+  <data name="AddDistributorsToPriceListAction" xml:space="preserve">
+    <value>Asignar a Grupo de Precios</value>
+  </data>
+  <data name="PriceManager.Core.CatalogPage.Parent" xml:space="preserve">
+    <value>Padre</value>
+  </data>
+  <data name="AddToPagelistAction" xml:space="preserve">
+    <value>Agregar a Lista de Precios</value>
+  </data>
+  <data name="CategoryTitle" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+</root>

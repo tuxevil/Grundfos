@@ -1,0 +1,116 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61B5D2FC-0FC6-40FA-934A-30E7D463A48E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PartnerNet.Domain</RootNamespace>
+    <AssemblyName>PartnerNet.Domain</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHibernate, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Projects\Nybble\Redist\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Caches.SysCache, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Projects\Nybble\Redist\NHibernate.Caches.SysCache.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Projects\Nybble\Redist\ProjectBase.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Projects\Nybble\Redist\ProjectBase.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BreakDown.cs" />
+    <Compile Include="Entities\BreakDown2.cs" />
+    <Compile Include="Entities\Identifier.cs" />
+    <Compile Include="Entities\ProductInformation.cs" />
+    <Compile Include="Entities\ProductStatisticMonthly.cs" />
+    <Compile Include="Entities\Provider.cs" />
+    <Compile Include="Entities\Country.cs" />
+    <Compile Include="Entities\PurchaseOrderItemInformation.cs" />
+    <Compile Include="Entities\PurchaseOrderInformation.cs" />
+    <Compile Include="Entities\PurchaseOrderItemStatus.cs" />
+    <Compile Include="Entities\TransactionHistoryMonthly.cs" />
+    <Compile Include="Entities\ProductStatisticWeekly.cs" />
+    <Compile Include="Entities\Forecast.cs" />
+    <Compile Include="Entities\Period.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\ProductSet.cs" />
+    <Compile Include="Entities\ProductView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entities\PurchaseOrder.cs" />
+    <Compile Include="Entities\PurchaseOrderItem.cs" />
+    <Compile Include="Entities\PurchaseOrderStatus.cs" />
+    <Compile Include="Entities\PurchaseOrderType.cs" />
+    <Compile Include="Entities\TransactionHistoryWeekly.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControlStock.Common\PartnerNet.Common.csproj">
+      <Project>{06904613-FDF5-4E4F-8C8C-BC2977DB8962}</Project>
+      <Name>PartnerNet.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entities\Stock Model.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Forecast.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ProductSet.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ProductStatisticMonthly.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ProductStatisticWeekly.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Provider.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Country.hbm.xml" />
+    <EmbeddedResource Include="Mapping\PurchaseOrder.hbm.xml" />
+    <EmbeddedResource Include="Mapping\PurchaseOrderItem.hbm.xml" />
+    <EmbeddedResource Include="Mapping\TransactionHistoryWeekly.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Product.hbm.xml" />
+    <EmbeddedResource Include="Mapping\ProductView.hbm.xml" />
+    <EmbeddedResource Include="Mapping\TransactionHistoryMonthly.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\BreakDown.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

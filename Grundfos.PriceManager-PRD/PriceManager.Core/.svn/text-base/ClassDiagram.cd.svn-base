@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PriceManager.Core.PriceBase">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\BasePrice.cs</FileName>
+      <HashCode>EAwqABSECgAEgACAAAAAABIAAgAQAIAQAgCAEAIAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Product" />
+      <Property Name="Provider" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PriceAttributes" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.Distributor">
+    <Position X="11.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Distributor.cs</FileName>
+      <HashCode>EAAAABAAACAgAAEiKAAAAgwAAAIEAAACAoABAAKAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceList" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PublishLists" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="PriceList" Type="PriceManager.Core.PriceList" ManuallyRouted="true">
+      <Path>
+        <Point X="12.273" Y="12.75" />
+        <Point X="12.273" Y="11.759" />
+        <Point X="11.361" Y="11.759" />
+        <Point X="11.361" Y="10.428" />
+        <Point X="10.75" Y="10.428" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="PriceManager.Core.PriceAttribute">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PriceAttribute.cs</FileName>
+      <HashCode>AAABGAAAAQAAAAAIAAAACAAAAAABAAAAIQAAACAAABg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceBase" />
+      <Property Name="PriceGroup" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="WorkListItems" />
+      <Property Name="PublishItems" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.PriceGroup">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PriceGroup.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAQAAAAEAAAQAoAAEAKAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PriceAttributes" />
+      <Property Name="PriceLists" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.PriceList">
+    <Position X="9.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PriceList.cs</FileName>
+      <HashCode>AAAAAAAAAAAgCAAKICgACwQgAAEEAACAggAAgIIAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceGroup" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PublishLists" />
+      <Property Name="Distributors" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.Product">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Product.cs</FileName>
+      <HashCode>AASAACQEAAAkAAAAIAAgACAAIAAgAAAAAAiAAAAIgAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Providers" />
+      <Property Name="PriceBases" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.Provider">
+    <Position X="1" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Provider.cs</FileName>
+      <HashCode>gAAAIgAAADAgAAA4KAAgCAwAIAIEAAACAICgBACAoAQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+      <Property Name="PriceBases" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.PublishItem">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PublishItem.cs</FileName>
+      <HashCode>AAABCAAAAQAAAAACAAAAAgAAAAAAAAAQAAAAEAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PublishList" />
+      <Property Name="PriceAttribute" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.PublishList">
+    <Position X="13.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PublishList.cs</FileName>
+      <HashCode>EAAAABBAAAAASAAAAAgAAAAAAAAAAAAAICAAACAgAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceList" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="PublishItems" />
+      <Property Name="Distributors" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.WorkListItem">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\WorkListItem.cs</FileName>
+      <HashCode>EAABCBAAAQAAACAAAgAgAgIAAAAAAAAQAAAAEgAAAAg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceAttribute" />
+      <Property Name="PriceList" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,287 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1108341D-784C-410F-9074-8D0A7AB5465B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PriceManager.Business</RootNamespace>
+    <AssemblyName>PriceManager.Business</AssemblyName>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.11119.20010, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\AjaxControlToolkit\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="FileHelpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=3e0c08d59cc3d657, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\FileHelpers\Binaries\DotNet 2.0\FileHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NHibernate-2.1.0.GA-bin\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NHibernate-2.1.0.GA-bin\Required_Bins\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.PermissionManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.PermissionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\ProjectBase.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.OfflineProcessor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\ProjectBase.OfflineProcessor.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.OfflineProcessor.Remoting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\ProjectBase.OfflineProcessor.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.Utils, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\ProjectBase.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zayko.Finance.CurrencyConverter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8f022aab11e98fcc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\CurrencyConverter_bin\Zayko.Finance.CurrencyConverter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\BaseActions\ActionEvent.cs" />
+    <Compile Include="Actions\BaseActions\ButtonAction.cs" />
+    <Compile Include="Actions\BaseActions\IAction.cs" />
+    <Compile Include="Actions\BaseActions\ImageButtonAction.cs" />
+    <Compile Include="Actions\BaseActions\JavascriptAnchorAction.cs" />
+    <Compile Include="Actions\BaseActions\LinkButtonAction.cs" />
+    <Compile Include="Actions\AddProductsToMasterListAction.cs" />
+    <Compile Include="Actions\ActivateProductsAction.cs" />
+    <Compile Include="Actions\ApprovePriceListItemsAction.cs" />
+    <Compile Include="Actions\AddPagesToPriceListAction.cs" />
+    <Compile Include="Actions\AddDistributorsToPriceListAction.cs" />
+    <Compile Include="Actions\AddToPagelistAction.cs" />
+    <Compile Include="Actions\EraseFromCatalogPageAction.cs" />
+    <Compile Include="Actions\RejectPriceListItemsAction.cs" />
+    <Compile Include="Actions\EraseFromPriceListAction.cs" />
+    <Compile Include="Actions\MoveToPriceListAction.cs" />
+    <Compile Include="Actions\MoveProductsToBaseListAction.cs" />
+    <Compile Include="Actions\MoveToPricegroupAction.cs" />
+    <Compile Include="Actions\SaveQuoteAction.cs" />
+    <Compile Include="Actions\TakeOutFromCategoryAction.cs" />
+    <Compile Include="Actions\MoveToCategoryAction.cs" />
+    <Compile Include="Actions\EraseFromSelectionAction.cs" />
+    <Compile Include="Actions\MoveToSelectionAction.cs" />
+    <Compile Include="Actions\DeactivateProductsAction.cs" />
+    <Compile Include="Actions\ExportToExcelAction.cs" />
+    <Compile Include="Actions\ExportToPdfAction.cs" />
+    <Compile Include="Actions\ModifyPricesAction.cs" />
+    <Compile Include="Actions\MoveProductsToOutOfListAction.cs" />
+    <Compile Include="ControllerManager.cs" />
+    <Compile Include="Controllers\CurrencyRateController.cs" />
+    <Compile Include="Controllers\LookupController.cs" />
+    <Compile Include="Controllers\CountryController.cs" />
+    <Compile Include="Controllers\LogController.cs" />
+    <Compile Include="Controllers\PriceBaseController.cs" />
+    <Compile Include="Controllers\DistributorController.cs" />
+    <Compile Include="Controllers\NoteController.cs" />
+    <Compile Include="Controllers\IndexController.cs" />
+    <Compile Include="Controllers\CurrencyController.cs" />
+    <Compile Include="Controllers\PriceAttributeController.cs" />
+    <Compile Include="Controllers\PriceAttributeHistoryController.cs" />
+    <Compile Include="Controllers\PriceBaseHistoryController.cs" />
+    <Compile Include="Controllers\PriceCalculationController.cs" />
+    <Compile Include="Controllers\PriceCalculator.cs" />
+    <Compile Include="Controllers\PriceGroupController.cs" />
+    <Compile Include="Controllers\PriceImportController.cs" />
+    <Compile Include="Controllers\ProviderController.cs" />
+    <Compile Include="Controllers\PublishListController.cs" />
+    <Compile Include="Controllers\QuoteController.cs" />
+    <Compile Include="Controllers\SelectionController.cs" />
+    <Compile Include="Controllers\FamilyController.cs" />
+    <Compile Include="Controllers\CtrRangeController.cs" />
+    <Compile Include="Controllers\PriceListController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\WorkListItemController.cs" />
+    <Compile Include="Controllers\WorkListItemHistoryController.cs" />
+    <Compile Include="Controls\LinkedDropDown.cs" />
+    <Compile Include="Controls\AutoCompleteTextbox.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="FilterHelper.cs" />
+    <Compile Include="Filters\BaseFilters\CalendarFilter.cs" />
+    <Compile Include="Filters\BaseFilters\LinkedDropDownFilters.cs" />
+    <Compile Include="Filters\BaseFilters\FixedFilter.cs" />
+    <Compile Include="Filters\BaseFilters\RadioButtonListFilter.cs" />
+    <Compile Include="Filters\BaseFilters\RangeFilter.cs" />
+    <Compile Include="Filters\BaseFilters\TextBoxFilter.cs" />
+    <Compile Include="Filters\ApplicationFilter.cs" />
+    <Compile Include="Filters\BaseFilters\DropDownFilter.cs" />
+    <Compile Include="Filters\CategoryTypeFilter.cs" />
+    <Compile Include="Filters\CategoryBaseFilter.cs" />
+    <Compile Include="Filters\CatalogPageParentFilter.cs" />
+    <Compile Include="Filters\CategoryPageStatusFilter.cs" />
+    <Compile Include="Filters\ImportStatusFilter.cs" />
+    <Compile Include="Filters\PriceListDistributorFilter.cs" />
+    <Compile Include="Filters\UserFilter.cs" />
+    <Compile Include="Filters\LineFilter.cs" />
+    <Compile Include="Filters\AreaFilter.cs" />
+    <Compile Include="Filters\QuoteStatusFilter.cs" />
+    <Compile Include="Filters\PoliticsPriorityFilter.cs" />
+    <Compile Include="Filters\LookupTypeFilter.cs" />
+    <Compile Include="Filters\DistributorTypeFilter.cs" />
+    <Compile Include="Filters\PriceListTypeFilter.cs" />
+    <Compile Include="Filters\ProviderStatusFilter.cs" />
+    <Compile Include="Filters\CountryFilter.cs" />
+    <Compile Include="Filters\DistributorStatusFilter.cs" />
+    <Compile Include="Filters\PaymentTermFilter.cs" />
+    <Compile Include="Filters\PriceListFilter.cs" />
+    <Compile Include="Filters\WorkListItemStatusFilter.cs" />
+    <Compile Include="Filters\PriceImportFilter.cs" />
+    <Compile Include="Filters\PriceListFrequencyFilter.cs" />
+    <Compile Include="Filters\PriceGroupFilter.cs" />
+    <Compile Include="Filters\ProductTypeFilter.cs" />
+    <Compile Include="Filters\CatalogPageFilter.cs" />
+    <Compile Include="Filters\PriceListStatusFilter.cs" />
+    <Compile Include="Filters\IncotermFilter.cs" />
+    <Compile Include="Filters\DistributorFilter.cs" />
+    <Compile Include="Filters\ModifiedOnFilter.cs" />
+    <Compile Include="Filters\PriceBaseStatusFilter.cs" />
+    <Compile Include="Filters\ProductStatusFilter.cs" />
+    <Compile Include="Filters\UpdateDateFilter.cs" />
+    <Compile Include="Filters\ProviderFilter.cs" />
+    <Compile Include="Filters\IndexFilter.cs" />
+    <Compile Include="Filters\FilterLinkButton.cs" />
+    <Compile Include="Filters\SelectionFilter.cs" />
+    <Compile Include="Filters\CtrRangeFilter.cs" />
+    <Compile Include="Filters\CurrencyFilter.cs" />
+    <Compile Include="Filters\FilterEvents.cs" />
+    <Compile Include="Filters\SearchFilter.cs" />
+    <Compile Include="Filters\FamilyFilter.cs" />
+    <Compile Include="Filters\BaseFilters\IFilter.cs" />
+    <Compile Include="GridHelper.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebServiceX\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrundFos.Core\GrundFos.ScalaConnector.csproj">
+      <Project>{11FB0D5A-1ED2-419D-B2A3-A7315565F39D}</Project>
+      <Name>GrundFos.ScalaConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PriceManager.Common\PriceManager.Common.csproj">
+      <Project>{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}</Project>
+      <Name>PriceManager.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PriceManager.Core\PriceManager.Core.csproj">
+      <Project>{3FDA72B9-E385-4894-8629-2B9B2DD821B5}</Project>
+      <Name>PriceManager.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ControllerDiagram.cd" />
+    <None Include="GridHelper.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebServiceX\CurrencyConvertor.wsdl" />
+    <None Include="Web References\WebServiceX\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.webservicex.net/CurrencyConvertor.asmx%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebServiceX\</RelPath>
+      <UpdateFromURL>http://www.webservicex.net/CurrencyConvertor.asmx%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PriceManager_Business_WebServiceX_CurrencyConvertor</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

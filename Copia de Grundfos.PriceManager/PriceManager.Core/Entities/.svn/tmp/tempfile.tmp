@@ -1,0 +1,64 @@
+
+
+using System;
+using ProjectBase.Data;
+
+namespace PriceManager.Core
+{
+<<<<<<< .working
+    public class AuditableEntity2
+=======
+    public class Entity : DomainObject<int>
+>>>>>>> .merge-right.r286
+    {
+        protected Guid createdBy;
+        protected DateTime createdOn;
+        protected Guid modifiedBy;
+        protected DateTime modifiedOn;
+
+        private int? _oldHashCode;
+
+        public override int GetHashCode()
+        {
+            // Once we have a hash code we'll never change it
+            if (_oldHashCode.HasValue)
+                return _oldHashCode.Value;
+
+            bool thisIsTransient = Equals(ID, 0);
+
+            // When this instance is transient, we use the base GetHashCode()
+            // and remember it, so an instance can NEVER change its hash code.
+            if (thisIsTransient)
+            {
+                _oldHashCode = base.GetHashCode();
+                return _oldHashCode.Value;
+            }
+
+            return ID.GetHashCode();
+        }
+
+        public virtual Guid CreatedBy
+        {
+            get { return createdBy; }
+            set { createdBy = value; }
+        }
+
+        public virtual DateTime CreatedOn
+        {
+            get { return createdOn; }
+            set { createdOn = value; }
+        }
+
+        public virtual Guid ModifiedBy
+        {
+            get { return modifiedBy; }
+            set { modifiedBy = value; }
+        }
+
+        public virtual DateTime ModifiedOn
+        {
+            get { return modifiedOn; }
+            set { modifiedOn = value; }
+        }
+    }
+}

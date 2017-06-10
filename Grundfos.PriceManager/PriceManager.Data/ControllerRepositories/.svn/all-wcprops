@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2858/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/ControllerRepositories
+END
+QuoteRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2776/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/ControllerRepositories/QuoteRepository.cs
+END
+DistributorRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2776/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/ControllerRepositories/DistributorRepository.cs
+END
+QuoteRangeRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nybble/!svn/ver/2858/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/ControllerRepositories/QuoteRangeRepository.cs
+END

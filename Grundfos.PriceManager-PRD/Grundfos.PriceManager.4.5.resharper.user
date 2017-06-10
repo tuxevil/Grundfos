@@ -1,0 +1,47 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@PriceManager.Core.ImportStatus">
+      <Item value="Executing" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.PriceImport">
+      <Item value="ImportView" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.PriceImportView">
+      <Item value="AmountError" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="btnErrorExport" priority="0" />
+      <Item value="Serializable" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Family.cs" caret="2686" fromTop="5" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:PriceImportView.cs" caret="411" fromTop="17" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:PriceBaseController.cs" caret="58352" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Family.cs" caret="984" fromTop="17" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Family.cs" caret="3337" fromTop="22" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:PriceImportView.cs" caret="318" fromTop="13" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:PriceImportView.cs" caret="238" fromTop="11" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:PriceBaseController.cs" caret="58312" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

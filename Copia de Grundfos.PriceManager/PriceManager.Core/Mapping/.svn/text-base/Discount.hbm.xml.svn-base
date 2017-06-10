@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="Discount" table="Discount" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+    
+    <property name="Description" column="Description" type="System.String" not-null="true" length="50"/>
+    <property name="MaxDiscount" column="MaxDiscount" type="System.Decimal" not-null="true"/>
+
+    <property name="CreatedOn" column="CreatedOn" type="System.DateTime" not-null="true" />
+	<property name="CreatedBy" column="CreatedBy" type="System.Guid" not-null="true"/>
+	<property name="ModifiedOn" column="ModifiedOn" type="System.DateTime" not-null="true" />
+	<property name="ModifiedBy" column="ModifiedBy" type="System.Guid" not-null="true"/>
+
+
+  </class>
+  <sql-query name="sp_DiscountModification">
+    <return-scalar column="result" type="Int32" />
+    exec sp_DiscountModification :discountid, :userid, :moddate
+  </sql-query>
+</hibernate-mapping>

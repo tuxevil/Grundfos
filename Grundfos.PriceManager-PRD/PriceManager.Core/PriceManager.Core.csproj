@@ -1,0 +1,250 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3FDA72B9-E385-4894-8629-2B9B2DD821B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PriceManager.Core</RootNamespace>
+    <AssemblyName>PriceManager.Core</AssemblyName>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NHibernate-2.1.0.GA-bin\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.Business, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NybbleMembership.PermissionManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\NybbleMembership-2.1\NybbleMembership.PermissionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\ProjectBase.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectBase.Utils, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nybble\Redist\ProjectBase-2.1\ProjectBase.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BaseAuditableEntity.cs" />
+    <Compile Include="Entities\BasePrice.cs" />
+    <Compile Include="Entities\CurrencyRate.cs" />
+    <Compile Include="Entities\Distributor.cs" />
+    <Compile Include="Entities\Index.cs" />
+    <Compile Include="Entities\Country.cs" />
+    <Compile Include="Entities\Currency.cs" />
+    <Compile Include="Entities\CtrRange.cs" />
+    <Compile Include="Entities\Family.cs" />
+    <Compile Include="Entities\ListItemAbstract.cs" />
+    <Compile Include="Entities\Log.cs" />
+    <Compile Include="Entities\Lookup.cs" />
+    <Compile Include="Entities\Note.cs" />
+    <Compile Include="Entities\PriceCalculation.cs" />
+    <Compile Include="Entities\PriceImportLog.cs" />
+    <Compile Include="Entities\PriceAttribute.cs" />
+    <Compile Include="Entities\PriceGroup.cs" />
+    <Compile Include="Entities\PriceImport.cs" />
+    <Compile Include="Entities\Provider.cs" />
+    <Compile Include="Entities\PublishItem.cs" />
+    <Compile Include="Entities\PublishList.cs" />
+    <Compile Include="Entities\Quote.cs" />
+    <Compile Include="Entities\QuoteItem.cs" />
+    <Compile Include="Entities\SearchParameters.cs" />
+    <Compile Include="Entities\Selection.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\PriceList.cs" />
+    <Compile Include="Entities\WorkListItem.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\CodeProvView.cs" />
+    <Compile Include="Views\PageTreeView.cs" />
+    <Compile Include="Views\CurrencyRateConverter.cs" />
+    <Compile Include="Views\CurrencyRate.cs" />
+    <Compile Include="Views\HistoricView.cs" />
+    <Compile Include="Views\IDIDView.cs" />
+    <Compile Include="Views\LastCurrencyRateView.cs" />
+    <Compile Include="Views\PriceAttributeView.cs" />
+    <Compile Include="Views\PriceCalculationListView.cs" />
+    <Compile Include="Views\ProductInfoByDistributor.cs" />
+    <Compile Include="Views\ProductInfoByPublishList.cs" />
+    <Compile Include="Views\ProductInfoByPriceList.cs" />
+    <Compile Include="Views\PriceImportLogView.cs" />
+    <Compile Include="Views\PriceImportView.cs" />
+    <Compile Include="Views\PriceListCurrentState.cs" />
+    <Compile Include="Views\ProductInfo.cs" />
+    <Compile Include="Views\ProductInfoByGroup.cs" />
+    <Compile Include="Views\ProductInfoGeneric.cs" />
+    <Compile Include="Views\ProductListView.cs" />
+    <Compile Include="Views\ProductView.cs" />
+    <Compile Include="Views\ProductInfoController.cs" />
+    <Compile Include="Views\TempPrice.cs" />
+    <Compile Include="Views\QuoteItemView.cs" />
+    <Compile Include="Views\WorkListItemView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Product.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Family.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PriceManager.Common\PriceManager.Common.csproj">
+      <Project>{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}</Project>
+      <Name>PriceManager.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\CtrRange.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Currency.hbm.xml" />
+    <EmbeddedResource Include="Mapping\PriceBase.hbm.xml" />
+    <EmbeddedResource Include="Mapping\PriceAttribute.hbm.xml" />
+    <EmbeddedResource Include="Mapping\PriceGroup.hbm.xml" />
+    <EmbeddedResource Include="Mapping\PriceImport.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Selection.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Provider.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PriceImportLog.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Country.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\ProductInfo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\ProductInfoByGroup.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Index.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Note.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Distributor.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PriceList.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PublishItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PublishList.hbm.xml" />
+    <EmbeddedResource Include="Mapping\WorkListItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\WorkListItemHistory.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PriceAttributeHistory.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PriceBaseHistory.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\ProductInfoByPriceList.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\PriceListCurrentState.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\ProductInfoByPublishList.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\ProductInfoByDistributor.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Log.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Lookup.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\CurrencyRateView.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\PriceCalculation.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Quote.hbm.xml" />
+    <EmbeddedResource Include="Mapping\QuoteItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\CurrencyRate.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\LastCurrencyRateView.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\PriceImportView.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Views\StoreProcedures.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PartnerNet.Domain" namespace="PartnerNet.Domain">
+  <class name="AlertSaleOrder" table="AlertSaleOrder" >
+    <id name="Id" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+	<many-to-one name="Product" column="ProductId" class="Product" cascade="none" />
+	<property name="SaleOrderCode" column="SaleOrderCode" type="System.String" not-null="true"/>
+    <property name="CustomerCode" column="CustomerCode" type="System.String" not-null="true"/>
+	<property name="CustomerName" column="CustomerName" type="System.String" not-null="true"/>
+    <property name="Quantity" column="Quantity" type="System.Int32" not-null="true"/>
+    <property name="GAP" column="GAP" type="System.Int32" not-null="true"/>
+    <property name="SaleOrderDeliveryDate" column="SaleOrderDeliveryDate" type="System.DateTime" not-null="true"/>
+    <property name="PurchaseOrderArrivalDate" column="PurchaseOrderArrivalDate" type="System.DateTime" not-null="true"/>
+    <property name="OrderDate" column="OrderDate" type="System.DateTime" not-null="true"/>
+	<property name="Type" column="Type" type="PartnerNet.Domain.AlertSaleOrderType, PartnerNet.Domain" not-null="true"/>
+	  
+  </class>
+  <sql-query name="sp_alertsaleorder_clean">
+    <return-scalar column="result" type="Int32" />
+    exec sp_alertsaleorder_clean
+  </sql-query>
+
+</hibernate-mapping>

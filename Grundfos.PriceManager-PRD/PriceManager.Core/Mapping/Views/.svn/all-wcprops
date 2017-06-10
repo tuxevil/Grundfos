@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views
+END
+ProductInfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/ProductInfo.hbm.xml
+END
+CurrencyRateView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/CurrencyRateView.hbm.xml
+END
+PriceListCurrentState.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/PriceListCurrentState.hbm.xml
+END
+ProductInfoByDistributor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/ProductInfoByDistributor.hbm.xml
+END
+ProductInfoByGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/ProductInfoByGroup.hbm.xml
+END
+LastCurrencyRateView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/LastCurrencyRateView.hbm.xml
+END
+ProductInfoByPriceList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/ProductInfoByPriceList.hbm.xml
+END
+PriceImportView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/PriceImportView.hbm.xml
+END
+StoreProcedures.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/StoreProcedures.hbm.xml
+END
+ProductInfoByPublishList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Mapping/Views/ProductInfoByPublishList.hbm.xml
+END

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  
+  <sql-query name="CategoryGetChildCount">
+    <query-param name="CategoryId" type="System.Int32"/>
+    exec dbo.CategoryGetChildCount @CategoryId=:CategoryId
+  </sql-query>
+
+  <sql-query name="CategoryTreeGetToLevel">
+    <query-param name="Type" type="string" />
+    <query-param name="CategoryId" type="int" />
+    <query-param name="FromRoot" type="bit" />
+    <query-param name="FromDepth" type="int" />
+    <query-param name="ToDepth" type="int" />
+    exec dbo.CategoryTreeGetToLevel
+    :Type,
+    :CategoryId,
+    :FromRoot,
+    :FromDepth,
+    :ToDepth
+  </sql-query>
+
+  <sql-query name="CategoryTreeGetByPagesWithoutPriceList">
+    <query-param name="Type" type="System.String" />
+    <query-param name="PriceListId" type="System.Int32" />
+    <query-param name="CategoryId" type="System.Int32" />
+    <query-param name="FromRoot" type="System.Boolean" />
+    exec dbo.CategoryTreeGetByPagesWithoutPriceList @Type=:Type, @PriceListId= :PriceListId, @CategoryId=:CategoryId, @FromRoot=:FromRoot
+  </sql-query>
+  <sql-query name="CategoryTreeGetByPriceListToLevel">
+    <query-param name="Type" type="string" />
+    <query-param name="PriceListId" type="System.Int32" />
+    <query-param name="CategoryId" type="int" />
+    <query-param name="FromRoot" type="bit" />
+    <query-param name="FromDepth" type="int" />
+    <query-param name="ToDepth" type="int" />
+    exec dbo.CategoryTreeGetByPriceListToLevel
+    :Type,
+    :PriceListId,
+    :CategoryId,
+    :FromRoot,
+    :FromDepth,
+    :ToDepth
+  </sql-query>
+
+  <sql-query name="CategoryTreeGetByPublishListToLevel">
+    <query-param name="Type" type="string" />
+    <query-param name="PublisListId" type="System.Int32" />
+    <query-param name="CategoryId" type="int" />
+    <query-param name="FromRoot" type="bit" />
+    <query-param name="FromDepth" type="int" />
+    <query-param name="ToDepth" type="int" />
+    exec dbo.CategoryTreeGetByPublishListToLevel
+    :Type,
+    :PublisListId,
+    :CategoryId,
+    :FromRoot,
+    :FromDepth,
+    :ToDepth
+  </sql-query>
+</hibernate-mapping>

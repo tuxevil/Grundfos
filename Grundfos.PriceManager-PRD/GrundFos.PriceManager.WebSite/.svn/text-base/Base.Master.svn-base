@@ -1,0 +1,178 @@
+<%@ Import Namespace="System.Threading"%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="GrundFos.PriceManager.WebSite.Base" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head id="Head1" runat="server">
+   <link rel="stylesheet" href="/css/reset-fonts-grids.css" type="text/css" />
+   <link rel="stylesheet" href="/css/main.css" type="text/css" />
+   <link rel="stylesheet" href="/css/jquery-ui-1.7.1.custom.css" type="text/css" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+   <style type="text/css">
+a:link, a:visited {
+    color: #03c;
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: #03c;
+  }
+
+  #hd {
+    background-color: #036;
+  }
+
+  #hd h1 {
+    color: #fff;
+  }
+
+  #P2P_selector {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  #hd h3, #hd h3 a:link, #hd h3 a:visited {
+    color: #fff;
+  }
+
+  #hd h3 a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+  }
+
+  #hd h3 a.current:link, #hd h3 a.current:visited {
+    color: #fff;
+  }
+
+  #hd h3 a.current:hover {
+    color: #fff;
+    background-color: #036;
+  }
+
+  #hd h1 a:link, #hd h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #hd h1 a:hover {
+    color: #fff;
+    background-color: #036;
+    text-decoration: underline;
+  }
+
+  #hd h1 span {
+    color: #fff;
+  }
+
+  #Tabs a:link, #Tabs a:visited {
+    background-color: #1A4F85;
+    color: #fff;
+    border: 1px solid #036;
+    border-bottom: 1px solid #1A4F85;
+  }
+
+  #Tabs ul#MainTabs a:link.current, #Tabs ul#MainTabs a:visited.current,
+  div#CategoryList a.current:link, div#CategoryList a.current:visited {
+    color: #090;
+  }
+
+  #Tabs a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+    border-bottom: 1px solid #1D64AD;
+  }
+
+  #Tabs li#AdminTab a:link, #Tabs li#AdminTab a:visited {
+    color: #fff;
+    background-color: #036;
+    border-bottom: 1px solid #036;
+    text-decoration: underline;
+  }
+
+  #Tabs li#AdminTab a:hover {
+    color: #fff;
+  }
+
+  #Tabs li#AdminTab a.current {
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+   <script language="javascript" type="text/javascript" src="/js/jquery-1.3.1.min.js"></script>
+   <script language="javascript" type="text/javascript" src="/js/jquery.corner.js"></script>
+   <script language="javascript" type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+   <script language="javascript" type="text/javascript" src="/js/tiny_mce/tiny_mce.js"></script>
+   <script type="text/javascript" src="/js/common.js"></script>
+   <asp:ContentPlaceHolder ID="cplHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<form runat="server" id="frmBody">
+    <asp:ScriptManager ID="ScriptManager1" AsyncPostBackTimeout="1800" runat="server" EnableScriptGlobalization="True" EnableScriptLocalization="True" EnablePageMethods="True">
+    </asp:ScriptManager>
+    <div id="doc3">
+       <div id="hd" class="global">
+       
+        <h3>
+            <asp:Label runat="server" ID="lblUser"></asp:Label>
+            <span class="pipe">|</span><asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Iniciar Sesión" LogoutText="Cerrar Sesión" LogoutPageUrl="~/login.aspx?out=yes" OnLoggedOut="LoginStatus1_LoggedOut" />
+        </h3>
+       
+       <h1 id="headerTitle"><span>Prices Manager Advanced</span></h1>
+       
+        <div id="Tabs"> 
+            <asp:PlaceHolder ID="plhMenu" runat="server"></asp:PlaceHolder>
+        </div>       
+           
+       </div>
+       
+       <div id="bd">
+        <div class="yui-b">
+        <div class="yui-g">
+            <div class="col">
+            <div class="page_header"> 
+            <div style="float:right; width:50%; text-align:right"><div runat="server" id="divtemplatedownload" visible="false"><a ID="lnkimportationtemplate" href="/res/import/ImportationTemplate.csv" >Descargar Template</a></div></div>
+              <div style="width:50%"><h1 runat="server" ID="lblPageTitle"></h1></div>
+            </div>
+            <div class="content">
+                <div id="validator_summary">
+                    <asp:ValidationSummary ID="valSummary" runat="server" DisplayMode="BulletList" ShowMessageBox="false" ValidationGroup="form" ShowSummary="true" />
+                </div>
+
+                <asp:ContentPlaceHolder ID="cplMain" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            </div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        </div>
+       </div>
+       <div id="ft" class="footer">
+        <span class="pipe_series" style="float:right">
+            <asp:LinkButton ID="lnkGoToMembership" runat="server" OnClick="lnkGoToMembership_Click">Ir a Membership</asp:LinkButton>
+        </span>
+        <span class="pipe_series">
+            <asp:Label ID="lblVersion" runat="server" ></asp:Label><br />
+            <asp:LinkButton ID="lnkClearCache" runat="server" OnClick="lnkClearCache_Click">Limpiar Cache</asp:LinkButton>
+        </span>
+       </div>
+    </div>
+     <asp:UpdateProgress ID="ajaxProgress" runat="server"
+                     DynamicLayout="false">
+        <ProgressTemplate>
+            <div class="updateprogress">
+            <img src="/img/ajax-loader.gif" border="0" alt="Cargando" /> Cargando ...
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+
+    <cc1:AlwaysVisibleControlExtender ID="alwaysVisible"
+     runat="server" TargetControlID="ajaxProgress"
+     HorizontalSide="Right" VerticalSide="Top" HorizontalOffset="0">
+    </cc1:AlwaysVisibleControlExtender>   
+
+    <asp:PlaceHolder ID="plhDropDownMenus" runat="server"></asp:PlaceHolder>
+    
+</form>
+
+</body>
+</html>

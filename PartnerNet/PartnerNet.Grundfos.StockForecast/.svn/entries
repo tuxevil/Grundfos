@@ -1,0 +1,107 @@
+9
+
+dir
+3533
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble/GrundFos/Grundfos.StockForecast/PartnerNet.Grundfos.StockForecast/trunk
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble
+
+
+
+2010-02-08T20:34:14.684296Z
+3196
+emiliano.galizio
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+ParnerNet.Integrators.Scala
+dir
+
+ControlStock.WebSite
+dir
+
+PartnerNet.Services.Alerts.Installer
+dir
+
+PartnerNet.Services.Alerts
+dir
+
+ControlStock.Providers
+dir
+
+Database
+dir
+
+PartnerNet.Services.Forecast.Installer
+dir
+
+PartnerNet.Newsletter.Service.Installer
+dir
+
+PartnerNet.Services.Forecast
+dir
+
+ControlStock.GrundFos
+dir
+
+ControlStock.Core
+dir
+
+ControlStock.Common
+dir
+
+PartnerNet.Newsletter.Service
+dir
+
+PartnerNet.Grundfos.StockForecast.sln
+file
+
+
+
+
+2009-06-25T14:25:44.880559Z
+30a2568b80f64672f72db464e2b660b9
+2009-05-20T13:13:41.130328Z
+402
+emiliano.galizio
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9878
+
+PartnerNet.NewsLetter
+dir
+
+ControlStock.Business
+dir
+

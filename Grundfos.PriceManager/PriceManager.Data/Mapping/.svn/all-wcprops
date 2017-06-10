@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/nybble/!svn/ver/2836/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping
+END
+QuoteItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2778/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/QuoteItem.hbm.xml
+END
+PriceBaseHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceBaseHistory.hbm.xml
+END
+Product.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Product.hbm.xml
+END
+Log.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Log.hbm.xml
+END
+Family.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Family.hbm.xml
+END
+PriceCalculation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceCalculation.hbm.xml
+END
+Selection.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Selection.hbm.xml
+END
+Contact.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/2698/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Contact.hbm.xml
+END
+WorkListItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/WorkListItem.hbm.xml
+END
+PriceList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceList.hbm.xml
+END
+BaseQuoteNotification.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2713/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/BaseQuoteNotification.hbm.xml
+END
+PublishList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PublishList.hbm.xml
+END
+Country.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Country.hbm.xml
+END
+Note.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Note.hbm.xml
+END
+Index.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Index.hbm.xml
+END
+PriceAttributeHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceAttributeHistory.hbm.xml
+END
+QuoteRange.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/2836/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/QuoteRange.hbm.xml
+END
+Distributor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Distributor.hbm.xml
+END
+PriceGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceGroup.hbm.xml
+END
+WorkListItemHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/WorkListItemHistory.hbm.xml
+END
+PublishItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PublishItem.hbm.xml
+END
+PriceAttribute.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceAttribute.hbm.xml
+END
+Currency.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Currency.hbm.xml
+END
+Provider.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Provider.hbm.xml
+END
+Quote.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/nybble/!svn/ver/2758/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Quote.hbm.xml
+END
+PriceImport.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceImport.hbm.xml
+END
+PriceBase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceBase.hbm.xml
+END
+PriceImportLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/PriceImportLog.hbm.xml
+END
+CtrRange.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/CtrRange.hbm.xml
+END
+CurrencyRate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/CurrencyRate.hbm.xml
+END
+Lookup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2770/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Lookup.hbm.xml
+END

@@ -1,0 +1,98 @@
+9
+
+dir
+2706
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble/GrundFos/Grundfos.PriceManager/tags/v2.0.65
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble
+
+
+
+2009-11-26T14:51:27.898405Z
+2649
+sebastian.real
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+PriceManager.Currency.Service.Installer
+dir
+
+Database
+dir
+
+GrundFos.PriceManager.WebSite
+dir
+
+PriceManager.Common
+dir
+
+PriceManager.Core
+dir
+
+PriceManager.Currency.Service
+dir
+
+PriceManager.Business
+dir
+
+GrundFos.ScalaInterface
+dir
+
+PriceManager.Integration.Service.Installer
+dir
+
+PriceManager.UnitTest
+dir
+
+TestBusiness
+dir
+
+GrundFos.Core
+dir
+
+Grundfos.PriceManager.sln
+file
+
+
+
+
+2009-12-02T18:35:50.265946Z
+8e7617fc846f2b26ff3e7f9657aa05e6
+2009-11-11T21:19:08.841566Z
+2529
+emiliano.galizio
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5875
+

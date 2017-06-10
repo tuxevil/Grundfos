@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Grundfos.ScalaConnector" namespace="Grundfos.ScalaConnector">
+  <class name="StockMovementPending" table="SC110100" >
+	  <composite-id>
+		  <key-property name="ProductCode" column="SC11001" type="System.String" />
+		  <key-property name="DeliveryCommitt" column="SC11002" type="System.DateTime" />
+		  <key-property name="OrderNumber" column="SC11003" type="System.String" />
+		  <key-property name="Warehouse" column="SC11004" type="System.String" />
+		  <key-property name="OriginatingOrderLine" column="SC11012" type="System.String" />
+		  <key-property name="DeliveryTransType" column="SC11019" type="System.String"  />
+	  </composite-id>
+	  <property name="ProductCode" column="SC11001" type="System.String"/>
+	  <property name="DeliveryCommitt" column="SC11002" type="System.DateTime" />
+	  <property name="OrderNumber" column="SC11003" type="System.String" />
+	  <property name="Warehouse" column="SC11004" type="System.String" />
+	  <property name="Quantity" column="SC11005" type="System.Int32"/>
+	  <property name="CustSupCode" column="SC11006" type="System.String" />
+	  <property name="CustSupName" column="SC11007" type="System.String" />
+	  <property name="DeliveryRequest" column="SC11008" type="System.DateTime" />
+	  <property name="OriginatingOrderLine" column="SC11012" type="System.String" />
+	  <property name="DeliveryTransType" column="SC11019" type="System.String"  />
+  </class>
+</hibernate-mapping>

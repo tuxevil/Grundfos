@@ -1,0 +1,10 @@
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\bin\Debug\GrundFos.Despiece.Business.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\bin\Debug\GrundFos.Despiece.Business.pdb
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\obj\Debug\GrundFos.Despiece.Business.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\obj\Debug\GrundFos.Despiece.Business.pdb
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\bin\Release\GrundFos.Despiece.Business.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\bin\Release\GrundFos.Despiece.Business.pdb
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\obj\Release\GrundFos.Despiece.Business.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Business\obj\Release\GrundFos.Despiece.Business.pdb

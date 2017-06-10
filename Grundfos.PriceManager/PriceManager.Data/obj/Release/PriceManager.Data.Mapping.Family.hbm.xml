@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="CategoryBase" table="Category" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+    
+    <discriminator column="Type" type="System.String"/>
+    <property name="Type" column="Type" type="System.String" not-null="true" length="50" insert="false" update="false"/>
+
+    <property name="Name" column="Name" type="System.String" not-null="true" length="512"/>
+    <property name="Description" column="Description" type="System.String" not-null="false" length="512"/>
+    <many-to-one name="Parent" column="ParentID" class="CategoryBase" not-null="false" />
+
+    <set name="PriceImportLogs" table="PriceImportLogByCategory" lazy="true" cascade="none">
+      <key column="CategoryId"/>
+      <many-to-many class="PriceImportLog" column="PriceImportLogId"/>
+    </set>
+    
+    <set name="Products" table="ProductByCategory" lazy="true" cascade="none">
+      <key column="CategoryId"/>
+      <many-to-many class="Product" column="ProductId"/>
+    </set>
+
+    <property name="NameEnglish" column="NameAlternative" type="System.String" not-null="false" length="512"/>
+    <property name="DescripionEnglish" column="DescripionAlternative" type="System.String" not-null="false" length="512"/>
+    <property name="Image" column="Image" type="System.String" not-null="false" length="50"/>
+    <property name="Observations" column="Observations" type="System.String" not-null="false"/>
+    <property name="CategoryPageStatus" column="Status" type="PriceManager.Core.CategoryPageStatus, PriceManager.Core" not-null="false"/>
+    <property name="TotalCount" column="TotalCount" type="System.Int32" not-null="false"/>
+ 
+    <set name="PriceLists" table="PriceListByCategory" lazy="true" cascade="none">
+      <key column="CategoryId"/>
+      <many-to-many class="PriceList" column="PriceListId"/>
+    </set>
+
+    <set name="PublishLists" table="PublishListByCategory" lazy="true" cascade="none">
+      <key column="CategoryId"/>
+      <many-to-many class="PublishList" column="PublishListId"/>
+    </set>
+    
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+
+    <subclass name="Family" discriminator-value="1"></subclass>
+    <subclass name="CatalogPage" discriminator-value="2"></subclass>
+    <subclass name="ProductType" discriminator-value="3"></subclass>
+    <subclass name="Application" discriminator-value="4"></subclass>
+    <subclass name="Line" discriminator-value="5"></subclass>
+    <subclass name="Area" discriminator-value="6"></subclass>
+
+  </class>
+  
+  <sql-query name="CategoryCountUpdate">
+    <query-param name="CategoryId" type="int" />
+    <return-scalar column="result" type="Int32" />
+    exec CategoryCountUpdate @CategoryId=:CategoryId
+  </sql-query>
+  
+</hibernate-mapping>

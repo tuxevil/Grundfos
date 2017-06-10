@@ -1,0 +1,126 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Mapping/f:PriceImport.hbm.xml" caret="0" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Mapping/f:Product.hbm.xml" caret="475" fromTop="12" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:admin/f:addproduct.aspx.cs" caret="2779" fromTop="17" />
+      <File id="d:Database/d:Create Scripts/d:DEV/d:v 1.0.1/f:DB_PriceManager_Schema.sql" caret="7474" fromTop="19" />
+      <File id="d:Database/d:Change Scripts/d:V1.0.3BETA/f:DBmodV1.0.3BETA.sql" caret="882" fromTop="18" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:admin/f:addproduct.aspx" caret="4171" fromTop="26" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:admin/f:addproduct.aspx.designer.cs" caret="4713" fromTop="23" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:admin/f:modifyProduct.aspx" caret="15107" fromTop="29" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:admin/f:modifyProduct.aspx.cs" caret="10430" fromTop="17" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:pl/f:default.aspx" caret="18192" fromTop="32" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:pl/f:default.aspx.cs" caret="19739" fromTop="17" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/f:ClassDiagram.cd" caret="5125" fromTop="19" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Mapping/f:BasePrice.hbm.xml" caret="683" fromTop="10" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Mapping/f:ProductAudit.hbm.xml" caret="678" fromTop="11" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductListView.cs" caret="5444" fromTop="23" />
+      <File id="d:Database/d:Change Scripts/d:V1.0.8/f:sp_DiscountModification.sql" caret="1850" fromTop="30" />
+      <File id="d:Database/d:Change Scripts/d:V1.0.28/f:update to V1.0.28.sql" caret="2714" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Audit.cs" caret="118" fromTop="7" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:ProductPriceController.cs" caret="319" fromTop="0" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:ProductController.cs" caret="8936" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Country.cs" caret="124" fromTop="5" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Provider.cs" caret="1359" fromTop="21" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Mapping/f:Family.hbm.xml" caret="823" fromTop="15" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Mapping/f:Provider.hbm.xml" caret="0" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductView.cs" caret="0" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Product.cs" caret="0" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:BasePrice.cs" caret="0" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/f:Enums.cs" caret="0" fromTop="0" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="763" fromTop="20" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Entity.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1186" fromTop="27" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="475" fromTop="11" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="834" fromTop="20" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1084" fromTop="26" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1212" fromTop="11" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1362" fromTop="17" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1526" fromTop="23" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1682" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1831" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="1980" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="2121" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="2265" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="2435" fromTop="32" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="2587" fromTop="20" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="2736" fromTop="26" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="2900" fromTop="32" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3061" fromTop="20" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3225" fromTop="26" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3374" fromTop="32" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3520" fromTop="23" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3675" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3830" fromTop="35" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="3987" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="4142" fromTop="35" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="4312" fromTop="32" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="4482" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="4635" fromTop="35" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="4806" fromTop="29" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="4977" fromTop="35" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Views/f:ProductList.cs" caret="5153" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Entity" priority="0" />
+      <Item value="decimal" priority="9" />
+      <Item value="private" priority="11" />
+      <Item value="string" priority="16" />
+      <Item value="int" priority="11" />
+      <Item value="Product" priority="1" />
+      <Item value="ProviderStatus" priority="1" />
+      <Item value="Status" priority="2" />
+      <Item value="ImportStatus" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="PriceImport" priority="1" />
+      <Item value="Currency" priority="0" />
+      <Item value="Provider" priority="1" />
+      <Item value="IList" priority="4" />
+      <Item value="BasePrice" priority="3" />
+      <Item value="virtual" priority="2" />
+      <Item value="PriceGroup" priority="0" />
+      <Item value="PriceAttribute" priority="2" />
+      <Item value="Country" priority="0" />
+      <Item value="ProductStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.ProductView">
+      <Item value="priceSell" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.ProductListView">
+      <Item value="TimeStamp" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectBase.Data.ITimeStamp">
+      <Item value="ModifiedOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Selection">
+      <Item value="TimeStamp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Product">
+      <Item value="BasePrices" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.BasePrice">
+      <Item value="TP" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

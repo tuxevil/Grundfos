@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="GrundFos.ScalaConnector" namespace="GrundFos.ScalaConnector">
+  <class name="ScalaProvider" table="PL010100" >
+    <id name="Code" type="System.String" column="PL01001">
+      <generator class="assigned"/>
+    </id>
+
+    <property name="Name" column="PL01002" type="System.String" not-null="true"/>
+    <property name="CompleteName" column="PL01060" type="System.String" not-null="true"/>
+    <property name="Address1" column="PL01003" type="System.String" not-null="true"/>
+    <property name="Address2" column="PL01004" type="System.String" not-null="true"/>
+    <property name="Address3" column="PL01005" type="System.String" not-null="true"/>
+    <property name="Address4" column="PL01053" type="System.String" not-null="true"/>
+    <property name="Reference" column="PL01006" type="System.String" not-null="true"/>
+    <property name="Telephone" column="PL01008" type="System.String" not-null="true"/>
+    <property name="Fax" column="PL01010" type="System.String" not-null="true"/>
+    <property name="TaxCode" column="PL01025" type="System.String" not-null="true"/>
+    <property name="PurchPrevYear" column="PL01032" type="System.String" not-null="true"/>
+    <property name="PurchYTD" column="PL01033" type="System.String" not-null="true"/>
+    <property name="LastInvDate" column="PL01035" type="System.DateTime" not-null="true"/>
+    <property name="InternalNote1" column="PL01037" type="System.String" not-null="true"/>
+    <property name="InternalNote2" column="PL01038" type="System.String" not-null="true"/>
+    <property name="CountryCode" column="PL01018" type="System.String" not-null="true"/>
+
+  </class>
+</hibernate-mapping>

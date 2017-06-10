@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="GrundFos.ScalaConnector" namespace="GrundFos.ScalaConnector">
+  <class name="ScalaDistributor" table="SL010100" >
+    <id name="Code" type="System.String" column="SL01001">
+      <generator class="assigned"/>
+    </id>
+
+    <property name="Name" column="SL01002" type="System.String" not-null="true"/>
+    <property name="CompleteName" column="SL01109" type="System.String" not-null="true"/>
+    <property name="Address1" column="SL01003" type="System.String" not-null="true"/>
+    <property name="Address2" column="SL01004" type="System.String" not-null="true"/>
+    <property name="Address3" column="SL01005" type="System.String" not-null="true"/>
+    <property name="Address4" column="SL01099" type="System.String" not-null="true"/>
+    <property name="Reference1" column="SL01006" type="System.String" not-null="true"/>
+    <property name="Reference2" column="SL01007" type="System.String" not-null="true"/>
+    <property name="Reference3" column="SL01008" type="System.String" not-null="true"/>
+    <property name="Reference4" column="SL01009" type="System.String" not-null="true"/>
+    <property name="Telephone" column="SL01011" type="System.String" not-null="true"/>
+    <property name="Fax" column="SL01013" type="System.String" not-null="true"/>
+    <property name="TaxCode" column="SL01021" type="System.String" not-null="true"/>
+    <property name="ImpExpCustomer" column="SL01030" type="System.String" not-null="true"/>
+    <property name="PaymentTerm" column="SL01024" type="System.String" not-null="true"/>
+    <property name="SalePrevYear" column="SL01039" type="System.String" not-null="true"/>
+    <property name="SaleYTD" column="SL01040" type="System.String" not-null="true"/>
+    <property name="ProfitYTD" column="SL01043" type="System.String" not-null="true"/>
+    <property name="InternalNote" column="SL01052" type="System.String" not-null="true"/>
+    <property name="CountryCode" column="SL01104" type="System.String" not-null="true"/>
+
+  </class>
+</hibernate-mapping>

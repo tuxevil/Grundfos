@@ -1,0 +1,844 @@
+<Configuration>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <ReFormatCode>
+    <ReorderMembers>True</ReorderMembers>
+    <OptimizeUsings>True</OptimizeUsings>
+    <RemoveRedundantThis>True</RemoveRedundantThis>
+    <ShortenReferences>True</ShortenReferences>
+  </ReFormatCode>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <EditorManager>
+    <RecentFiles>
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:forecast/f:default.aspx.cs" caret="856" scrollPosition="0|42" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Templates/f:Detalle.ascx" caret="1962" scrollPosition="0|18" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Templates/f:Detalle.ascx.cs" caret="2979" scrollPosition="0|37" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/f:ControllerManager.cs" caret="0" scrollPosition="0|0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:BreakDown.hbm.xml" caret="1105" scrollPosition="0|0" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:ProductController.cs" caret="1214" scrollPosition="0|20" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:ForecastController.cs" caret="10671" scrollPosition="0|238" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:BreakDownController.cs" caret="1109" scrollPosition="0|0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:Product.cs" caret="2988" scrollPosition="0|77" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:Identifier.cs" caret="1038" scrollPosition="0|9" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:BreakDown2.cs" caret="407" scrollPosition="0|0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:BreakDown.cs" caret="635" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:breakdown/f:default.aspx.cs" caret="1606" scrollPosition="0|15" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:styles_grundfos.css" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:reportesordcompras.aspx" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="9789" scrollPosition="0|98" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:PurchaseOrderItemStatus.cs" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:purchase-order/f:default.aspx.cs" caret="7427" scrollPosition="0|195" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:purchase-order/f:default.aspx" caret="5214" scrollPosition="0|58" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Base.Master" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:breakdown/f:default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:forecast/f:default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:product-list/f:default.aspx" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:purchaseorder.aspx" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Templates/f:DetalleOC.ascx" caret="0" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.ProductStatistic">
+      <Item value="GetAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Common.Config">
+      <Item value="GrundfosFactoryConfigPath" priority="5" />
+      <Item value="ScalaFactoryConfigPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Providers.Stock.StockManager.Provider">
+      <Item value="GetProviders" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.Product">
+      <Item value="GetAll" priority="0" />
+      <Item value="GetProductList" priority="6" />
+      <Item value="GetProductInfo" priority="5" />
+      <Item value="GetPLByGroup" priority="0" />
+      <Item value="GetPLbyGroup" priority="1" />
+      <Item value="GetWebPL" priority="1" />
+      <Item value="GetProductInformation" priority="0" />
+      <Item value="GetById" priority="9" />
+      <Item value="UpdateProductSafety" priority="0" />
+      <Item value="SaveOrUpdate" priority="2" />
+      <Item value="GetProductInformationCount" priority="0" />
+      <Item value="UpdateProductLeadTime" priority="0" />
+      <Item value="UpdateProductRepositionPoint" priority="0" />
+      <Item value="Save" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Write" priority="0" />
+      <Item value="Redirect" priority="2" />
+      <Item value="Output" priority="0" />
+      <Item value="OutputStream" priority="0" />
+      <Item value="AppendHeader" priority="0" />
+      <Item value="BinaryWrite" priority="1" />
+      <Item value="WriteFile" priority="1" />
+      <Item value="End" priority="0" />
+      <Item value="Clear" priority="0" />
+      <Item value="TransmitFile" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Product">
+      <Item value="ProductCode" priority="15" />
+      <Item value="Description" priority="4" />
+      <Item value="Provider" priority="6" />
+      <Item value="RepositionLevel" priority="3" />
+      <Item value="RepositionPoint" priority="6" />
+      <Item value="LeadTime" priority="6" />
+      <Item value="Id" priority="28" />
+      <Item value="Group" priority="1" />
+      <Item value="Safety" priority="9" />
+      <Item value="ProductSets" priority="1" />
+      <Item value="ProviderIds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Year" priority="7" />
+      <Item value="Month" priority="2" />
+      <Item value="AddMonths" priority="0" />
+      <Item value="AddDays" priority="2" />
+      <Item value="ToShortDateString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector">
+      <Item value="Product" priority="3" />
+      <Item value="ControllerManager" priority="6" />
+      <Item value="PurchaseOrderItem" priority="1" />
+      <Item value="Provider" priority="1" />
+      <Item value="BreakDown" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.Product">
+      <Item value="GetById" priority="0" />
+      <Item value="FilterByGroup" priority="1" />
+      <Item value="GetProductList" priority="1" />
+      <Item value="GetProductInfo" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Product">
+      <Item value="Detail" priority="1" />
+      <Item value="Id" priority="7" />
+      <Item value="Description" priority="1" />
+      <Item value="StockQ" priority="1" />
+      <Item value="PurchasePrice" priority="3" />
+      <Item value="OverCost" priority="1" />
+      <Item value="SalePrice" priority="1" />
+      <Item value="Group" priority="0" />
+      <Item value="Provider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos">
+      <Item value="ScalaConnector" priority="0" />
+      <Item value="StockForecast" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="10" />
+      <Item value="DataBind" priority="10" />
+      <Item value="Columns" priority="2" />
+      <Item value="Rows" priority="6" />
+      <Item value="RowDataBound" priority="0" />
+      <Item value="SelectedRow" priority="0" />
+      <Item value="Font" priority="0" />
+      <Item value="DataMember" priority="0" />
+      <Item value="GridLines" priority="0" />
+      <Item value="FooterRow" priority="0" />
+      <Item value="Attributes" priority="0" />
+      <Item value="Controls" priority="0" />
+      <Item value="DataKeys" priority="0" />
+      <Item value="NamingContainer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System">
+      <Item value="Data" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="Configuration" priority="0" />
+      <Item value="IO" priority="1" />
+      <Item value="Net" priority="0" />
+      <Item value="Xml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections">
+      <Item value="Generic" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate">
+      <Item value="Expression" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="List" priority="28" />
+      <Item value="Add" priority="50" />
+      <Item value="CreateCriteria" priority="2" />
+      <Item value="SetProjection" priority="5" />
+      <Item value="SetResultTransformer" priority="0" />
+      <Item value="UniqueResult" priority="12" />
+      <Item value="AddOrder" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="30" />
+      <Item value="Focus" priority="1" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.ProductDetail">
+      <Item value="FilterByLocation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization">
+      <Item value="CultureInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.CultureInfo">
+      <Item value="CurrentCulture" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.CultureInfo.CurrentCulture">
+      <Item value="DateTimeFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Globalization.DateTimeFormatInfo">
+      <Item value="MonthNames" priority="0" />
+      <Item value="FirstDayOfWeek" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Calendar">
+      <Item value="SelectedDate" priority="17" />
+      <Item value="TodayDayStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.PurchaseOrder">
+      <Item value="FilterByYear" priority="0" />
+      <Item value="FilterByMonth" priority="0" />
+      <Item value="FilterByWeek" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread.CurrentThread">
+      <Item value="CurrentCulture" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Globalization.CultureInfo">
+      <Item value="Calendar" priority="0" />
+      <Item value="DateTimeFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Globalization.Calendar">
+      <Item value="GetWeekOfYear" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="24" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="AddDays" priority="0" />
+      <Item value="Year" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.PurchaseOrderItem">
+      <Item value="FilterByProduct" priority="0" />
+      <Item value="GetMonthlyTransaction" priority="0" />
+      <Item value="GetPurchaseOrderInfo" priority="0" />
+      <Item value="GetWeeklyTransaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButtonList">
+      <Item value="SelectedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.SaleOrderItem">
+      <Item value="GetMonthlyTransaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Domain">
+      <Item value="ProductStatisticMonthly" priority="0" />
+      <Item value="TransactionHistoryWeekly" priority="0" />
+      <Item value="ProductStatisticWeekly" priority="0" />
+      <Item value="Provider" priority="3" />
+      <Item value="Product" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="DataSource" priority="0" />
+      <Item value="Items" priority="6" />
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="SelectedItem" priority="1" />
+      <Item value="SelectedValue" priority="20" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet">
+      <Item value="Business" priority="1" />
+      <Item value="Domain" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add" priority="4" />
+      <Item value="Clear" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="20" />
+      <Item value="Visible" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="ProductCode" priority="3" />
+      <Item value="Id" priority="0" />
+      <Item value="Stock" priority="9" />
+      <Item value="Purchase" priority="7" />
+      <Item value="Week" priority="6" />
+      <Item value="Sale" priority="17" />
+      <Item value="Year" priority="2" />
+      <Item value="PurchaseOrders" priority="0" />
+      <Item value="QuantitySuggested" priority="1" />
+      <Item value="Safety" priority="2" />
+      <Item value="FinalStock" priority="3" />
+      <Item value="RealSale" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="ToString" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.Forecast">
+      <Item value="CalculateForecast" priority="3" />
+      <Item value="GetProductInfo" priority="1" />
+      <Item value="GetPOList" priority="0" />
+      <Item value="GetForecast" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Expression.Disjunction">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.TransactionHistoryWeekly">
+      <Item value="FilterByWeeks" priority="2" />
+      <Item value="CalculateStatistic" priority="1" />
+      <Item value="Save" priority="0" />
+      <Item value="GetInfo" priority="0" />
+      <Item value="GetSalesTotal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.ProductStatisticWeekly">
+      <Item value="FilterByProduct" priority="0" />
+      <Item value="ProductInfo" priority="0" />
+      <Item value="CleanTable" priority="2" />
+      <Item value="GetProductInfo" priority="0" />
+      <Item value="GetProductFullInfo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.ProductStatisticWeekly">
+      <Item value="Sale" priority="5" />
+      <Item value="Purchase" priority="1" />
+      <Item value="Period" priority="1" />
+      <Item value="Product" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="Add" priority="0" />
+      <Item value="Capacity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Forecast">
+      <Item value="Product" priority="5" />
+      <Item value="Week" priority="6" />
+      <Item value="Year" priority="4" />
+      <Item value="Stock" priority="2" />
+      <Item value="Purchase" priority="2" />
+      <Item value="Sale" priority="2" />
+      <Item value="FinalStock" priority="3" />
+      <Item value="Safety" priority="3" />
+      <Item value="SafetyCoEf" priority="3" />
+      <Item value="QuantitySuggested" priority="4" />
+      <Item value="ProcessedOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.Forecast&gt;">
+      <Item value="Add" priority="3" />
+      <Item value="Count" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.TransactionHistoryWeekly&gt;">
+      <Item value="Count" priority="2" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataControlField">
+      <Item value="ItemStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableItemStyle">
+      <Item value="Font" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FontInfo">
+      <Item value="Bold" priority="4" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="ApplyStyle" priority="0" />
+      <Item value="Attributes" priority="0" />
+      <Item value="Font" priority="3" />
+      <Item value="RowIndex" priority="1" />
+      <Item value="BorderStyle" priority="0" />
+      <Item value="BorderColor" priority="0" />
+      <Item value="BackColor" priority="0" />
+      <Item value="Cells" priority="0" />
+      <Item value="DataItem" priority="0" />
+      <Item value="FindControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing">
+      <Item value="Color" priority="3" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Black" priority="1" />
+      <Item value="White" priority="0" />
+      <Item value="DarkGray" priority="1" />
+      <Item value="DarkSlateGray" priority="0" />
+      <Item value="LightGray" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FontUnit">
+      <Item value="Unit" priority="0" />
+      <Item value="Type" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Font" priority="0" />
+      <Item value="ForeColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:dotnetCHARTING.Chart">
+      <Item value="DataGrid" priority="1" />
+      <Item value="SeriesCollection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:dotnetCHARTING.SeriesCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:dotnetCHARTING.DataEngine">
+      <Item value="Data" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ChartDirector.XYChart">
+      <Item value="setPlotArea" priority="0" />
+      <Item value="addBarLayer" priority="0" />
+      <Item value="xAxis" priority="3" />
+      <Item value="makeWebImage" priority="0" />
+      <Item value="getHTMLImageMap" priority="0" />
+      <Item value="addLineLayer" priority="4" />
+      <Item value="addBarLayer2" priority="0" />
+      <Item value="addBarLayer3" priority="0" />
+      <Item value="addTitle" priority="0" />
+      <Item value="yAxis" priority="1" />
+      <Item value="addLegend" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ChartDirector.WebChartViewer">
+      <Item value="ImageMap" priority="1" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:double[]">
+      <Item value="SetValue" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string[]">
+      <Item value="SetValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ChartDirector.Mark">
+      <Item value="setLineWidth" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ChartDirector.LineLayer">
+      <Item value="setLineWidth" priority="0" />
+      <Item value="addDataSet" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;PartnerNet.Domain.TransactionHistoryWeekly&gt;">
+      <Item value="Sort" priority="2" />
+      <Item value="Count" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ServerValidateEventArgs">
+      <Item value="IsValid" priority="0" />
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Save" priority="0" />
+      <Item value="Delete" priority="0" />
+      <Item value="CreateCriteria" priority="0" />
+      <Item value="CreateQuery" priority="0" />
+      <Item value="Update" priority="0" />
+      <Item value="SaveOrUpdate" priority="0" />
+      <Item value="GetNamedQuery" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager">
+      <Item value="Product" priority="2" />
+      <Item value="PurchaseOrderItem" priority="0" />
+      <Item value="Provider" priority="1" />
+      <Item value="BreakDown" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.Transactions">
+      <Item value="GetTransaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Transactions">
+      <Item value="Quantity" priority="3" />
+      <Item value="Product" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.PurchaseOrderItem">
+      <Item value="Quantity" priority="1" />
+      <Item value="Product" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.TransactionHistoryWeekly">
+      <Item value="ProductCode" priority="1" />
+      <Item value="Purchase" priority="0" />
+      <Item value="Sale" priority="0" />
+      <Item value="PurchaseOrders" priority="1" />
+      <Item value="Stock" priority="1" />
+      <Item value="Week" priority="1" />
+      <Item value="Year" priority="0" />
+      <Item value="ProductID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business">
+      <Item value="ControllerManager" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager">
+      <Item value="Product" priority="2" />
+      <Item value="ProductStatisticWeekly" priority="0" />
+      <Item value="Forecast" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.ProductSet">
+      <Item value="GetProductSetList" priority="2" />
+      <Item value="GetProductSet" priority="0" />
+      <Item value="CreateNewProductSet" priority="0" />
+      <Item value="AddProductToProductSet" priority="0" />
+      <Item value="GetById" priority="0" />
+      <Item value="DelProductFromProductSet" priority="0" />
+      <Item value="GetByCriteria" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.ProductSet">
+      <Item value="Name" priority="4" />
+      <Item value="Products" priority="3" />
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="14" />
+      <Item value="Relations" priority="0" />
+      <Item value="WriteXml" priority="1" />
+      <Item value="WriteXmlSchema" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Today">
+      <Item value="Year" priority="0" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Columns" priority="6" />
+      <Item value="Rows" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRelationCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTableCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="ItemArray" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DBauer.Web.UI.WebControls.HierarGrid">
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind" priority="0" />
+      <Item value="DataMember" priority="0" />
+      <Item value="RowExpanded" priority="0" />
+      <Item value="Columns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DBauer.Web.UI.WebControls.HierarGridTemplateSelectionEventArgs">
+      <Item value="Row" priority="0" />
+      <Item value="TemplateFilename" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataGridItem">
+      <Item value="DataItem" priority="2" />
+      <Item value="BindingContainer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Control">
+      <Item value="BindingContainer" priority="0" />
+      <Item value="FindControl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumn">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;PartnerNet.Domain.ProductStatisticWeekly&gt;">
+      <Item value="Add" priority="2" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Count" priority="2" />
+      <Item value="IndexOf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="1" />
+      <Item value="DataMember" priority="1" />
+      <Item value="DataBind" priority="1" />
+      <Item value="ItemTemplate" priority="2" />
+      <Item value="Items" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;PartnerNet.Domain.Product&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.IQuery">
+      <Item value="List" priority="5" />
+      <Item value="SetMaxResults" priority="2" />
+      <Item value="SetInt32" priority="5" />
+      <Item value="SetGuid" priority="0" />
+      <Item value="SetEnum" priority="2" />
+      <Item value="SetString" priority="1" />
+      <Item value="SetFirstResult" priority="2" />
+      <Item value="UniqueResult" priority="2" />
+      <Item value="SetDateTime" priority="0" />
+      <Item value="NamedParameters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.ProductInformation">
+      <Item value="ProductProvider" priority="0" />
+      <Item value="Saleaverage" priority="0" />
+      <Item value="Provider" priority="0" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.StockForecast.Templates.Detalle">
+      <Item value="ProductId" priority="1" />
+      <Item value="DataBind" priority="1" />
+      <Item value="Week" priority="0" />
+      <Item value="Year" priority="0" />
+      <Item value="Visible" priority="0" />
+      <Item value="LoadInformation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemEventArgs">
+      <Item value="Item" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="ItemType" priority="2" />
+      <Item value="FindControl" priority="7" />
+      <Item value="DataItem" priority="10" />
+      <Item value="BindingContainer" priority="0" />
+      <Item value="Controls" priority="2" />
+      <Item value="Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration">
+      <Item value="AppSettingsReader" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Common.Config.CurrentDate">
+      <Item value="Year" priority="9" />
+      <Item value="ToShortDateString" priority="1" />
+      <Item value="ToLongDateString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.ProductStatisticWeekly&gt;">
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.Product&gt;">
+      <Item value="Add" priority="2" />
+      <Item value="Count" priority="0" />
+      <Item value="Clear" priority="0" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.ProductSet&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="QueryString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web">
+      <Item value="UI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI">
+      <Item value="WebControls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.WebControls">
+      <Item value="Button" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="Validate" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="ScriptTimeout" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterCommandEventArgs">
+      <Item value="CommandSource" priority="0" />
+      <Item value="Item" priority="3" />
+      <Item value="CommandName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.Provider">
+      <Item value="GetProviderList" priority="2" />
+      <Item value="GetProvider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Provider">
+      <Item value="Name" priority="7" />
+      <Item value="Id" priority="1" />
+      <Item value="ProviderCode" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.Country">
+      <Item value="GetCountryList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Country">
+      <Item value="Name" priority="0" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.PurchaseOrder">
+      <Item value="PurchaseOrderStatus" priority="1" />
+      <Item value="Provider" priority="3" />
+      <Item value="Date" priority="1" />
+      <Item value="PurchaseOrderType" priority="0" />
+      <Item value="PurchaseOrderItems" priority="5" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.PurchaseOrderItem">
+      <Item value="GetPurchaseOrderItemList" priority="1" />
+      <Item value="GeneratePOI" priority="0" />
+      <Item value="UpdatePOIQuantity" priority="0" />
+      <Item value="ChangeStatus" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ImageButton">
+      <Item value="Visible" priority="4" />
+      <Item value="ImageUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Controls_Pager">
+      <Item value="PageChanged" priority="0" />
+      <Item value="PageCount" priority="1" />
+      <Item value="CurrentPage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.PagedDataSource">
+      <Item value="PageCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.PurchaseOrderItem">
+      <Item value="PurchaseOrder" priority="1" />
+      <Item value="Product" priority="7" />
+      <Item value="QuantitySuggested" priority="1" />
+      <Item value="Quantity" priority="6" />
+      <Item value="Forecast" priority="4" />
+      <Item value="Id" priority="0" />
+      <Item value="PurchaseOrderItemStatus" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.PurchaseOrder">
+      <Item value="GetPurchaseOrder" priority="0" />
+      <Item value="GeneratePO" priority="2" />
+      <Item value="GetStatus" priority="0" />
+      <Item value="GetPurchaseOrders" priority="0" />
+      <Item value="GetById" priority="0" />
+      <Item value="CleanTable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlTableRow">
+      <Item value="BgColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.Provider">
+      <Item value="GetProviderList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.PurchaseOrderItem&gt;">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IDictionary">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.PurchaseOrderStatus">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.StockForecast.Templates.DetalleOC">
+      <Item value="Page" priority="0" />
+      <Item value="ProductId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.PurchaseOrderInformation">
+      <Item value="Id" priority="0" />
+      <Item value="Amount" priority="3" />
+      <Item value="Totalcount" priority="3" />
+      <Item value="Arrivaldate" priority="1" />
+      <Item value="Orderdate" priority="1" />
+      <Item value="Provider" priority="0" />
+      <Item value="Type" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.PurchaseOrderType">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.PurchaseOrderItemInformation">
+      <Item value="Id" priority="0" />
+      <Item value="ProductName" priority="0" />
+      <Item value="Amount" priority="1" />
+      <Item value="Price" priority="1" />
+      <Item value="TotalPrice" priority="0" />
+      <Item value="Stock" priority="0" />
+      <Item value="ProductCode" priority="1" />
+      <Item value="Status" priority="0" />
+      <Item value="Quantity" priority="1" />
+      <Item value="QuantitySuggested" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.PurchaseOrderItemInformation&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:double">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewCommandEventArgs">
+      <Item value="CommandName" priority="1" />
+      <Item value="CommandArgument" priority="3" />
+      <Item value="CommandSource" priority="3" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="IndexOf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowCollection">
+      <Item value="ToString" priority="0" />
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewSelectEventArgs">
+      <Item value="NewSelectedIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Provider">
+      <Item value="Id" priority="1" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;Grundfos.ScalaConnector.Product&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml">
+      <Item value="Serialization" priority="0" />
+      <Item value="XmlWriter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Serialization.XmlSerializer">
+      <Item value="Serialize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CrystalDecisions">
+      <Item value="CrystalReports" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CrystalDecisions.Web">
+      <Item value="HtmlReportRender" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CrystalDecisions.CrystalReports.Engine.ReportDocument">
+      <Item value="SetDataSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.PurchaseOrderInformation&gt;">
+      <Item value="[]" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Grundfos.ScalaConnector.ControllerManager.BreakDown">
+      <Item value="GetAll" priority="0" />
+      <Item value="Save" priority="0" />
+      <Item value="GetBreakDownList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.BreakDown">
+      <Item value="Part" priority="2" />
+      <Item value="Product" priority="3" />
+      <Item value="Quantity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager.BreakDown">
+      <Item value="GetBreakDown" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList&lt;PartnerNet.Domain.BreakDown2&gt;">
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.BreakDown2">
+      <Item value="Part" priority="0" />
+      <Item value="Product" priority="0" />
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.BreakDown">
+      <Item value="Part" priority="0" />
+      <Item value="Product" priority="0" />
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.TextWriter">
+      <Item value="NewLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

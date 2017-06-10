@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business
+END
+ControllerManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2858/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/ControllerManager.cs
+END
+FileHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/2262/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/FileHelper.cs
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/2476/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/app.config
+END
+Exceptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/2681/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Exceptions.cs
+END
+PriceManager.Business.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2867/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/PriceManager.Business.csproj
+END
+MenuItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/2837/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/MenuItem.cs
+END
+FilterHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/FilterHelper.cs
+END
+GridHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/GridHelper.cs
+END
+GridHelper.cd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nybble/!svn/ver/830/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/GridHelper.cd
+END
+ControllerDiagram.cd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/938/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/ControllerDiagram.cd
+END

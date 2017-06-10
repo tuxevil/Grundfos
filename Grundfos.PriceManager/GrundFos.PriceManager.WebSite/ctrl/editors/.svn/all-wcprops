@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2879/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors
+END
+CategoryEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2754/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/CategoryEditor.ascx
+END
+DistributorEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/DistributorEditor.ascx.cs
+END
+QuoteRangeEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/nybble/!svn/ver/2848/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteRangeEditor.ascx.cs
+END
+PriceGroupEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/nybble/!svn/ver/2106/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PriceGroupEditor.ascx.designer.cs
+END
+PriceGroupEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/nybble/!svn/ver/2014/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PriceGroupEditor.ascx.cs
+END
+DistributorContactEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/nybble/!svn/ver/2751/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/DistributorContactEditor.ascx.designer.cs
+END
+ProviderEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2471/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/ProviderEditor.ascx
+END
+CurrencyEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2413/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/CurrencyEditor.ascx
+END
+ProviderEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/ProviderEditor.ascx.cs
+END
+CurrencyEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2444/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/CurrencyEditor.ascx.cs
+END
+QuoteEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/nybble/!svn/ver/2758/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteEditor.ascx.designer.cs
+END
+QuoteEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2770/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteEditor.ascx.cs
+END
+PriceListEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/nybble/!svn/ver/2335/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PriceListEditor.ascx.designer.cs
+END
+ProductsEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2754/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/ProductsEditor.ascx
+END
+QuoteLineEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteLineEditor.ascx.designer.cs
+END
+QuoteLineEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nybble/!svn/ver/2879/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteLineEditor.ascx.cs
+END
+PricePoliticsEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/nybble/!svn/ver/2453/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PricePoliticsEditor.ascx.designer.cs
+END
+LookupEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/nybble/!svn/ver/2770/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/LookupEditor.ascx.designer.cs
+END
+LookupEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2770/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/LookupEditor.ascx.cs
+END
+DistributorEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/nybble/!svn/ver/2335/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/DistributorEditor.ascx.designer.cs
+END
+PricePoliticsEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/nybble/!svn/ver/2453/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PricePoliticsEditor.ascx.cs
+END
+QuoteRangeEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/nybble/!svn/ver/2836/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteRangeEditor.ascx.designer.cs
+END
+PriceGroupEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nybble/!svn/ver/2335/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PriceGroupEditor.ascx
+END
+CategoryEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/nybble/!svn/ver/2754/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/CategoryEditor.ascx.designer.cs
+END
+CategoryEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2571/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/CategoryEditor.ascx.cs
+END
+DistributorContactEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/nybble/!svn/ver/2753/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/DistributorContactEditor.ascx
+END
+DistributorContactEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/nybble/!svn/ver/2867/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/DistributorContactEditor.ascx.cs
+END
+CurrencyEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/nybble/!svn/ver/2413/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/CurrencyEditor.ascx.designer.cs
+END
+ProviderEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/nybble/!svn/ver/2471/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/ProviderEditor.ascx.designer.cs
+END
+QuoteEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2758/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteEditor.ascx
+END
+PriceListEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2562/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PriceListEditor.ascx
+END
+PriceListEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PriceListEditor.ascx.cs
+END
+QuoteLineEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteLineEditor.ascx
+END
+ProductsEditor.ascx.designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/nybble/!svn/ver/2754/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/ProductsEditor.ascx.designer.cs
+END
+ProductsEditor.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2588/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/ProductsEditor.ascx.cs
+END
+PricePoliticsEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/nybble/!svn/ver/2453/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/PricePoliticsEditor.ascx
+END
+LookupEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/nybble/!svn/ver/2770/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/LookupEditor.ascx
+END
+DistributorEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2562/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/DistributorEditor.ascx
+END
+QuoteRangeEditor.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nybble/!svn/ver/2836/GrundFos/Grundfos.PriceManager/trunk/GrundFos.PriceManager.WebSite/ctrl/editors/QuoteRangeEditor.ascx
+END

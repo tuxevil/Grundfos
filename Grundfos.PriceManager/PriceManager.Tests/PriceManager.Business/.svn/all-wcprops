@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2859/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Tests/PriceManager.Business
+END
+QuoteTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2763/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Tests/PriceManager.Business/QuoteTest.cs
+END
+DistributorTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2732/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Tests/PriceManager.Business/DistributorTest.cs
+END
+QuoteRangeTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2859/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Tests/PriceManager.Business/QuoteRangeTest.cs
+END

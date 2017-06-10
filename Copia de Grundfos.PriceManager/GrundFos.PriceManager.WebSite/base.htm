@@ -1,0 +1,812 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+   <title>GrundFos - Prices</title>
+   <link rel="stylesheet" href="/css/reset-fonts-grids.css" type="text/css" />
+   <link rel="stylesheet" href="/css/jquery-ui-1.7.1.custom.css" type="text/css" />
+   <link rel="stylesheet" href="/css/main.css" type="text/css" />
+   <style type="text/css">
+a:link, a:visited {
+    color: #03c;
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: #03c;
+  }
+
+  #hd {
+    background-color: #036;
+  }
+
+  #hd h1 {
+    color: #fff;
+  }
+
+  #P2P_selector {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  #hd h3, #hd h3 a:link, #hd h3 a:visited {
+    color: #fff;
+  }
+
+  #hd h3 a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+  }
+
+  #hd h3 a.current:link, #hd h3 a.current:visited {
+    color: #fff;
+  }
+
+  #hd h3 a.current:hover {
+    color: #fff;
+    background-color: #036;
+  }
+
+  #hd h1 a:link, #hd h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #hd h1 a:hover {
+    color: #fff;
+    background-color: #036;
+    text-decoration: underline;
+  }
+
+  #hd h1 span {
+    color: #fff;
+  }
+
+  #Tabs a:link, #Tabs a:visited {
+    background-color: #1A4F85;
+    color: #fff;
+    border: 1px solid #036;
+    border-bottom: 1px solid #1A4F85;
+  }
+
+  #Tabs ul#MainTabs a:link.current, #Tabs ul#MainTabs a:visited.current,
+  div#CategoryList a.current:link, div#CategoryList a.current:visited {
+    color: #090;
+  }
+
+  #Tabs a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+    border-bottom: 1px solid #1D64AD;
+  }
+
+  #Tabs li#AdminTab a:link, #Tabs li#AdminTab a:visited {
+    color: #fff;
+    background-color: #036;
+    border-bottom: 1px solid #036;
+    text-decoration: underline;
+  }
+
+  #Tabs li#AdminTab a:hover {
+    color: #fff;
+  }
+
+  #Tabs li#AdminTab a.current {
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+   <script language="javascript" type="text/javascript" src="/js/jquery-1.3.1.min.js"></script>
+   <script language="javascript" type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+   <script language="javascript" type="text/javascript" src="/js/jquery.bt.min.js"></script>
+   
+   <script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        // Change row bg on hover
+        $(".maingrid tr").hover(markOverRow, markOverRow);
+        $(".maingrid td").not(".action").click(openChangePricePopup).css("cursor", "pointer");
+        $(".maingrid td :image").click(openChangePricePopup);
+        //$(".close_popup").click(closePopup).css("cursor", "pointer");
+        
+        $("#flipchecks").click(flipChecks);
+        $(".maingrid :check").change(changeRow);
+        $("#do_new_selection").click(function() { $("#new_selection").show(); $("#choose_selection").hide(); });
+        $("#do_choose_selection").click(function() { $("#choose_selection").show(); $("#new_selection").hide(); });
+        $("#addToSelection").click(openAddSelectionPopup);
+        
+        $(".pricefield").keypress(price_keypress);
+        $('.pricefield').keydown(function(e){
+            if (!(e.keyCode == 109 || e.keyCode == 189 || e.keyCode == 110 || e.keyCode == 46 || e.keyCode == 190 || e.keyCode == 8 || e.keyCode == 9 || e.keyCode == 13 || (e.keyCode >= 96 && e.keyCode <= 105) || (e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 37 && e.keyCode <= 40)))
+                return false;
+        });
+        
+        $("#clean").click(clean);
+        
+        $("#flip_filters").click(flip_filters);
+        $("#do_change_price_selection").click(openChangePricePopupTotal);
+        
+        var dlg = $(".popup").dialog({autoOpen:false, resizable:false});
+        
+        $('[title]').bt();
+    });
+    
+    function flip_filters()
+    {
+        if ($("#flip_filters").text() == "Ocultar")
+        {
+            $("#filters").hide();
+            $("#filters_data").animate({
+                  "opacity": "show"
+                }, "slow");
+            $("#flip_filters").text("Mostrar");
+        }
+        else 
+        {
+            $("#filters").animate({
+                  "opacity": "show"
+                }, "slow");
+            $("#filters_data").hide();
+            $("#flip_filters").text("Ocultar");
+        }
+    }
+    
+    function clean() {
+        $(":text").val("");
+        $("#familia").val("1");
+    }
+    
+    function price_keypress(e)
+    {
+        if (e.which == 46 || e.which == 190 || (e.which >= 48 && e.which <= 57)) {
+            if ($(this).attr("id") != "price_val")
+                $("#price_val").val("");
+                
+            if ($(this).attr("id") != "price_pct")
+                $("#price_pct").val("")
+                
+            if ($(this).attr("id") != "price_ctr")
+                $("#price_ctr").val("");
+                
+            recalculate_final_price($(this));                    
+        }
+    }
+    
+    function recalculate_final_price()
+    {
+    
+    }
+    
+    function flipChecks()
+    {
+        $(".maingrid :check").each(
+        function() {
+            var isChecked = $(this).is(":checked");
+            $(this).attr("checked",!isChecked);
+
+            if (!isChecked)
+                if (!$(this).hasClass("selected")) $(this).addClass("selected");
+            else 
+                $(this).removeClass("selected");
+        }
+        );
+    }
+    
+    function changeRow(ev) 
+    {
+        if ($(this).hasClass("selected"))
+            $(this).removeClass("selected");
+        else
+            $(this).addClass("selected");
+    }
+    
+    function markOverRow(ev) 
+    {
+        if ($(this).hasClass("over"))
+            $(this).removeClass("over");
+        else
+            $(this).addClass("over");
+    }
+    
+    function openChangePricePopupTotal(ev) {
+        $("#group_val").hide();
+        $("#group_result").hide();
+        
+        $("#productInfo").text("Actualizando precios a 30 registros marcados");
+        
+        openPricePopup(ev);
+    }
+    
+    function openChangePricePopup(ev)
+    {
+        $("#group_val").show();
+        $("#group_result").show();
+        
+        var id = $(this).parents("tr").eq(0).attr("id").replace(/pp/,"");
+        $(this).attr("title","Editing ProductPrice ID: " + id);
+        
+        openPricePopup(ev);
+    }
+    
+    function openPricePopup(ev) {
+        $('div#price_change').dialog('open').parent().appendTo(jQuery("form:first"));
+        
+/*        $.blockUI({  
+            message: $('div#price_change')
+        });*/
+    }
+    
+    function openAddSelectionPopup(ev)
+    {
+        $.blockUI({  
+            message: $('div#add_selection')
+        });
+    }
+    
+        
+    function closePopup(ev)
+    {
+        $.unblockUI();
+    }
+    
+   </script>
+</head>
+<body>
+    <form>
+    <div id="doc3">
+       <div id="hd" class="global">
+       
+        <h3>
+            Leonardo Rodriguez
+            <span class="pipe">|</span><a href="/people/1678676/edit" title="Review and edit your account information">Mis datos</a>
+            <span class="pipe">|</span><a href="/logout" title="Log-out and clear the cookie off your machine">Salir</a>
+        </h3>
+       
+       <h1><span>Lista de Precios</span></h1>
+       <div id="Tabs"> 
+        <ul id="MainTabs"> 
+          <li><a href="/search" >Buscar</a></li> 
+          <li><a href="/selections">Bombas usadas</a></li> 
+          <li><a href="/selections" class="current" >Bombas Nuevas</a></li> 
+          <li style="float: right"><a href="/selections">Administración</a></li> 
+        </ul> 
+        </div> 
+       </div>
+       <div id="bd">
+        <div class="yui-b">
+        <div class="yui-g">
+        
+            <div class="sidebar">
+
+            <div class="col">
+            
+                <div class="page_header"> 
+                  
+                    <div class="page_header_links"> 
+                      Artículos en la selección: <b>238</b> | <a id="flip_filters">Ocultar</a>
+                    </div> 
+                  
+                    <h1>Filtrando</h1>
+                </div>
+               
+                <div class="content">
+
+                <div id="filters">
+                
+                <div id="selections" class="box">
+                    <h1>Selecciones</h1>
+                    <ul>
+                    <li><a href="">Bombas usadas</a></li>
+                    <li><a href="">Bombas que no van ni para atras</a></li>
+                    <li class="current"><a href="">Que bomba!</a></li>
+                    <li><a href="">Bombas usadas</a></li>
+                    <li><a href="">Bombas que no van ni para atras</a></li>
+                    <li><a href="">Bombas que no van ni para atras</a></li>
+                    </ul>
+                    <div class="rcorner">Anterior | Siguiente</div>
+                </div>
+                
+                <div id="filterForm" class="box">
+                <h1>Filtros</h1>
+                <fieldset>
+                <p><label for="txtTest">Text</label><input type="textbox" name="txtTest" /></p>
+                <p><label for="chkHertz50">50Hz</label><input type="checkbox" name="chkHertz50" /></p>
+                <p><label for="chkHertz60">60Hz</label><input type="checkbox" name="chkHertz60" /></p>
+                <p><label for="chkHertz60">Familia</label><select id="familia"><option value="1">Familia 1</option><option value="2">Familia 2</option></select></p>
+                <input type="button" id="btnFilter" class="button" value="Filtrar" /> o <a href="#" id="clean">Limpiar</a>
+                </fieldset>
+                
+                </div>
+                
+                </div>
+                
+                <div id="filters_data">
+                    <div class="blankBar">
+                      <p><span class="big">Se encuentra filtrando su selección [Que bomba] por:</span>&nbsp; 50hz <a href="">[x]</a>, Bombas de Hidrogeno <a href="">[x]</a>, -3 &lt; % CTR &lt; +3 <a href="">[x]</a></p>
+                    </div>
+                </div>
+             
+                <div id="grid">
+                
+                <div class="actions">
+                    <span style="float:right">
+                    Registros por página:&nbsp;<select name="Pepe"><option>10</option><option>50</option><option>100</option></select>
+                    </span>
+                    <ul>
+                    <li class="pressed"><a href="#">Marcar toda la selección</a></li>
+                    <li>|</li>
+                    <li><a href="#">Desmarcar toda la selección</a></li>
+                    </ul>
+                </div>
+                                
+                <table class="maingrid">
+                <thead>
+                <tr>
+                    <th class="action"><a id="flipchecks">+/-</a></th>
+                    <th class="action">&nbsp;</th>
+                    <th class="action">Hz</th>
+                    <th class="description"><a href="caposs" class="up">Descripción</a></th>
+                    <th class="price"><a href="caposs" class="down">Precio</a></th>
+                    <th class="price">Precio 2</th>
+                    <th class="price">Precio 3</th>
+                    <th class="price">Precio 4</th>
+                    <th class="price">CRT</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr id="pp1">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"> <input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz50">50Hz</td>
+                        <td>Bombita de agua</td>
+                        <td><span class="up">USD 1.23</span></td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>
+                    <tr id="pp2">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz50">50Hz</td>
+                        <td>Bombita de agua 2</td>
+                        <td><span class="up">USD 1.23</span></td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>            
+                    <tr id="pp3">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 3</td>
+                        <td title="USD 1.32 (-0.10)" class="down">USD 1.23</td>
+                        <td class="up">USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp4">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 4</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp5">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 5</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp6">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 6</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp7">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz50">50Hz</td>
+                        <td>Bombita de agua 7</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp8">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz50">50Hz</td>
+                        <td>Bombita de agua 8</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp9">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz50">50Hz</td>
+                        <td>Bombita de agua 9</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="pp10">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr>       
+                    <tr id="Tr1">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr2">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr3">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr4">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr5">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr6">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr7">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr8">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr9">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr10">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr11">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr12">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr13">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr14">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr15">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr16">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr17">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr18">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr19">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr20">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr21">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    <tr id="Tr22">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                                                            <tr id="Tr23">
+                        <td class="action"><input type="checkbox" /></td>
+                        <td class="action"><input type="image" src="/img/edit.jpg" /></td>
+                        <td class="hz60">60Hz</td>
+                        <td>Bombita de agua 10</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>USD 1.23</td>
+                        <td>% 1.23</td>
+                    </tr> 
+                    </tbody>
+                </table>
+                
+                <div class="actions">
+                    <div class="firstline">
+                    <span style="float: right" class="pager"><strong>1</strong> | <a href="#">2</a> | <a href="#">3</a> | <a href="#">4</a> | <a href="#">5</a> | <a href="#">6</a> | <a href="#">7</a> | <a href="#">8</a> | <a href="#">9</a> | <a href="#">&gt;</a></span>
+                    <span><strong>30</strong> registros marcados de <strong>238</strong> seleccionados.<br /></span>
+                    </div>
+                    <a id="do_change_price_selection">Modificar Precio</a> | <a href="#">Exportar</a> | <a id="addToSelection">Agregar a Selección</a> | <a href="#">Quitar de Selección [Que bomba!]</a>
+                </div>
+                </div>
+                
+                </div>
+            </div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        </div>
+        </div>
+       <div id="ft" class="footer">
+       
+        <p><span class="pipe_series">
+          <a href="http://www.basecamphq.com/help/?e=bGVvbmFyZG8ucm9kcmlndWV6QG55YmJsZWdyb3VwLmNvbQ%3D%3D&amp;u=aHR0cHM6Ly9ueWJibGVncm91cC5wcm9qZWN0cGF0aC5jb20vY2xpZW50cw%3D%3D&amp;n=bGVvbmFyZG8ucm9kcmlndWV6&amp;f=TGVvbmFyZG8gUm9kcmlndWV6" target="_blank">Help/Support</a> |
+          <a href="http://productblog.37signals.com" target="_blank">Product blog</a> |
+          <a href="http://forum.37signals.com/basecamp/" target="_blank">Customer forum</a>
+
+        </span></p>
+        <p><a href="http://basecamphq.com?source=bcappfooter" target="_blank">Basecamp</a> is a service of <a href="http://www.37signals.com" target='_blank'>37signals</a>.&nbsp;&nbsp;<span class="pipe_series"><a href="http://www.basecampHQ.com/privacy.html" target="_blank">Privacy Policy</a> | <a href="http://www.basecampHQ.com/terms.html" target="_blank">Terms of Service</a></span></p>
+
+       </div>
+    </div>
+    
+    <div id="price_change" title="Change Price of Product 1" class="popup">
+            <fieldset>
+              <div id="group_val">
+                <label for="price">Valor (USD):</label>
+                <input type="text" name="price_val" id="price_val" class="input pricefield" />
+                <span class="message">USD 1.232</span>
+              </div>
+
+              <div>
+                <label for="price_pct">Valor (%)</label>
+                <input type="text" name="price_pct" id="price_pct" class="input pricefield"/>
+              </div>
+
+              <div>
+                <label for="ctr">CTR (%)</label>
+                <input type="text" name="price_ctr" id="price_ctr" class="input pricefield"/>
+                <span class="message">% 23</span>
+              </div>
+              
+              <div id="group_result">
+                <label>Precio Final</label>
+                <span class="result">USD 1.431</span>
+              </div>
+
+              <div style="text-align:center">
+                 <input class="button" type="button" value="Actualizar"/> o <a class="close_popup">Cerrar</a>
+              </div>
+           
+           </fieldset>
+    </div>
+    
+    <div id="add_selection" class="popup">
+       <h1>Agregar a Selección</h1>
+       
+        <fieldset id="choose_selection">
+          <div>
+            <label for="selection">Selección:</label>
+            <select name="selection"><option>--Seleccionar--</option></select>
+            <a id="do_new_selection">O cree una nueva...</a>
+          </div>
+          
+          <div>
+            
+          </div>
+        </fieldset>
+
+        <fieldset id="new_selection" style="display:none">
+          <div>
+            <label for="description">Descripción:</label>
+            <input type="text" name="description" id="Text2" maxlength="64" class="input" />
+            <a id="do_choose_selection">Seleccionar...</a>
+          </div>
+          
+        </fieldset>       
+        
+        <div style="text-align:center">
+            <input class="button" type="button" value="Actualizar"/> o <a class="close_popup">Cerrar</a>
+        </div>       
+        
+   </div>
+   
+    </form>   
+</body>
+</html>

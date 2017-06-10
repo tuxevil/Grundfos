@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PriceManager.Core.ProductAudit" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Audit.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Core.ProductPriceAudit">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Audit.cs</FileName>
+      <HashCode>MAADCDAAAwAAAAAAABCQAAAAgAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceCurrency" />
+      <Property Name="PriceSellCurrency" />
+      <Property Name="Product" />
+      <Property Name="PriceList" />
+    </ShowAsAssociation>
+    <Members>
+      <Field Name="cTM" Hidden="true" />
+      <Field Name="cTR" Hidden="true" />
+      <Field Name="price" Hidden="true" />
+      <Field Name="priceCurrency" Hidden="true" />
+      <Field Name="priceList" Hidden="true" />
+      <Field Name="priceSell" Hidden="true" />
+      <Field Name="priceSellCurrency" Hidden="true" />
+      <Field Name="product" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.UserAudit">
+    <Position X="5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\UserAudit.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAACAAAAAgAAAAQAAAAEAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="action" Hidden="true" />
+      <Field Name="coments" Hidden="true" />
+      <Field Name="products" Hidden="true" />
+      <Field Name="userID" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.CtrRange">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CtrRange.cs</FileName>
+      <HashCode>AAAAEAAAABAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="max" Hidden="true" />
+      <Field Name="min" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Currency">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Currency.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="value" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Discount">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Discount.cs</FileName>
+      <HashCode>AAAAAAAAAAAggAAAIIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="maxDiscount" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Family">
+    <Position X="2" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Family.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAABAIAAAQAQAAAAEAAAAAAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="parent" Hidden="true" />
+      <Field Name="products" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.LastProductPrice">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\LastProductPrice.cs</FileName>
+      <HashCode>EAADABAAAwAAoAAAACAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="id" Hidden="true" />
+      <Field Name="pCR" Hidden="true" />
+      <Field Name="price" Hidden="true" />
+      <Field Name="priceList" Hidden="true" />
+      <Field Name="product" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.PriceList">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PriceList.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAABAAAAAwAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Discount" />
+      <Property Name="Type" />
+    </ShowAsAssociation>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="discount" Hidden="true" />
+      <Field Name="type" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Product">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Product.cs</FileName>
+      <HashCode>AAQIAAAECAAggACAIAAgADIAIgAwAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PricePurchaseCurrency" />
+      <Property Name="PriceSuggestCurrency" />
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Families" />
+      <Property Name="Selections" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="code" Hidden="true" />
+      <Field Name="description" Hidden="true" />
+      <Field Name="families" Hidden="true" />
+      <Field Name="pricePurchase" Hidden="true" />
+      <Field Name="pricePurchaseCurrency" Hidden="true" />
+      <Field Name="priceSuggest" Hidden="true" />
+      <Field Name="priceSuggestCurrency" Hidden="true" />
+      <Field Name="selections" Hidden="true" />
+      <Field Name="status" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.ProductPrice">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\ProductPrice.cs</FileName>
+      <HashCode>MAADCDAAAwAAAAAAABCQAgAAgACAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceCurrency" />
+      <Property Name="PriceSellCurrency" />
+      <Property Name="LastProductPrice" />
+      <Property Name="Product" />
+      <Property Name="PriceList" />
+    </ShowAsAssociation>
+    <Members>
+      <Field Name="cTM" Hidden="true" />
+      <Field Name="cTR" Hidden="true" />
+      <Field Name="lastProductPrice" Hidden="true" />
+      <Field Name="price" Hidden="true" />
+      <Field Name="priceCurrency" Hidden="true" />
+      <Field Name="priceList" Hidden="true" />
+      <Field Name="priceSell" Hidden="true" />
+      <Field Name="priceSellCurrency" Hidden="true" />
+      <Field Name="product" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.SearchParams">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\SearchParams.cs</FileName>
+      <HashCode>AFCEBBBQgAQwAAABIAAIAQAAGAAAABAAAABIEAAATBA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="category" Hidden="true" />
+      <Field Name="ctrRange" Hidden="true" />
+      <Field Name="currency" Hidden="true" />
+      <Field Name="description" Hidden="true" />
+      <Field Name="family" Hidden="true" />
+      <Field Name="marked" Hidden="true" />
+      <Field Name="pagecount" Hidden="true" />
+      <Field Name="pageNumber" Hidden="true" />
+      <Field Name="pageSize" Hidden="true" />
+      <Field Name="productType" Hidden="true" />
+      <Field Name="selection" Hidden="true" />
+      <Field Name="sortColumn" Hidden="true" />
+      <Field Name="sortOrder" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Selection">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Selection.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="products" Hidden="true" />
+    </Members>
+  </Class>
+  <Enum Name="PriceManager.Core.ProductStatus">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\ProductStatus.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PriceManager.Core.ProductType" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enums.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

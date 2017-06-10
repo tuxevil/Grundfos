@@ -1,0 +1,33 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "Database"
+   MSDTVersion = "80"
+   SccProjectName = "Svn"
+   SccLocalPath = "Svn"
+   SccAuxPath = "Svn"
+   SccProvider = "SubversionScc"
+   Begin Folder = "Create Scripts"
+      Begin Folder = "DEV"
+         Begin Folder = "v 1.0.1"
+            Script = "DB_PriceManager_Schema.sql"
+         End
+      End
+   End
+   Begin Folder = "Change Scripts"
+      Begin Folder = "V1.0.28"
+         Script = "update to V1.0.28.sql"
+      End
+      Begin Folder = "V1.0.29"
+         Script = "script roles.sql"
+      End
+      Begin Folder = "V1.0.3BETA"
+         Script = "DBmodV1.0.3BETA.sql"
+      End
+      Begin Folder = "V1.0.8"
+         Script = "sp_DiscountModification.sql"
+      End
+   End
+   Begin DBRefFolder = "Database References"
+   End
+   Begin Folder = "Queries"
+   End
+End

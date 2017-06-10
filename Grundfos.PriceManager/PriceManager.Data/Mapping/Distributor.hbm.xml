@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="Distributor" table="Distributor" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="Code" column="Code" type="System.String" not-null="true" />
+    <property name="Name" column="Name" type="System.String" not-null="true" />
+    <property name="Description" column="Description" type="System.String" not-null="false" />
+    <property name="DistributorStatus" column="Status" type="PriceManager.Core.DistributorStatus, PriceManager.Core" not-null="true"/>
+    
+    <many-to-one name="SaleConditions" column="SaleConditions" class="Lookup" cascade="none" />
+    
+    <many-to-one name="Country" column="CountryId" class="Country" cascade="none" />
+    <property name="Email" column="Email" type="System.String" not-null="false" />
+    <property name="AlternativeEmail" column="AlternativeEmail" type="System.String" not-null="false" />
+    <property name="Telephone" column="Telephone" type="System.String" not-null="false" />
+    <property name="Contact" column="Contact" type="System.String" not-null="false" />
+    <property name="Discount" column="Discount" type="System.Decimal" not-null="false" />
+    <many-to-one name="PriceList" column="PriceListId" class="PriceList" cascade="none" />
+    <many-to-one name="PaymentTerm" column="PaymentTerm" class="Lookup" cascade="none" />
+    
+    <property name="Address" column="Address" type="System.String" not-null="false" />
+    <property name="Fax" column="Fax" type="System.String" not-null="false" />
+    <property name="SalesTaxCode" column="SalesTaxCode" type="System.String" not-null="false" />
+    <property name="ScalaPaymentTerm" column="ScalaPaymentTerm" type="System.String" not-null="false" />
+    <property name="SalePrevYear" column="SalePrevYear" type="System.String" not-null="false" />
+    <property name="SaleYTD" column="SaleYTD" type="System.String" not-null="false" />
+    <property name="ProfitYTD" column="ProfitYTD" type="System.String" not-null="false" />
+    <property name="Comment" column="Comment" type="System.String" not-null="false" />
+    <property name="ScalaCountryCode" column="ScalaCountryCode" type="System.String" not-null="false" />
+    <property name="CompleteName" column="CompleteName" type="System.String" not-null="false" />
+    <property name="ImpExpCustomer" column="ImpExpCustomer" type="System.String" not-null="false" />
+    <many-to-one name="Type" column="Type" class="Lookup" cascade="none" />
+
+    <set name="Quotes" table="Quote" lazy="true" cascade="none" order-by="CreatedOn DESC">
+      <key column="DistributorId"/>
+      <one-to-many class="Quote"/>
+    </set>
+
+    <set name="Contacts" table="Contact" lazy="true" cascade="all-delete-orphan" order-by="LastName ASC">
+      <key column="DistributorId"/>
+      <one-to-many class="Contact"/>
+    </set>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

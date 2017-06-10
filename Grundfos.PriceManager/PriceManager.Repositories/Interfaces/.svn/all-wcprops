@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nybble/!svn/ver/2684/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Repositories/Interfaces
+END
+IContactRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2681/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Repositories/Interfaces/IContactRepository.cs
+END
+IRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2684/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Repositories/Interfaces/IRepository.cs
+END

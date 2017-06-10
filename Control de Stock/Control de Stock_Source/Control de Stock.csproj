@@ -1,0 +1,870 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F29E78DB-9A7C-4331-BE89-3B021A021262}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Control de Stock</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Control de Stock</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Interop.DateCalc">
+      <Name>Interop.DateCalc</Name>
+      <HintPath>Interop.DateCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="mscorcfg">
+      <Name>mscorcfg</Name>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Name>System.Messaging</Name>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <Name>System.ServiceProcess</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+      <HintPath>System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ButtonColumnEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedConsPosSinInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedConsultaOE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedConsultaOVExped.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedConsultaOVNov.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedConsultaOVPendEnt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedConsultaOVPendExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedFcProfExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedFcProfExpIng.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedGenOCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedGenOCompraExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedlisTerminales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedOCGen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedOCGenExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepDifInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepDifOCProv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepEnsXFecha.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepEnsXFechaXGrupo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepInvFis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOAPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOAPendCal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOAPendCalAtr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOCConfPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOCPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOCPend1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOCPendConf.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOVExp1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOVExp2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOVPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOVPend1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepOVPend3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepProdPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepProdPend2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepProdPend3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepProdPend4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepProdPend5.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRechInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRegPedExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRMCont.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRMCont2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRMCont3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRMCont4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRMCont5.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CachedRepRMDesp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ConsPosSinInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ConsultaOE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ConsultaOVExped.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ConsultaOVNov.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ConsultaOVPendEnt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\ConsultaOVPendExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\CustomDataGridTextBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataConsultaOE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataDetDes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataFcProfExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGesEnsObs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGridButtonColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGridColumnStylePadding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGridComboBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGridLabelColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGridProgressBarColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataGrupoProd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataInventario.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataNovedadesOV.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataOCPendConf.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataOVExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataRMDesp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTermi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpGesEns.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpOCConfPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpOCGen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpOCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpOCompraExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpOVExped.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DataTmpRegPedExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DSDifInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DSOAPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DSOCPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DSOVPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\DSPrepPed.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\FcProfExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\FcProfExpIng.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmBorrarRecep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmBusqClixNom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmBusqProdxDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsEns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsEns1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsInv1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsInv1_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsInv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsultaOV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsultaOV1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsultaOV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmConsultaOV3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmDifOCProv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmDifOCProv1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmDiscrepanciasOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmEtiqRetStkOE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmFcProfExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmFcProfExp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmFcProfExp2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmFcProfExp3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenDifInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenDifInv1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOC1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOC2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOC3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOCExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOCExp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOCExp2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmGenOCExp3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmMenuEns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmMenuExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmMenuOCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmMenuOV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmMenuOVExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmMenuPpal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmPrepPed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmPrepPed1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmPrepPed2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRecepcionOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRecepcionOC0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmReclamosOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmReclamosOCManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRecOCManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRecOCManual1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepDifInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepDifInv1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepDifInv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepEnsXFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepEnsXFecha1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepInvFis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepInvFis1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOAPend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOAPend1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOAPend2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOCConfPend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOCConfPend1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOCPend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOCPend1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOCPendConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOCPendConf1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOVExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOVExp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOVPend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepOVPend1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepProdPendExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepProdPendExp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepRegPedExp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepRegPedExp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepRMControlados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepRMControlados1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepRMDesp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmRepRMDesp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmSelecDesp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmTerminales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\frmTerminales1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\GenOCompra.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\GenOCompraExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\lisTerminales.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\OCGen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\OCGenExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\PaintRowEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\Recepcion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepDifInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepDifOCProv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepEnsXFecha.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepEnsXFechaXGrupo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepInvFis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOAPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOAPendCal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOAPendCalAtr.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOCConfPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOCPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOCPend1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOCPendConf.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOVExp1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOVExp2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOVPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOVPend1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepOVPend3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepProdPend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepProdPend2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepProdPend3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepProdPend4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepProdPend5.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRechInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRegPedExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRMCont.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRMCont2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRMCont3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRMCont4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRMCont5.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\RepRMDesp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SistemaPC\Variables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="SistemaPC.ConsPosSinInv.resx" />
+    <EmbeddedResource Include="SistemaPC.ConsPosSinInv.rpt" />
+    <EmbeddedResource Include="SistemaPC.ConsultaOE.rpt" />
+    <EmbeddedResource Include="SistemaPC.ConsultaOVExped.rpt" />
+    <EmbeddedResource Include="SistemaPC.ConsultaOVNov.rpt" />
+    <EmbeddedResource Include="SistemaPC.ConsultaOVPendEnt.rpt" />
+    <EmbeddedResource Include="SistemaPC.ConsultaOVPendExp.rpt" />
+    <EmbeddedResource Include="SistemaPC.CustomDataGridTextBoxColumn.resx" />
+    <EmbeddedResource Include="SistemaPC.DataGridButtonColumn.resx" />
+    <EmbeddedResource Include="SistemaPC.DataGridComboBoxColumn.resx" />
+    <EmbeddedResource Include="SistemaPC.DataGridLabelColumn.resx" />
+    <EmbeddedResource Include="SistemaPC.DataGridProgressBarColumn.resx" />
+    <EmbeddedResource Include="SistemaPC.FcProfExp.rpt" />
+    <EmbeddedResource Include="SistemaPC.FcProfExpIng.resx" />
+    <EmbeddedResource Include="SistemaPC.FcProfExpIng.rpt" />
+    <EmbeddedResource Include="SistemaPC.frmBorrarRecep.resx" />
+    <EmbeddedResource Include="SistemaPC.frmBusqClixNom.resx" />
+    <EmbeddedResource Include="SistemaPC.frmBusqProdxDesc.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsEns.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsEns1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsInv.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsInv1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsInv1_1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsInv2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsultaOV.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsultaOV1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsultaOV2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmConsultaOV3.resx" />
+    <EmbeddedResource Include="SistemaPC.frmDifOCProv.resx" />
+    <EmbeddedResource Include="SistemaPC.frmDifOCProv1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmDiscrepanciasOC.resx" />
+    <EmbeddedResource Include="SistemaPC.frmEtiqRetStkOE.resx" />
+    <EmbeddedResource Include="SistemaPC.frmFcProfExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmFcProfExp1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmFcProfExp2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmFcProfExp3.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenDifInv.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenDifInv1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOC.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOC1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOC2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOC3.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOCExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOCExp1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOCExp2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmGenOCExp3.resx" />
+    <EmbeddedResource Include="SistemaPC.frmInventario.resx" />
+    <EmbeddedResource Include="SistemaPC.frmMenuEns.resx" />
+    <EmbeddedResource Include="SistemaPC.frmMenuExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmMenuOCompra.resx" />
+    <EmbeddedResource Include="SistemaPC.frmMenuOV.resx" />
+    <EmbeddedResource Include="SistemaPC.frmMenuOVExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmMenuPpal.resx" />
+    <EmbeddedResource Include="SistemaPC.frmPrepPed.resx" />
+    <EmbeddedResource Include="SistemaPC.frmPrepPed1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmPrepPed2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRecepcionOC.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRecepcionOC0.resx" />
+    <EmbeddedResource Include="SistemaPC.frmReclamosOC.resx" />
+    <EmbeddedResource Include="SistemaPC.frmReclamosOCManual.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRecOCManual.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRecOCManual1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepDifInv.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepDifInv1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepDifInv2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepEnsXFecha.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepEnsXFecha1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepInvFis.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepInvFis1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOAPend.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOAPend1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOAPend2.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOCConfPend.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOCConfPend1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOCPend.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOCPend1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOCPendConf.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOCPendConf1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOVExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOVExp1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOVPend.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepOVPend1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepProdPendExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepProdPendExp1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepRegPedExp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepRegPedExp1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepRMControlados.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepRMControlados1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepRMDesp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmRepRMDesp1.resx" />
+    <EmbeddedResource Include="SistemaPC.frmSelecDesp.resx" />
+    <EmbeddedResource Include="SistemaPC.frmTerminales.resx" />
+    <EmbeddedResource Include="SistemaPC.frmTerminales1.resx" />
+    <EmbeddedResource Include="SistemaPC.GenOCompra.rpt" />
+    <EmbeddedResource Include="SistemaPC.GenOCompraExp.resx" />
+    <EmbeddedResource Include="SistemaPC.GenOCompraExp.rpt" />
+    <EmbeddedResource Include="SistemaPC.lisTerminales.rpt" />
+    <EmbeddedResource Include="SistemaPC.OCGen.rpt" />
+    <EmbeddedResource Include="SistemaPC.OCGenExp.resx" />
+    <EmbeddedResource Include="SistemaPC.OCGenExp.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepDifInv.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepDifOCProv.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepEnsXFecha.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepEnsXFechaXGrupo.resx" />
+    <EmbeddedResource Include="SistemaPC.RepEnsXFechaXGrupo.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepInvFis.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOAPend.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOAPendCal.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOAPendCalAtr.resx" />
+    <EmbeddedResource Include="SistemaPC.RepOAPendCalAtr.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOCConfPend.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOCPend.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOCPend1.resx" />
+    <EmbeddedResource Include="SistemaPC.RepOCPend1.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOCPendConf.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOVExp1.resx" />
+    <EmbeddedResource Include="SistemaPC.RepOVExp1.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOVExp2.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOVPend.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOVPend1.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepOVPend3.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepProdPend.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepProdPend2.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepProdPend3.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepProdPend4.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepProdPend5.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRechInv.resx" />
+    <EmbeddedResource Include="SistemaPC.RepRechInv.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRegPedExp.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRMCont.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRMCont2.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRMCont3.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRMCont4.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRMCont5.rpt" />
+    <EmbeddedResource Include="SistemaPC.RepRMDesp.rpt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/Database/Change%20Scripts/V2.0.3
+END
+update V2.0.2.sql
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/Database/Change%20Scripts/V2.0.3/update%20V2.0.2.sql
+END

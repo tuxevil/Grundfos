@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="IQuoteNotification" table="QuoteNotification" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+    <discriminator column="Type" not-null="true" type="System.String" />
+    
+    <property name="Name" column="Name" type="System.String" not-null="true"/>
+    <property name="Email" column="Email" type="System.String" not-null="true"/>
+    <many-to-one name="Quote" column="QuoteId" class="Quote" cascade="none" />
+    
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+
+    <subclass name="QuoteNotification" discriminator-value="1">
+    </subclass>
+    <subclass name="ContactQuoteNotification" discriminator-value="2">
+      <many-to-one name="Contact" column="ContactId" class="Contact" cascade="none" />
+    </subclass>
+  </class>
+</hibernate-mapping>

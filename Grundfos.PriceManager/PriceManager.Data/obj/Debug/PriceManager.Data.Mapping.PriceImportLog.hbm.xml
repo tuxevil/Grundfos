@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceImportLog" table="PriceImportLog" >
+    <id name="ID" type="System.Guid" column="Id">
+      <generator class="guid.comb"/>
+    </id>
+    <many-to-one name="PriceImport" column="PriceImportId" class="PriceImport" cascade="none" />
+    <property name="CodGrundfos" column="CodGrundfos" type="System.String" not-null="false" />
+    <property name="CodProvider" column="CodProvider" type="System.String" not-null="false" />
+    <property name="Model" column="Model" type="System.String" not-null="false" />
+    <property name="Description" column="Description" type="System.String" not-null="false" />
+    <property name="Provider" column="Provider" type="System.String" not-null="false" />
+    <property name="Frequency" column="Frequency" type="System.String" not-null="false" />
+    <property name="TP" column="TP" type="System.Decimal" not-null="false" />
+    <property name="TPCurrency" column="TPCurrency" type="System.String" not-null="false" />
+    <property name="GRP" column="GRP" type="System.Decimal" not-null="false" />
+    <property name="GRPCurrency" column="GRPCurrency" type="System.String" not-null="false" />
+    <property name="PL" column="PL" type="System.Decimal" not-null="false" />
+    <property name="PLCurrency" column="PLCurrency" type="System.String" not-null="false" />
+    <property name="Cat1" column="Cat1" type="System.String" not-null="false" />
+    <property name="Cat2" column="Cat2" type="System.String" not-null="false" />
+    <property name="Cat3" column="Cat3" type="System.String" not-null="false" />
+    <property name="OriginalLine" column="OriginalLine" type="System.String" not-null="true" />
+    <property name="Status" column="Status" type="PriceManager.Core.PriceImportLogStatus, PriceManager.Core" not-null="true"/>
+    <property name="Detail" column="Detail" type="System.String" not-null="true" />
+    <property name="FileIndex" column="FileIndex" type="System.Int32" not-null="true" />
+
+    <many-to-one name="ParsedProvider" column="ParsedProviderId" class="Provider" not-null="false"  cascade="none"  />
+    <many-to-one name="ParsedPriceBase" column="ParsedPriceBaseId" class="PriceBase" not-null="false"  cascade="none" />
+    <property name="ParsedFrequency" column="ParsedFrequency" type="PriceManager.Core.Frequency, PriceManager.Core" not-null="false"/>
+
+    <set name="ParsedCategories" table="PriceImportLogByCategory" lazy="true" cascade="none">
+      <key column="PriceImportLogId"/>
+      <many-to-many class="CategoryBase" column="CategoryId"/>
+    </set>
+    
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>
+

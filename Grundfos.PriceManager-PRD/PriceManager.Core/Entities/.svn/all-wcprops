@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities
+END
+QuoteItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/QuoteItem.cs
+END
+ListItemAbstract.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/ListItemAbstract.cs
+END
+PriceGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PriceGroup.cs
+END
+Product.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Product.cs
+END
+Family.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2708/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Family.cs
+END
+Log.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Log.cs
+END
+PriceCalculation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PriceCalculation.cs
+END
+BaseAuditableEntity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/BaseAuditableEntity.cs
+END
+Selection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Selection.cs
+END
+PublishItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PublishItem.cs
+END
+PriceAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PriceAttribute.cs
+END
+SearchParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/SearchParameters.cs
+END
+Provider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Provider.cs
+END
+Currency.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Currency.cs
+END
+BasePrice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/BasePrice.cs
+END
+PriceImport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PriceImport.cs
+END
+Quote.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Quote.cs
+END
+WorkListItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/WorkListItem.cs
+END
+PriceList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PriceList.cs
+END
+PriceImportLog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PriceImportLog.cs
+END
+PublishList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/PublishList.cs
+END
+Country.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Country.cs
+END
+Note.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Note.cs
+END
+CtrRange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/CtrRange.cs
+END
+CurrencyRate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/CurrencyRate.cs
+END
+Index.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Index.cs
+END
+Lookup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Lookup.cs
+END
+Distributor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Entities/Distributor.cs
+END

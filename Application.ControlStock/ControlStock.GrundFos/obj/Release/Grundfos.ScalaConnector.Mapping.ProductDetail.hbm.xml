@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Grundfos.ScalaConnector" namespace="Grundfos.ScalaConnector">
+  <class name="ProductDetail" table="SC030100" >
+    <id name="Id" type="System.String" column="SC03001">
+      <generator class="assigned"/>
+    </id>
+    <property name="Location" column="SC03002" type="System.String" not-null="true"/>
+    <property name="Stock" column="SC03003" type="System.Int32" not-null="true"/>
+    <property name="Sales1" column="SC03004" type="System.Int32" not-null="true"/>
+    <property name="Sales2" column="SC03005" type="System.Int32" not-null="true"/>
+    <property name="Purchases" column="SC03006" type="System.Int32" not-null="true"/>
+    <!--<many-to-one name="Product" column="Id" class="Product" cascade="none" />-->
+  </class>
+</hibernate-mapping>

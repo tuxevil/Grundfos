@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views
+END
+ProductInfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/ProductInfo.hbm.xml
+END
+CurrencyRateView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/CurrencyRateView.hbm.xml
+END
+PriceListCurrentState.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/PriceListCurrentState.hbm.xml
+END
+ProductInfoByDistributor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/ProductInfoByDistributor.hbm.xml
+END
+ProductInfoByGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/ProductInfoByGroup.hbm.xml
+END
+LastCurrencyRateView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/LastCurrencyRateView.hbm.xml
+END
+ProductInfoByPriceList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/ProductInfoByPriceList.hbm.xml
+END
+PriceImportView.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/PriceImportView.hbm.xml
+END
+StoreProcedures.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/StoreProcedures.hbm.xml
+END
+ProductInfoByPublishList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nybble/!svn/ver/2692/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Data/Mapping/Views/ProductInfoByPublishList.hbm.xml
+END

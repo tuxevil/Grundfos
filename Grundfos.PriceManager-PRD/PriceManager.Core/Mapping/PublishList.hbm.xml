@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PublishList" table="PublishList" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="ValidFrom" column="ValidFrom" type="System.DateTime" not-null="true"/>
+    <many-to-one name="PriceList" column="PriceListId" class="PriceList" cascade="none" />
+
+    <set name="PublishItems" table="PublishItem" lazy="true" inverse="true" cascade="all-delete-orphan">
+      <key column="PublishListId"/>
+      <one-to-many class="PublishItem"/>
+    </set>
+    
+    <set name="PublishedCategoryPages" table="PublishListByCategory" lazy="true" cascade="none">
+      <key column="PublishListId"/>
+      <many-to-many class="CategoryBase" column="CategoryId"/>
+    </set>
+    
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

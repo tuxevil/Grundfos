@@ -1,0 +1,330 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:TransactionHistoryWeekly.cs" caret="215" fromTop="9" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:Product.hbm.xml" caret="1574" fromTop="22" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx" caret="918" fromTop="19" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:AlertReposition.hbm.xml" caret="829" fromTop="11" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:Product.cs" caret="121" fromTop="6" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:Product.hbm.xml" caret="0" fromTop="0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:WebForm1.aspx.cs" caret="710" fromTop="19" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:ProductController.cs" caret="1529" fromTop="15" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:ScalaNHibernate.config" caret="475" fromTop="6" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:WebNHibernate.config" caret="488" fromTop="6" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:Product.cs" caret="162" fromTop="7" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:AlertReposition.cs" caret="2603" fromTop="34" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="6608" fromTop="10" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:ProductParts.cs" caret="0" fromTop="0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:ProductParts.hbm.xml" caret="0" fromTop="0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:SaleOrderItem.hbm.xml" caret="903" fromTop="12" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:SaleOrderItem.cs" caret="1175" fromTop="6" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:SaleOrderItemController.cs" caret="3505" fromTop="21" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:LogController.cs" caret="915" fromTop="10" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="35808" fromTop="0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="47776" fromTop="8" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:AlertProduct.hbm.xml" caret="0" fromTop="0" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:TransactionHistoryWeeklyController.cs" caret="11599" fromTop="4" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:BreakDown.hbm.xml" caret="1181" fromTop="19" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:ProductController.cs" caret="9334" fromTop="6" />
+      <File id="06904613-FDF5-4E4F-8C8C-BC2977DB8962/f:Config.cs" caret="1637" fromTop="8" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="9922" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="10258" fromTop="20" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="2727" fromTop="11" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:TransactionHistoryWeeklyController.cs" caret="8766" fromTop="28" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="54264" fromTop="18" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="55123" fromTop="29" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="55492" fromTop="35" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:AlertReposition.cs" caret="1852" fromTop="23" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:AlertReposition.cs" caret="2603" fromTop="34" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:SaleOrderItemController.cs" caret="3609" fromTop="32" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:SaleOrderItem.cs" caret="365" fromTop="13" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:SaleOrderItem.hbm.xml" caret="901" fromTop="12" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:SaleOrderItem.cs" caret="1175" fromTop="6" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="52205" fromTop="19" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="57326" fromTop="29" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="56746" fromTop="14" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="53638" fromTop="0" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:TransactionHistoryWeeklyController.cs" caret="6638" fromTop="9" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="23553" fromTop="25" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="35089" fromTop="20" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="22754" fromTop="19" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="20596" fromTop="17" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="16415" fromTop="17" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="14782" fromTop="17" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="9438" fromTop="17" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="41205" fromTop="24" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="47950" fromTop="18" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="52900" fromTop="16" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="53516" fromTop="23" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="58021" fromTop="36" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="9922" fromTop="25" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="11" />
+      <Item value="Product" priority="10" />
+      <Item value="product" priority="13" />
+      <Item value="return" priority="10" />
+      <Item value="ICriteria" priority="6" />
+      <Item value="GetCriteria" priority="1" />
+      <Item value="crit" priority="10" />
+      <Item value="Expression" priority="6" />
+      <Item value="if" priority="14" />
+      <Item value="string" priority="22" />
+      <Item value="null" priority="5" />
+      <Item value="lblY12" priority="0" />
+      <Item value="ControllerManager" priority="3" />
+      <Item value="info" priority="1" />
+      <Item value="lblAlternativeTo" priority="2" />
+      <Item value="control_panel" priority="0" />
+      <Item value="new" priority="8" />
+      <Item value="pfrom" priority="2" />
+      <Item value="pto" priority="3" />
+      <Item value="lblAlternativeFrom" priority="1" />
+      <Item value="HtmlLink" priority="1" />
+      <Item value="link" priority="0" />
+      <Item value="btnAlternativeTo" priority="3" />
+      <Item value="Response" priority="0" />
+      <Item value="e" priority="2" />
+      <Item value="sender" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="Identifier" priority="1" />
+      <Item value="decimal" priority="5" />
+      <Item value="int" priority="11" />
+      <Item value="virtual" priority="3" />
+      <Item value="AlertReposition" priority="10" />
+      <Item value="AlertRepositionController" priority="0" />
+      <Item value="double" priority="0" />
+      <Item value="this" priority="12" />
+      <Item value="productId" priority="0" />
+      <Item value="sales" priority="3" />
+      <Item value="ConfigurationException" priority="1" />
+      <Item value="Config" priority="1" />
+      <Item value="List" priority="2" />
+      <Item value="alert" priority="10" />
+      <Item value="bool" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="else" priority="3" />
+      <Item value="i" priority="0" />
+      <Item value="i2" priority="0" />
+      <Item value="object" priority="2" />
+      <Item value="GVReposicionDiferente" priority="1" />
+      <Item value="ProductRepositionLevelHistory" priority="3" />
+      <Item value="prlh" priority="2" />
+      <Item value="producto" priority="1" />
+      <Item value="void" priority="0" />
+      <Item value="NHibernateSession" priority="1" />
+      <Item value="gvRepositionLevel" priority="1" />
+      <Item value="IList" priority="0" />
+      <Item value="AbstractNHibernateDao" priority="0" />
+      <Item value="ProductRepositionLevelHistoryController" priority="1" />
+      <Item value="IsPostBack" priority="0" />
+      <Item value="TrimestralSales" priority="1" />
+      <Item value="result" priority="2" />
+      <Item value="column" priority="1" />
+      <Item value="sortfield" priority="4" />
+      <Item value="products" priority="2" />
+      <Item value="Order" priority="0" />
+      <Item value="boolorder" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="prodinfolist" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="ViewState" priority="0" />
+      <Item value="value" priority="0" />
+      <Item value="OrderField" priority="7" />
+      <Item value="sortOrder" priority="1" />
+      <Item value="ShowAlert6" priority="0" />
+      <Item value="ChangeOrder" priority="0" />
+      <Item value="alternativeProducts" priority="2" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="alertReposition" priority="0" />
+      <Item value="record" priority="0" />
+      <Item value="ar" priority="7" />
+      <Item value="pastproduct" priority="3" />
+      <Item value="aRLst3" priority="0" />
+      <Item value="FetchMode" priority="1" />
+      <Item value="IQuery" priority="0" />
+      <Item value="query" priority="1" />
+      <Item value="where" priority="12" />
+      <Item value="week" priority="3" />
+      <Item value="year" priority="3" />
+      <Item value="resultquery" priority="0" />
+      <Item value="id" priority="0" />
+      <Item value="productSaleLife" priority="1" />
+      <Item value="q" priority="0" />
+      <Item value="NHibernateUtil" priority="6" />
+      <Item value="productCode" priority="1" />
+      <Item value="alternativeProduct" priority="1" />
+      <Item value="alternativeDate" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="saleMonts" priority="4" />
+      <Item value="cuatrimestralSales" priority="1" />
+      <Item value="soFullLst" priority="0" />
+      <Item value="GetAlert6" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Product">
+      <Item value="AlternativeProduct" priority="5" />
+      <Item value="ProductCode" priority="9" />
+      <Item value="Id" priority="2" />
+      <Item value="RepositionLevel" priority="6" />
+      <Item value="Description" priority="0" />
+      <Item value="AlternativeDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="Add" priority="2" />
+      <Item value="UniqueResult" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="CreateCriteria" priority="4" />
+      <Item value="AddOrder" priority="0" />
+      <Item value="SetFetchMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Expression.Expression">
+      <Item value="Eq" priority="3" />
+      <Item value="In" priority="1" />
+      <Item value="And" priority="0" />
+      <Item value="Not" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="3" />
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="1" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager">
+      <Item value="Product" priority="2" />
+      <Item value="AlertReposition" priority="4" />
+      <Item value="TransactionHistoryWeekly" priority="0" />
+      <Item value="ProductRepositionLevelHistory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.ProductController">
+      <Item value="GetAlternativeFrom" priority="0" />
+      <Item value="GetAlternativeTo" priority="0" />
+      <Item value="GenericSave" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="Text" priority="0" />
+      <Item value="CommandArgument" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="0" />
+      <Item value="ToDecimal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Entities.AlertReposition">
+      <Item value="Product" priority="2" />
+      <Item value="sales" priority="0" />
+      <Item value="Sales" priority="4" />
+      <Item value="RepositionLevel" priority="0" />
+      <Item value="Result" priority="1" />
+      <Item value="product" priority="0" />
+      <Item value="MaxRepositionLevel" priority="0" />
+      <Item value="MinRepositionLevel" priority="0" />
+      <Item value="IsDifferent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.TransactionHistoryWeeklyController">
+      <Item value="GetAlert6" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Common.Config">
+      <Item value="CurrentWeek" priority="0" />
+      <Item value="CurrentDate" priority="0" />
+      <Item value="RepositionRange" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Year" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.AlertRepositionController">
+      <Item value="CleanAlertReposition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.AlertReposition">
+      <Item value="result" priority="2" />
+      <Item value="Result" priority="0" />
+      <Item value="TrimestralSales" priority="2" />
+      <Item value="Product" priority="3" />
+      <Item value="Sales" priority="3" />
+      <Item value="ProductCode" priority="1" />
+      <Item value="product" priority="3" />
+      <Item value="sales" priority="1" />
+      <Item value="ProductSaleLife" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.ProductRepositionLevelHistory">
+      <Item value="Product" priority="0" />
+      <Item value="RepositionLevel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Save" priority="0" />
+      <Item value="CreateQuery" priority="0" />
+      <Item value="CreateSQLQuery" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.ProductRepositionLevelHistoryController">
+      <Item value="GetAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split" priority="0" />
+      <Item value="Trim" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="Substring" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewSortEventArgs">
+      <Item value="SortExpression" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="0" />
+      <Item value="Find" priority="0" />
+      <Item value="Exists" priority="0" />
+      <Item value="FindAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.FetchMode">
+      <Item value="Join" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISQLQuery">
+      <Item value="AddScalar" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.NHibernateUtil">
+      <Item value="Int32" priority="2" />
+      <Item value="String" priority="1" />
+      <Item value="DateTime" priority="0" />
+      <Item value="Decimal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Product">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

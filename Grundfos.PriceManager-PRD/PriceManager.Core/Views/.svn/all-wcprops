@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views
+END
+ProductView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductView.cs
+END
+CodeProvView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/CodeProvView.cs
+END
+HistoricView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/HistoricView.cs
+END
+PriceAttributeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/PriceAttributeView.cs
+END
+ProductInfoByDistributor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfoByDistributor.cs
+END
+LastCurrencyRateView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/LastCurrencyRateView.cs
+END
+PageTreeView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/PageTreeView.cs
+END
+WorkListItemView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/WorkListItemView.cs
+END
+TempPrice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/TempPrice.cs
+END
+PriceImportView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2709/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/PriceImportView.cs
+END
+ProductInfoGeneric.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfoGeneric.cs
+END
+PriceImportLogView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/PriceImportLogView.cs
+END
+ProductInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfo.cs
+END
+CurrencyRateConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/CurrencyRateConverter.cs
+END
+ProductInfoController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfoController.cs
+END
+PriceListCurrentState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/PriceListCurrentState.cs
+END
+ProductInfoByGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfoByGroup.cs
+END
+IDIDView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/IDIDView.cs
+END
+ProductInfoByPriceList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfoByPriceList.cs
+END
+CurrencyRate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/CurrencyRate.cs
+END
+ProductListView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductListView.cs
+END
+QuoteItemView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/QuoteItemView.cs
+END
+PriceCalculationListView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/PriceCalculationListView.cs
+END
+ProductInfoByPublishList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Core/Views/ProductInfoByPublishList.cs
+END

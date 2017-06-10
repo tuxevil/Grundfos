@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="Quote" table="Quote" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="Number" column="Number" type="System.String" not-null="false"/>
+    <property name="Description" column="Description" type="System.String" not-null="true"/>
+    <property name="Observations" column="Observations" type="System.String" not-null="false"/>
+    <property name="DistributorObservation" column="DistributorObservation" type="System.String" not-null="false"/>
+    
+    <many-to-one name="Distributor" column="DistributorId" class="Distributor" cascade="none" />
+    <many-to-one name="IntroText" column="IntroTextId" class="Lookup" cascade="none" />
+    <many-to-one name="Condition" column="ConditionId" class="Lookup" cascade="none" />
+    <many-to-one name="Vigency" column="Vigency" class="Lookup" cascade="none" />
+    <many-to-one name="Currency" column="CurrencyId" class="Currency" />
+    <many-to-one name="CurrencyRate" column="CurrencyRateId" class="CurrencyRate" cascade="none" />
+
+    <property name="Status" column="Status" type="PriceManager.Core.QuoteStatus, PriceManager.Core" not-null="true"/>
+
+    <set name="QuoteItems" table="QuoteItem" lazy="true" inverse="true" cascade="all-delete-orphan" order-by="CreatedOn ASC">
+      <key column="QuoteId"/>
+      <one-to-many class="QuoteItem"/>
+    </set>
+
+    <set name="QuoteNotifications" table="QuoteNotification" lazy="true" inverse="true" cascade="all-delete-orphan" order-by="CreatedOn ASC">
+      <key column="QuoteId"/>
+      <one-to-many class="IQuoteNotification"/>
+    </set>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

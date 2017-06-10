@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/2858/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Interfaces
+END
+IQuoteNotification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2713/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Interfaces/IQuoteNotification.cs
+END
+IRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2858/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Interfaces/IRepository.cs
+END

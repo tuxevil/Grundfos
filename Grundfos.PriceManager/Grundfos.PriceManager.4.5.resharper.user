@@ -1,0 +1,557 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1DFAAB19-F4CE-44DC-92C7-987918F8EC56/d:PriceManager.Business/f:QuoteRangeTest.cs" caret="0" fromTop="0" />
+      <File id="1DFAAB19-F4CE-44DC-92C7-987918F8EC56/d:PriceManager.Business/f:DistributorTest.cs" caret="0" fromTop="0" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:js/f:UControlpricelist.js" caret="0" fromTop="0" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:NoteController.cs" caret="2951" fromTop="11" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:PriceMasterList.ascx.cs" caret="113285" fromTop="27" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:js/d:tiny_mce/f:tiny_mce_src.js" caret="0" fromTop="0" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:js/f:jquery-1.3.1.min.js" caret="0" fromTop="0" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:js/f:pricelist.js" caret="0" fromTop="0" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:api/f:prices.asmx.cs" caret="651" fromTop="19" />
+      <File id="25143292-FCCA-4E9C-83E9-CE2B09E67BE5/d:ControllerRepositories/f:DistributorRepository.cs" caret="689" fromTop="6" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:Quote.cs" caret="4435" fromTop="18" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/f:forgot.aspx.cs" caret="0" fromTop="0" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:QuoteController.cs" caret="3341" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/f:Global.asax.cs" caret="1189" fromTop="8" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/f:testclientsidechk.aspx.cs" caret="610" fromTop="8" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/f:Web.config" caret="3739" fromTop="24" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:DistributorController.cs" caret="8305" fromTop="15" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/d:Entities/f:PriceAttribute.cs" caret="753" fromTop="6" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:PriceListController.cs" caret="10629" fromTop="16" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:FamilyController.cs" caret="0" fromTop="0" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:MasterProductList/d:Base/f:default.aspx" caret="0" fromTop="0" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:css/f:main.css" caret="15200" fromTop="235" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:PriceMasterList.ascx" caret="1843" fromTop="29" />
+      <File id="1A5BD338-DC4C-4655-BFBE-235BFB2B19CE/f:Utils.cs" caret="328" fromTop="13" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/f:Enums.cs" caret="3013" fromTop="18" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:admin/d:Importation/d:create/f:default.aspx.cs" caret="2212" fromTop="19" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:PriceImportController.cs" caret="8618" fromTop="0" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/f:ControllerManager.cs" caret="2122" fromTop="0" />
+      <File id="77F79C09-1A52-4967-A095-44544650FA9A/f:UpdateRun.cs" caret="2230" fromTop="42" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:CurrencyRateController.cs" caret="3286" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="11605" fromTop="25" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="10839" fromTop="29" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="10839" fromTop="19" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="10839" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:Notes.ascx.cs" caret="2271" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="10839" fromTop="31" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="11605" fromTop="27" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="11605" fromTop="33" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="11605" fromTop="13" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="11605" fromTop="16" />
+      <File id="1108341D-784C-410F-9074-8D0A7AB5465B/d:Controllers/f:QuoteController.cs" caret="28229" fromTop="276" />
+      <File id="3FDA72B9-E385-4894-8629-2B9B2DD821B5/f:Enums.cs" caret="7499" fromTop="32" />
+      <File id="1A5BD338-DC4C-4655-BFBE-235BFB2B19CE/d:Resources/f:Business.resx" caret="35006" fromTop="18" />
+      <File id="1A5BD338-DC4C-4655-BFBE-235BFB2B19CE/d:Resources/f:Business.resx" caret="35312" fromTop="27" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="519" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="899" fromTop="23" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="11074" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx" caret="10836" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="1058" fromTop="10" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="2189" fromTop="24" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="4629" fromTop="21" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="10814" fromTop="17" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="1679" fromTop="12" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/d:Viewers/f:QuoteDetailView.ascx.cs" caret="2561" fromTop="32" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:PriceMasterList.ascx.cs" caret="113329" fromTop="27" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:PriceMasterList.ascx" caret="18309" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:PriceMasterList.ascx" caret="2774" fromTop="15" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:ctrl/f:PriceMasterList.ascx" caret="11895" fromTop="19" />
+      <File id="581F8DA7-659C-4D99-86C3-B44F2D5850FF/d:api/f:prices.asmx.cs" caret="0" fromTop="0" />
+      <File id="77F79C09-1A52-4967-A095-44544650FA9A/f:UpdateRun.cs" caret="2195" fromTop="42" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@PriceManager.Business.ControllerManager">
+      <Item value="Distributor" priority="2" />
+      <Item value="Quote" priority="8" />
+      <Item value="Lookup" priority="1" />
+      <Item value="Currency" priority="2" />
+      <Item value="CurrencyRate" priority="1" />
+      <Item value="Note" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="ControllerManager" priority="18" />
+      <Item value="public" priority="11" />
+      <Item value="repository" priority="3" />
+      <Item value="QuoteController" priority="0" />
+      <Item value="q" priority="63" />
+      <Item value="DateTime" priority="8" />
+      <Item value="cqn" priority="2" />
+      <Item value="QuoteStatus" priority="6" />
+      <Item value="virtual" priority="3" />
+      <Item value="this" priority="6" />
+      <Item value="List" priority="12" />
+      <Item value="foreach" priority="10" />
+      <Item value="Distributor" priority="3" />
+      <Item value="d" priority="6" />
+      <Item value="Contact" priority="5" />
+      <Item value="new" priority="22" />
+      <Item value="List&lt;Contact&gt;" priority="0" />
+      <Item value="temp" priority="1" />
+      <Item value="contactid" priority="0" />
+      <Item value="if" priority="35" />
+      <Item value="c" priority="3" />
+      <Item value="string" priority="23" />
+      <Item value="ListSet" priority="0" />
+      <Item value="ls" priority="0" />
+      <Item value="HashedSet" priority="0" />
+      <Item value="HashedSet&lt;int&gt;" priority="0" />
+      <Item value="hs" priority="0" />
+      <Item value="Void" priority="0" />
+      <Item value="void" priority="12" />
+      <Item value="List&lt;int&gt;" priority="2" />
+      <Item value="GridState" priority="2" />
+      <Item value="contactselected" priority="1" />
+      <Item value="productselected" priority="1" />
+      <Item value="true" priority="5" />
+      <Item value="false" priority="4" />
+      <Item value="null" priority="11" />
+      <Item value="Assert" priority="0" />
+      <Item value="canfinal" priority="1" />
+      <Item value="Serializable" priority="0" />
+      <Item value="ace" priority="5" />
+      <Item value="cblContacts" priority="4" />
+      <Item value="else" priority="5" />
+      <Item value="notification" priority="6" />
+      <Item value="int" priority="11" />
+      <Item value="value" priority="0" />
+      <Item value="Quote" priority="11" />
+      <Item value="ContactQuoteNotification" priority="1" />
+      <Item value="ListItem" priority="2" />
+      <Item value="item" priority="2" />
+      <Item value="selectedcontactlist" priority="1" />
+      <Item value="try" priority="0" />
+      <Item value="continue" priority="1" />
+      <Item value="private" priority="6" />
+      <Item value="AddNotifications" priority="1" />
+      <Item value="contactids" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="OnClientItemSelected" priority="1" />
+      <Item value="return" priority="10" />
+      <Item value="ContactsUpdate" priority="1" />
+      <Item value="txtDistributor" priority="1" />
+      <Item value="event" priority="1" />
+      <Item value="object" priority="3" />
+      <Item value="UpdateStatus" priority="0" />
+      <Item value="name" priority="5" />
+      <Item value="upCheckBoxList" priority="0" />
+      <Item value="lst" priority="4" />
+      <Item value="email" priority="2" />
+      <Item value="ICollection" priority="0" />
+      <Item value="contact" priority="1" />
+      <Item value="ContactStatus" priority="0" />
+      <Item value="actives" priority="1" />
+      <Item value="lastName" priority="0" />
+      <Item value="_contact" priority="2" />
+      <Item value="quoteNotification" priority="0" />
+      <Item value="mhu" priority="1" />
+      <Item value="um" priority="1" />
+      <Item value="currentEmail" priority="0" />
+      <Item value="li" priority="0" />
+      <Item value="QuoteNotification" priority="0" />
+      <Item value="NHibernateSession" priority="0" />
+      <Item value="IQuoteNotification" priority="0" />
+      <Item value="List&lt;IQuoteNotification&gt;" priority="0" />
+      <Item value="toDelete" priority="1" />
+      <Item value="DistributorStatus" priority="0" />
+      <Item value="gridState" priority="1" />
+      <Item value="pageNumber" priority="0" />
+      <Item value="IList" priority="1" />
+      <Item value="GetDistributors" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="distributor" priority="1" />
+      <Item value="finallst" priority="1" />
+      <Item value="priceListIds" priority="0" />
+      <Item value="plv" priority="0" />
+      <Item value="MembershipHelperUser" priority="2" />
+      <Item value="l" priority="3" />
+      <Item value="title" priority="1" />
+      <Item value="txtTitle" priority="2" />
+      <Item value="date" priority="1" />
+      <Item value="as" priority="0" />
+      <Item value="UserMember" priority="1" />
+      <Item value="lu" priority="2" />
+      <Item value="u" priority="0" />
+      <Item value="CurrencyRateConverter" priority="0" />
+      <Item value="qi" priority="11" />
+      <Item value="upCurrency" priority="0" />
+      <Item value="Currency" priority="3" />
+      <Item value="currencyId" priority="0" />
+      <Item value="pL" priority="9" />
+      <Item value="plCurrency" priority="10" />
+      <Item value="currency" priority="0" />
+      <Item value="IDistributorRepository" priority="1" />
+      <Item value="IQuoteRepository" priority="0" />
+      <Item value="qc" priority="0" />
+      <Item value="out" priority="6" />
+      <Item value="bool" priority="8" />
+      <Item value="ddlToCurrency" priority="1" />
+      <Item value="lstRates" priority="0" />
+      <Item value="QuoteItem" priority="8" />
+      <Item value="List&lt;QuoteItem&gt;" priority="4" />
+      <Item value="quoteItems" priority="1" />
+      <Item value="lblCurrency" priority="0" />
+      <Item value="lblCurrencyRate" priority="0" />
+      <Item value="PriceBase" priority="1" />
+      <Item value="priceBase" priority="1" />
+      <Item value="ValidateQuoteItem" priority="2" />
+      <Item value="for" priority="1" />
+      <Item value="quoteItem" priority="3" />
+      <Item value="PublishList" priority="0" />
+      <Item value="decimal" priority="2" />
+      <Item value="lastPrice" priority="1" />
+      <Item value="Math" priority="0" />
+      <Item value="can" priority="0" />
+      <Item value="ValidateQuote" priority="0" />
+      <Item value="isDefault" priority="3" />
+      <Item value="LookupType" priority="0" />
+      <Item value="UnDefault" priority="1" />
+      <Item value="type" priority="2" />
+      <Item value="Lookup" priority="0" />
+      <Item value="lookup" priority="1" />
+      <Item value="Save" priority="1" />
+      <Item value="BeginTransaction" priority="0" />
+      <Item value="CommitChanges" priority="0" />
+      <Item value="chbDefault" priority="1" />
+      <Item value="UpdatePanel1" priority="0" />
+      <Item value="order" priority="0" />
+      <Item value="i" priority="2" />
+      <Item value="temppblist" priority="0" />
+      <Item value="Comparison&lt;QuoteItem&gt;" priority="0" />
+      <Item value="qi2" priority="0" />
+      <Item value="sortedQuoteItems" priority="0" />
+      <Item value="PriceBaseStatus" priority="0" />
+      <Item value="removelst" priority="0" />
+      <Item value="btnStatus" priority="1" />
+      <Item value="enabled" priority="1" />
+      <Item value="PermissionManager" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="userMember" priority="2" />
+      <Item value="Send" priority="0" />
+      <Item value="umlst" priority="0" />
+      <Item value="user" priority="1" />
+      <Item value="SerializableAttribute" priority="0" />
+      <Item value="path" priority="1" />
+      <Item value="QuoteId" priority="2" />
+      <Item value="Server" priority="0" />
+      <Item value="pagelist" priority="0" />
+      <Item value="Page" priority="2" />
+      <Item value="Request" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="MaxRows" priority="1" />
+      <Item value="lnkSeeAll" priority="0" />
+      <Item value="GetById" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Interfaces.IQuoteRepository">
+      <Item value="Save" priority="0" />
+      <Item value="BeginTransactions" priority="0" />
+      <Item value="CommitChange" priority="0" />
+      <Item value="GenericDelete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Quote">
+      <Item value="Description" priority="0" />
+      <Item value="TimeStamp" priority="0" />
+      <Item value="Vigency" priority="0" />
+      <Item value="IntroText" priority="0" />
+      <Item value="Condition" priority="0" />
+      <Item value="Distributor" priority="11" />
+      <Item value="AddNotification" priority="1" />
+      <Item value="Contacts" priority="0" />
+      <Item value="QuoteNotifications" priority="2" />
+      <Item value="SentDate" priority="3" />
+      <Item value="Observations" priority="1" />
+      <Item value="Currency" priority="5" />
+      <Item value="ActiveQuoteItems" priority="0" />
+      <Item value="CurrencyRate" priority="1" />
+      <Item value="QuoteItems" priority="2" />
+      <Item value="Status" priority="4" />
+      <Item value="SortedQuoteItems" priority="2" />
+      <Item value="ID" priority="2" />
+      <Item value="GetType" priority="1" />
+      <Item value="Number" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectBase.Data.ITimeStamp">
+      <Item value="CreatedOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="4" />
+      <Item value="Today" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.LookupController">
+      <Item value="GetById" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.DistributorController">
+      <Item value="GetById" priority="0" />
+      <Item value="GetByName" priority="0" />
+      <Item value="GetDistributors" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.ContactQuoteNotification">
+      <Item value="TimeStamp" priority="0" />
+      <Item value="Quote" priority="0" />
+      <Item value="Contact" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Distributor">
+      <Item value="Contacts" priority="1" />
+      <Item value="Code" priority="0" />
+      <Item value="ActiveContacts" priority="0" />
+      <Item value="Contact" priority="2" />
+      <Item value="Email" priority="2" />
+      <Item value="AlternativeEmail" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="PriceList" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Find" priority="2" />
+      <Item value="Add" priority="5" />
+      <Item value="Count" priority="1" />
+      <Item value="FindAll" priority="0" />
+      <Item value="Sort" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Contact">
+      <Item value="ID" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="InverseFullName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="5" />
+      <Item value="IsNullOrEmpty" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.QuoteController">
+      <Item value="CommitChange" priority="0" />
+      <Item value="BeginTransactions" priority="0" />
+      <Item value="Save" priority="0" />
+      <Item value="DeleteNotification" priority="0" />
+      <Item value="GenericDelete" priority="0" />
+      <Item value="AddItems" priority="0" />
+      <Item value="ValidateQuote" priority="1" />
+      <Item value="GetAssistence" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsTrue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AjaxControlToolkit.AutoCompleteExtender">
+      <Item value="OnClientItemSelected" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBoxList">
+      <Item value="Items" priority="0" />
+      <Item value="DataSource" priority="0" />
+      <Item value="DataTextField" priority="0" />
+      <Item value="DataValueField" priority="0" />
+      <Item value="DataBind" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add" priority="0" />
+      <Item value="FindByValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.IQuoteNotification">
+      <Item value="Name" priority="2" />
+      <Item value="TimeStamp" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Selected" priority="2" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.BaseQuoteNotification">
+      <Item value="ID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="2" />
+      <Item value="ToDateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Clear" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="Remove" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.Controls.AutoCompleteTextbox">
+      <Item value="Text" priority="1" />
+      <Item value="OnClientItemSelected" priority="0" />
+      <Item value="OnTextChanged" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.UpdatePanel">
+      <Item value="Update" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Contains" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim" priority="4" />
+      <Item value="Substring" priority="0" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PriceManager.Core.ContactStatus">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NybbleMembership.MembershipHelperUser">
+      <Item value="FullName" priority="2" />
+      <Item value="LastName" priority="0" />
+      <Item value="UserId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NybbleMembership.Core.Domain.UserMember">
+      <Item value="UserName" priority="0" />
+      <Item value="Email" priority="1" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Delete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PriceManager.Core.DistributorStatus">
+      <Item value="Active" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.State.GridState">
+      <Item value="PageSize" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.ProductListView">
+      <Item value="Model" priority="1" />
+      <Item value="FinalInfo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PriceManager.Common.StringFormat">
+      <Item value="Cut" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Lookup">
+      <Item value="Description" priority="0" />
+      <Item value="Title" priority="3" />
+      <Item value="IsDefault" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="TemplateControl" priority="0" />
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.IQuery">
+      <Item value="SetInt32" priority="1" />
+      <Item value="SetGuid" priority="0" />
+      <Item value="UniqueResult" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.PriceList">
+      <Item value="Currency" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.CurrencyController">
+      <Item value="GetByDescription" priority="0" />
+      <Item value="GetById" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.QuoteItem">
+      <Item value="Price" priority="4" />
+      <Item value="PriceCurrency" priority="0" />
+      <Item value="CurrencyRate" priority="0" />
+      <Item value="PriceBase" priority="2" />
+      <Item value="Order" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Currency">
+      <Item value="ID" priority="1" />
+      <Item value="LastCurrencyRateView" priority="0" />
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Criterion.Expression">
+      <Item value="Eq" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="UniqueResult" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.CurrencyRateController">
+      <Item value="GetLast" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Interfaces.IDistributorRepository">
+      <Item value="GetByName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.CurrencyRate">
+      <Item value="Rate" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PriceManager.Core.QuoteStatus">
+      <Item value="Sent" priority="0" />
+      <Item value="Assistence" priority="0" />
+      <Item value="AssistenceRequired" priority="1" />
+      <Item value="Draft" priority="0" />
+      <Item value="InAssistence" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.PriceBase">
+      <Item value="Status" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PriceManager.Core.PriceBaseStatus">
+      <Item value="Disable" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ImageButton">
+      <Item value="Enabled" priority="0" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NybbleMembership.PermissionManager">
+      <Item value="RemovePermission" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Business.NoteController">
+      <Item value="ListByType" priority="0" />
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PriceManager.Core.Note">
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NybbleMembership.MembershipHelper">
+      <Item value="GetUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView">
+      <Item value="AppRelativeVirtualPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="AbsolutePath" priority="0" />
+      <Item value="OriginalString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlInputButton">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,217 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C76AEFFE-F321-41D7-928E-4E69D6E4050F/f:Service1.cs" caret="1441" fromTop="20" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:app.config" caret="0" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:Properties/f:AssemblyInfo.cs" caret="809" fromTop="17" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:administration/f:newuser.aspx.cs" caret="751" fromTop="26" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:administration/f:newuser.aspx" caret="0" fromTop="0" />
+      <File id="8919CCF6-A9BB-4B3E-8B3F-FD1EAC1394C9/f:Program.cs" caret="217" fromTop="11" />
+      <File id="8919CCF6-A9BB-4B3E-8B3F-FD1EAC1394C9/f:app.config" caret="1702" fromTop="26" />
+      <File id="ACABEA6E-B4A1-45C9-B33F-FA2E45C13AC8/f:Program.cs" caret="0" fromTop="0" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/d:Web References/d:IntegrationService/f:Reference.cs" caret="3613" fromTop="18" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:WebForm1.aspx.cs" caret="0" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:WebForm1.aspx" caret="0" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:despiece/f:Default.aspx" caret="0" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:despiece/f:Default.aspx.cs" caret="2693" fromTop="18" />
+      <File id="DC901201-F589-4EA8-A018-03B899BD8958/f:Search.cs" caret="253" fromTop="11" />
+      <File id="ACABEA6E-B4A1-45C9-B33F-FA2E45C13AC8/f:Service1.cs" caret="0" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="659" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Web.config" caret="5794" fromTop="20" />
+      <File id="ACABEA6E-B4A1-45C9-B33F-FA2E45C13AC8/f:App.config" caret="1035" fromTop="16" />
+      <File id="110562CA-2A72-4936-877B-29BB8E14510C/f:Config.cs" caret="356" fromTop="14" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Client.cs" caret="2819" fromTop="0" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:api/f:integration.asmx.cs" caret="0" fromTop="0" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="8168" fromTop="171" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="3252" fromTop="13" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="3252" fromTop="23" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="2069" fromTop="13" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="3252" fromTop="28" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="4313" fromTop="35" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Client.cs" caret="13487" fromTop="0" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="5918" fromTop="28" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="5645" fromTop="27" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/d:despiece/f:Default.aspx.cs" caret="1607" fromTop="30" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="6136" fromTop="31" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="5351" fromTop="16" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="3864" fromTop="14" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="2682" fromTop="6" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Client.cs" caret="13487" fromTop="10" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Client.cs" caret="13487" fromTop="9" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Client.cs" caret="13487" fromTop="25" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Client.cs" caret="13487" fromTop="14" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="762" fromTop="14" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="1261" fromTop="24" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="13491" fromTop="12" />
+      <File id="50D32207-3317-423C-9A98-3277DEE7084F/f:Server.cs" caret="1103" fromTop="20" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="4271" fromTop="13" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="950" fromTop="22" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="1093" fromTop="31" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="1041" fromTop="12" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="896" fromTop="3" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="4200" fromTop="23" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="3574" fromTop="14" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Base.Master" caret="4084" fromTop="21" />
+      <File id="55D5594D-4B26-4BED-AD13-B4C522CFAC53/f:Web.config" caret="5951" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Server" priority="6" />
+      <Item value="public" priority="2" />
+      <Item value="void" priority="3" />
+      <Item value="DataSet" priority="8" />
+      <Item value="ActualizarDatos" priority="0" />
+      <Item value="ds" priority="4" />
+      <Item value="static" priority="3" />
+      <Item value="ActualizarDespiece" priority="1" />
+      <Item value="private" priority="4" />
+      <Item value="SendFiles" priority="0" />
+      <Item value="ds2" priority="0" />
+      <Item value="string" priority="12" />
+      <Item value="server" priority="9" />
+      <Item value="if" priority="3" />
+      <Item value="bool" priority="6" />
+      <Item value="return" priority="6" />
+      <Item value="true" priority="3" />
+      <Item value="SendData" priority="0" />
+      <Item value="GrundFos" priority="2" />
+      <Item value="Despiece" priority="2" />
+      <Item value="Processor" priority="2" />
+      <Item value="try" priority="1" />
+      <Item value="false" priority="2" />
+      <Item value="Client" priority="1" />
+      <Item value="out" priority="0" />
+      <Item value="errors" priority="1" />
+      <Item value="foreach" priority="1" />
+      <Item value="DataRow" priority="0" />
+      <Item value="ids" priority="7" />
+      <Item value="row" priority="2" />
+      <Item value="Execute" priority="0" />
+      <Item value="delete" priority="0" />
+      <Item value="new" priority="9" />
+      <Item value="Array" priority="1" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;string[]&gt;" priority="0" />
+      <Item value="desp" priority="0" />
+      <Item value="s" priority="1" />
+      <Item value="integration" priority="4" />
+      <Item value="IntegrationService" priority="0" />
+      <Item value="service" priority="2" />
+      <Item value="Service1" priority="1" />
+      <Item value="myservice" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="Utils" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="WebMailing" priority="1" />
+      <Item value="wm" priority="0" />
+      <Item value="log4net" priority="0" />
+      <Item value="Config" priority="0" />
+      <Item value="XmlConfigurator" priority="0" />
+      <Item value="myConnection" priority="0" />
+      <Item value="tmp" priority="1" />
+      <Item value="message" priority="0" />
+      <Item value="proceso" priority="0" />
+      <Item value="SqlTransaction" priority="2" />
+      <Item value="myTransaction" priority="1" />
+      <Item value="tranPO" priority="4" />
+      <Item value="_connection" priority="5" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="comLog" priority="0" />
+      <Item value="myConnetion" priority="0" />
+      <Item value="SqlBulkCopyOptions" priority="0" />
+      <Item value="tranProd" priority="2" />
+      <Item value="tranStock" priority="1" />
+      <Item value="tranDesp" priority="3" />
+      <Item value="DateTime" priority="0" />
+      <Item value="dt" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GrundFos.Despiece.Processor.Server">
+      <Item value="ActualizarDatos" priority="2" />
+      <Item value="ActualizarDespiece" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GrundFos.Despiece.Processor.Client">
+      <Item value="GetData" priority="0" />
+      <Item value="Execute" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Substring" priority="0" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GrundFos.Despiece.Processor.IntegrationService.integration">
+      <Item value="UpdateData" priority="2" />
+      <Item value="UpdateDataAsync" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddYears" priority="0" />
+      <Item value="Year" priority="0" />
+      <Item value="Month" priority="0" />
+      <Item value="ToLocalTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GrundFos.Despiece.UpdateWebService.Service1">
+      <Item value="Server" priority="0" />
+      <Item value="Site" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProjectBase.Utils.Email.WebMailing">
+      <Item value="SendMail" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.Config.XmlConfigurator">
+      <Item value="Configure" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Close" priority="1" />
+      <Item value="BeginTransaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ConsoleApplication1.integration.integration">
+      <Item value="UpdateData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTableCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="Transaction" priority="0" />
+      <Item value="Connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlTransaction">
+      <Item value="Connection" priority="0" />
+      <Item value="Commit" priority="5" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

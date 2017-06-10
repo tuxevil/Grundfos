@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "Database", "Database\Database.dbp", "{C6B185C4-DA24-48BB-AFCE-720D310B7BF9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrundFos.PriceManager.WebSite", "GrundFos.PriceManager.WebSite\GrundFos.PriceManager.WebSite.csproj", "{581F8DA7-659C-4D99-86C3-B44F2D5850FF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceManager.Core", "PriceManager.Core\PriceManager.Core.csproj", "{3FDA72B9-E385-4894-8629-2B9B2DD821B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceManager.Business", "PriceManager.Business\PriceManager.Business.csproj", "{1108341D-784C-410F-9074-8D0A7AB5465B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceManager.Common", "PriceManager.Common\PriceManager.Common.csproj", "{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{581F8DA7-659C-4D99-86C3-B44F2D5850FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581F8DA7-659C-4D99-86C3-B44F2D5850FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581F8DA7-659C-4D99-86C3-B44F2D5850FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581F8DA7-659C-4D99-86C3-B44F2D5850FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDA72B9-E385-4894-8629-2B9B2DD821B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDA72B9-E385-4894-8629-2B9B2DD821B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDA72B9-E385-4894-8629-2B9B2DD821B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDA72B9-E385-4894-8629-2B9B2DD821B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1108341D-784C-410F-9074-8D0A7AB5465B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1108341D-784C-410F-9074-8D0A7AB5465B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1108341D-784C-410F-9074-8D0A7AB5465B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1108341D-784C-410F-9074-8D0A7AB5465B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5BD338-DC4C-4655-BFBE-235BFB2B19CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

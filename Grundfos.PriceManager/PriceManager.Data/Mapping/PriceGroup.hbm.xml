@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceGroup" table="PriceGroup" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+    
+    <property name="Discount" column="Discount" type="System.Decimal" not-null="true" />
+    <property name="Name" column="Name" type="System.String" not-null="true" />
+    <property name="Description" column="Description" type="System.String" not-null="true" />
+    <property name="Adjust" column="Adjust" type="System.Decimal" not-null="false" />
+    <property name="PriceSuggestCoef" column="PriceSuggestCoef" type="System.Decimal" not-null="true" />
+
+    <many-to-one name="Currency" column="CurrencyId" class="Currency" />
+
+    <set name="PriceAttributes" table="PriceAttributes" lazy="true" cascade="none">
+      <key column="PriceGroupId"/>
+      <one-to-many class="PriceAttribute"/>
+    </set>
+
+    <set name="PriceLists" table="PriceList" lazy="true" where="Status > 0" cascade="none">
+      <key column="PriceGroupId"/>
+      <one-to-many class="PriceList"/>
+    </set>
+    
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

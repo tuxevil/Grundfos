@@ -1,0 +1,14 @@
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Release\GrundFos.Despiece.Common.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Release\GrundFos.Despiece.Common.pdb
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Release\log4net.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Release\log4net.xml
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\obj\Release\GrundFos.Despiece.Common.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\obj\Release\GrundFos.Despiece.Common.pdb
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Debug\GrundFos.Despiece.Common.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Debug\GrundFos.Despiece.Common.pdb
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Debug\log4net.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\bin\Debug\log4net.xml
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\obj\Debug\GrundFos.Despiece.Common.dll
+C:\Projects\Grundfos\Grundfos-Despiece\GrundFos.Despiece.Common\obj\Debug\GrundFos.Despiece.Common.pdb

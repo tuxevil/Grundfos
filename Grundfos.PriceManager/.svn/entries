@@ -1,0 +1,110 @@
+9
+
+dir
+2879
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble/GrundFos/Grundfos.PriceManager/trunk
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble
+
+
+
+2009-12-17T20:50:58.187267Z
+2879
+emiliano.galizio
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+PriceManager.Currency.Service.Installer
+dir
+
+PriceManager.Repositories
+dir
+
+PriceManager.Core
+dir
+
+PriceManager.Common
+dir
+
+GrundFos.PriceManager.WebSite
+dir
+
+PriceManager.Currency.Service
+dir
+
+PriceManager.Business
+dir
+
+GrundFos.ScalaInterface
+dir
+
+TestBusiness
+dir
+
+PriceManager.TestsUsingDevelopmentDatabase
+dir
+
+PriceManager.Tests
+dir
+
+Database
+dir
+
+PriceManager.Data
+dir
+
+PriceManager.Integration.Service.Installer
+dir
+
+PriceManager.UnitTest
+dir
+
+GrundFos.Core
+dir
+
+Grundfos.PriceManager.sln
+file
+
+
+
+
+2009-12-01T14:21:55.376166Z
+b005bc61e1495703ff1cb4bf7911ec37
+2009-12-01T14:25:27.947261Z
+2690
+sebastian.real
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7415
+

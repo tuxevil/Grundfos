@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/nybble/!svn/ver/2508/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest
+END
+WebNHibernate.config
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/1221/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/WebNHibernate.config
+END
+LongRunningTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2378/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/LongRunningTest.cs
+END
+Schematest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/2169/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/Schematest.cs
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/1650/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/app.config
+END
+ScalaNHibernate.config
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/1302/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/ScalaNHibernate.config
+END
+PriceManager.UnitTest.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2262/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/PriceManager.UnitTest.csproj
+END
+BusinessLogicTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2508/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/BusinessLogicTest.cs
+END
+WebNHibernateMembership.config
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/1616/GrundFos/Grundfos.PriceManager/trunk/PriceManager.UnitTest/WebNHibernateMembership.config
+END

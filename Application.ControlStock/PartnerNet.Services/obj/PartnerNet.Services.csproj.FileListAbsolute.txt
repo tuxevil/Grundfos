@@ -1,0 +1,1 @@
+C:\Projects\Grundfos\Application.ControlStock\PartnerNet.Services\obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,478 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="bool" priority="3" />
+      <Item value="public" priority="3" />
+      <Item value="virtual" priority="3" />
+      <Item value="string" priority="28" />
+      <Item value="return" priority="15" />
+      <Item value="product" priority="11" />
+      <Item value="if" priority="41" />
+      <Item value="e" priority="5" />
+      <Item value="ar" priority="3" />
+      <Item value="int" priority="3" />
+      <Item value="Convert" priority="0" />
+      <Item value="stringid" priority="0" />
+      <Item value="Button" priority="0" />
+      <Item value="TemplateInstanceAttribute" priority="0" />
+      <Item value="temp" priority="5" />
+      <Item value="else" priority="16" />
+      <Item value="id" priority="0" />
+      <Item value="AlertRepositionController" priority="0" />
+      <Item value="ControllerManager" priority="3" />
+      <Item value="alert" priority="20" />
+      <Item value="false" priority="2" />
+      <Item value="true" priority="2" />
+      <Item value="alertRepositionShow" priority="1" />
+      <Item value="desc" priority="1" />
+      <Item value="marked" priority="1" />
+      <Item value="lowCost" priority="1" />
+      <Item value="scalaRep0" priority="3" />
+      <Item value="foreach" priority="1" />
+      <Item value="ProductDetail" priority="1" />
+      <Item value="productDetail" priority="2" />
+      <Item value="producto" priority="0" />
+      <Item value="List" priority="3" />
+      <Item value="productDetails" priority="0" />
+      <Item value="Product" priority="9" />
+      <Item value="products" priority="4" />
+      <Item value="x" priority="0" />
+      <Item value="PartnerNet" priority="0" />
+      <Item value="Domain" priority="3" />
+      <Item value="AlertPurchaseOrderDestination" priority="1" />
+      <Item value="enum" priority="0" />
+      <Item value="AlertPurchaseOrderType" priority="1" />
+      <Item value="AlertSaleOrder" priority="0" />
+      <Item value="EqPropertyExpression" priority="0" />
+      <Item value="ScalaConnector" priority="5" />
+      <Item value="IFormatProvider" priority="1" />
+      <Item value="new" priority="10" />
+      <Item value="Culture" priority="0" />
+      <Item value="AlertSaleOrderType" priority="0" />
+      <Item value="total" priority="0" />
+      <Item value="AlertPurchaseOrder" priority="0" />
+      <Item value="ddlClient" priority="1" />
+      <Item value="Context" priority="0" />
+      <Item value="alertSaleOrder" priority="0" />
+      <Item value="clientCode" priority="1" />
+      <Item value="Alert4Search" priority="1" />
+      <Item value="Page" priority="4" />
+      <Item value="purchaser" priority="0" />
+      <Item value="purchaseOrder" priority="3" />
+      <Item value="license" priority="7" />
+      <Item value="provider" priority="1" />
+      <Item value="null" priority="12" />
+      <Item value="type" priority="3" />
+      <Item value="apoType" priority="0" />
+      <Item value="OrderField" priority="1" />
+      <Item value="column" priority="4" />
+      <Item value="sortOrder" priority="2" />
+      <Item value="txtProvider" priority="0" />
+      <Item value="txtProduct" priority="0" />
+      <Item value="txtPurchaser" priority="0" />
+      <Item value="txtPurchaseOrder" priority="0" />
+      <Item value="from" priority="2" />
+      <Item value="until" priority="1" />
+      <Item value="private" priority="2" />
+      <Item value="item" priority="7" />
+      <Item value="this" priority="0" />
+      <Item value="repLevel" priority="0" />
+      <Item value="ddlAlert1Licence" priority="1" />
+      <Item value="AndExpression" priority="0" />
+      <Item value="Expression" priority="5" />
+      <Item value="orderColumn" priority="3" />
+      <Item value="Length" priority="1" />
+      <Item value="ICriteria" priority="3" />
+      <Item value="crit" priority="4" />
+      <Item value="searchObject" priority="0" />
+      <Item value="Order" priority="2" />
+      <Item value="boolorder" priority="0" />
+      <Item value="out" priority="9" />
+      <Item value="client" priority="2" />
+      <Item value="customerNames" priority="2" />
+      <Item value="CustomerHelper" priority="4" />
+      <Item value="List&lt;CustomerHelper&gt;" priority="0" />
+      <Item value="finalCustomerNames" priority="1" />
+      <Item value="Search" priority="1" />
+      <Item value="fromDate" priority="0" />
+      <Item value="untilDate" priority="1" />
+      <Item value="order" priority="1" />
+      <Item value="MatchMode" priority="2" />
+      <Item value="continue" priority="0" />
+      <Item value="StringSplitOptions" priority="0" />
+      <Item value="char" priority="2" />
+      <Item value="separator" priority="1" />
+      <Item value="typeAlert1" priority="0" />
+      <Item value="Form" priority="0" />
+      <Item value="btnAlert1Search" priority="0" />
+      <Item value="btnAlert4Search" priority="0" />
+      <Item value="double" priority="0" />
+      <Item value="WayOfDelivery" priority="10" />
+      <Item value="Config" priority="0" />
+      <Item value="PurchaseOrderItem" priority="3" />
+      <Item value="SaleOrderItem" priority="0" />
+      <Item value="purchaseorderitem" priority="1" />
+      <Item value="orderItem" priority="3" />
+      <Item value="CreateAlert" priority="0" />
+      <Item value="saleOrderItem" priority="0" />
+      <Item value="POListAlert3" priority="0" />
+      <Item value="wayOfDelivery" priority="21" />
+      <Item value="ddlWayOfDelivery" priority="0" />
+      <Item value="AlertOCGapAverage" priority="1" />
+      <Item value="AlertOCGapCount" priority="1" />
+      <Item value="AlertOVGapAverage" priority="0" />
+      <Item value="AlertOVGapCount" priority="1" />
+      <Item value="LinearMeter" priority="4" />
+      <Item value="BaseMeter" priority="1" />
+      <Item value="m2" priority="0" />
+      <Item value="m6" priority="0" />
+      <Item value="AngularMeter" priority="0" />
+      <Item value="Line" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="value" priority="2" />
+      <Item value="CandleStickLayer" priority="0" />
+      <Item value="Char" priority="0" />
+      <Item value="btnSearchAlert1" priority="0" />
+      <Item value="record" priority="2" />
+      <Item value="customerCode" priority="0" />
+      <Item value="IList" priority="0" />
+      <Item value="GetCriteria" priority="0" />
+      <Item value="CircleHotSpot" priority="0" />
+      <Item value="AlertSaleOrderController" priority="0" />
+      <Item value="def" priority="1" />
+      <Item value="po" priority="0" />
+      <Item value="Customer" priority="0" />
+      <Item value="DateTimeStyles" priority="1" />
+      <Item value="alerttotal" priority="2" />
+      <Item value="List&lt;Product&gt;" priority="1" />
+      <Item value="scalaProducts" priority="4" />
+      <Item value="scalaProduct" priority="10" />
+      <Item value="lblTotalCountAlert1" priority="0" />
+      <Item value="lstConfNoEntregadas" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Product">
+      <Item value="ViewScala" priority="0" />
+      <Item value="Provider" priority="0" />
+      <Item value="AlertRepositionShow" priority="0" />
+      <Item value="LowCost" priority="3" />
+      <Item value="ScalaRep0" priority="0" />
+      <Item value="ProductCode" priority="3" />
+      <Item value="Description" priority="1" />
+      <Item value="RepositionLevel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.ProductViewScala">
+      <Item value="Price" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Provider">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewCommandEventArgs">
+      <Item value="CommandName" priority="0" />
+      <Item value="CommandSource" priority="1" />
+      <Item value="CommandArgument" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.AlertReposition">
+      <Item value="Show" priority="3" />
+      <Item value="ProductCode" priority="1" />
+      <Item value="Result" priority="0" />
+      <Item value="productSaleLife" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Text" priority="4" />
+      <Item value="CommandArgument" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Business.ControllerManager">
+      <Item value="AlertReposition" priority="1" />
+      <Item value="Product" priority="0" />
+      <Item value="AlertTotal" priority="0" />
+      <Item value="AlertSaleOrder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.AlertRepositionController">
+      <Item value="GetById" priority="0" />
+      <Item value="SaveOrUpdate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Expression.Expression">
+      <Item value="Not" priority="4" />
+      <Item value="In" priority="0" />
+      <Item value="InsensitiveLike" priority="2" />
+      <Item value="Eq" priority="0" />
+      <Item value="Ge" priority="0" />
+      <Item value="Gt" priority="0" />
+      <Item value="GtProperty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Product">
+      <Item value="Detail" priority="1" />
+      <Item value="Id" priority="4" />
+      <Item value="StockQ" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.ProductDetail">
+      <Item value="RepPoint" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Product" priority="1" />
+      <Item value="Stock" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.AlertProduct">
+      <Item value="Location" priority="0" />
+      <Item value="Product" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.ProductController">
+      <Item value="GetAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Find" priority="0" />
+      <Item value="Add" priority="3" />
+      <Item value="AddRange" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals" priority="0" />
+      <Item value="Trim" priority="0" />
+      <Item value="EndsWith" priority="0" />
+      <Item value="Split" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.AlertSaleOrder">
+      <Item value="Type" priority="1" />
+      <Item value="CustomerName" priority="0" />
+      <Item value="GAP" priority="0" />
+      <Item value="PurchaseOrderArrivalDate" priority="2" />
+      <Item value="SaleOrderDeliveryDate" priority="0" />
+      <Item value="Quantity" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Domain.Entities.AlertSaleOrderType">
+      <Item value="NotCumplimented" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Domain.AlertSaleOrderType">
+      <Item value="Cumplimented" priority="1" />
+      <Item value="NotCumplimented" priority="1" />
+      <Item value="NoCumplimentada" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Controllers.SaleOrderItemController">
+      <Item value="CompletedSaleOrder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.AlertPurchaseOrder">
+      <Item value="Product" priority="2" />
+      <Item value="PurchaseOrdeDate" priority="3" />
+      <Item value="WayOfDelivery" priority="0" />
+      <Item value="GAP" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Domain.AlertPurchaseOrderType">
+      <Item value="Alert1" priority="1" />
+      <Item value="Transit" priority="1" />
+      <Item value="Confirmed" priority="3" />
+      <Item value="NotConfirmed" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="SelectedValue" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Handler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty" priority="2" />
+      <Item value="Empty" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="Request" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Form" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="GetKey" priority="1" />
+      <Item value="GetValues" priority="0" />
+      <Item value="HasKeys" priority="0" />
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.AlertSaleOrderController">
+      <Item value="Search" priority="0" />
+      <Item value="GetCustomers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.AlertPurchaseOrderController">
+      <Item value="Search" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.PurchaseOrderItem">
+      <Item value="ProductName" priority="0" />
+      <Item value="ArrivalDate" priority="0" />
+      <Item value="PurchaseOrder" priority="0" />
+      <Item value="QuantityOrdered" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.NHibernateUtil">
+      <Item value="Int32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Expression.MatchMode">
+      <Item value="End" priority="0" />
+      <Item value="Anywhere" priority="1" />
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="CreateCriteria" priority="0" />
+      <Item value="AddOrder" priority="3" />
+      <Item value="List" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringSplitOptions">
+      <Item value="RemoveEmptyEntries" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlForm">
+      <Item value="DefaultButton" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.PurchaseOrder">
+      <Item value="Date" priority="3" />
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Days" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Domain.WayOfDelivery">
+      <Item value="ND" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PartnerNet.Common.Config">
+      <Item value="CurrentDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.SaleOrderItem">
+      <Item value="SaleOrderId" priority="0" />
+      <Item value="RequiredDate" priority="2" />
+      <Item value="Product" priority="3" />
+      <Item value="Quantity" priority="0" />
+      <Item value="QuantityDelivery" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Business.AlertTotalController">
+      <Item value="GetTotalForAlert" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ChartDirector.Chart">
+      <Item value="Bottom" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Expression.Projections">
+      <Item value="Property" priority="0" />
+      <Item value="GroupProperty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.Helpers.CustomerHelper">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.StockMovementPending">
+      <Item value="OrderNumber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Customer">
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.SaleOrder">
+      <Item value="Customer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.AlertTotal">
+      <Item value="Total" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="TemplateControl" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:PurchaseOrderItem.hbm.xml" caret="0" fromTop="0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:StockMovementPendingController.cs" caret="981" fromTop="25" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:AlertSaleOrderController.cs" caret="2691" fromTop="14" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:default.aspx.cs" caret="3704" fromTop="9" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:ProductDetailController.cs" caret="790" fromTop="16" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx" caret="0" fromTop="0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:Product.cs" caret="163" fromTop="7" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:LogController.cs" caret="1628" fromTop="44" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:ProductController.cs" caret="571" fromTop="20" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:ForecastController.cs" caret="6128" fromTop="14" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:PurchaseOrderItemController.cs" caret="4877" fromTop="22" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:SaleOrderItem.hbm.xml" caret="0" fromTop="0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:SaleOrderItem.cs" caret="127" fromTop="6" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:SaleOrderItemController.cs" caret="2374" fromTop="18" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:ForecastProcessor.cs" caret="0" fromTop="0" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="12203" fromTop="198" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="37551" fromTop="26" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Properties/f:AssemblyInfo.cs" caret="1417" fromTop="33" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="18287" fromTop="45" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:default.aspx" caret="0" fromTop="0" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:AlertRepositionController.cs" caret="961" fromTop="18" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="19821" fromTop="21" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:styles_grundfos.css" caret="1073" fromTop="5" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:WebNHibernate.config" caret="1071" fromTop="17" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:AlertProduct.cs" caret="0" fromTop="0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:Product.cs" caret="0" fromTop="0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:Identifier.cs" caret="240" fromTop="10" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:Product.hbm.xml" caret="1746" fromTop="18" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="8654" fromTop="22" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="33555" fromTop="29" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="11581" fromTop="164" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:AlertsProcessor.cs" caret="11355" fromTop="160" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="21078" fromTop="39" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="45" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="34" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:styles_grundfos.css" caret="1647" fromTop="48" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:styles_grundfos.css" caret="1567" fromTop="46" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="2496" fromTop="36" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="6528" fromTop="26" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="30" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="38" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="32" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="32" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="42" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="42" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="31" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="19282" fromTop="23" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="3209" fromTop="26" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="7190" fromTop="26" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="4739" fromTop="25" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="14121" fromTop="187" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="14539" fromTop="192" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Properties/f:AssemblyInfo.cs" caret="1417" fromTop="33" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="40" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="21617" fromTop="31" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx" caret="20950" fromTop="31" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="4189" fromTop="19" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="7634" fromTop="26" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:control-panel/f:details.aspx.cs" caret="9353" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

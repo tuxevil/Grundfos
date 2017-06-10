@@ -1,0 +1,221 @@
+2010-01-19 15:02:56,497 DEBUG Preparing queries for 19/12/2009 to 13/04/2010
+2010-01-19 15:02:58,981 DEBUG Preparing connection
+2010-01-19 15:03:03,669 DEBUG Preparing DataAdapters
+2010-01-19 15:03:03,684 DEBUG Creating DataSet
+2010-01-19 15:03:03,700 DEBUG Fill PO Dataset Table
+2010-01-19 15:03:06,106 DEBUG New Records Found: 0
+2010-01-19 15:03:06,106 DEBUG Fill Stock Dataset Table
+2010-01-19 15:07:10,092 DEBUG New Records Found: 11361
+2010-01-19 15:07:10,092 DEBUG Fill Productos Dataset Table
+2010-01-19 15:07:11,827 DEBUG New Records Found: 11356
+2010-01-19 15:07:11,827 DEBUG Fill Despiece Dataset Table
+2010-01-19 15:07:12,295 DEBUG New Records Found: 41116
+2010-01-19 15:07:12,295 DEBUG Closing connection
+2010-01-19 15:07:16,452 DEBUG Sending data through WebService
+2010-01-19 15:09:45,844 DEBUG Preparing queries for 19/12/2009 to 13/04/2010
+2010-01-19 15:09:46,625 DEBUG Preparing connection
+2010-01-19 15:09:46,641 DEBUG Preparing DataAdapters
+2010-01-19 15:09:46,641 DEBUG Creating DataSet
+2010-01-19 15:09:46,641 DEBUG Fill PO Dataset Table
+2010-01-19 15:09:48,328 DEBUG New Records Found: 0
+2010-01-19 15:09:48,328 DEBUG Fill Stock Dataset Table
+2010-01-19 15:12:53,206 DEBUG New Records Found: 11361
+2010-01-19 15:12:53,206 DEBUG Fill Productos Dataset Table
+2010-01-19 15:12:54,924 DEBUG New Records Found: 11356
+2010-01-19 15:12:54,924 DEBUG Fill Despiece Dataset Table
+2010-01-19 15:12:55,409 DEBUG New Records Found: 41116
+2010-01-19 15:12:55,409 DEBUG Closing connection
+2010-01-19 15:15:20,457 DEBUG Sending data through WebService
+2010-01-19 15:18:34,942 DEBUG Preparing queries for 19/12/2009 to 13/04/2010
+2010-01-19 15:18:35,473 DEBUG Preparing connection
+2010-01-19 15:18:35,473 DEBUG Preparing DataAdapters
+2010-01-19 15:18:35,473 DEBUG Creating DataSet
+2010-01-19 15:18:35,473 DEBUG Fill PO Dataset Table
+2010-01-19 15:18:37,161 DEBUG New Records Found: 0
+2010-01-19 15:18:37,161 DEBUG Fill Stock Dataset Table
+2010-01-19 15:22:45,020 DEBUG New Records Found: 11361
+2010-01-19 15:22:45,020 DEBUG Fill Productos Dataset Table
+2010-01-19 15:22:47,520 DEBUG New Records Found: 11356
+2010-01-19 15:22:47,520 DEBUG Fill Despiece Dataset Table
+2010-01-19 15:22:48,098 DEBUG New Records Found: 41116
+2010-01-19 15:22:48,098 DEBUG Closing connection
+2010-01-19 15:22:51,520 DEBUG Sending data through WebService
+2010-01-19 15:22:55,129 DEBUG Preparing the delete query for PurchaseOrders
+2010-01-19 15:26:25,632 DEBUG Preparing queries for 19/12/2009 to 13/04/2010
+2010-01-19 15:26:26,304 DEBUG Preparing connection
+2010-01-19 15:26:26,304 DEBUG Preparing DataAdapters
+2010-01-19 15:26:26,304 DEBUG Creating DataSet
+2010-01-19 15:26:26,304 DEBUG Fill PO Dataset Table
+2010-01-19 15:26:28,179 DEBUG New Records Found: 0
+2010-01-19 15:26:28,179 DEBUG Fill Stock Dataset Table
+2010-01-19 15:30:08,597 DEBUG New Records Found: 11361
+2010-01-19 15:30:08,597 DEBUG Fill Productos Dataset Table
+2010-01-19 15:30:11,722 DEBUG New Records Found: 11356
+2010-01-19 15:30:11,722 DEBUG Fill Despiece Dataset Table
+2010-01-19 15:30:12,191 DEBUG New Records Found: 41116
+2010-01-19 15:30:12,191 DEBUG Closing connection
+2010-01-19 15:30:15,019 DEBUG Sending data through WebService
+2010-01-19 15:30:16,957 DEBUG Preparing the delete query for PurchaseOrders
+2010-01-19 15:30:26,645 DEBUG Running the insert bulk for PurchaseOrders
+2010-01-19 15:30:31,114 DEBUG Preparing the delete query for Products
+2010-01-19 15:30:47,724 DEBUG Running the delete query for Products: 11356 
+2010-01-19 15:31:09,819 DEBUG Running the insert bulk for Products
+2010-01-19 15:31:14,101 DEBUG Preparing the delete query for Stock
+2010-01-19 15:31:25,242 DEBUG Running the delete query for Stock: 11361 
+2010-01-19 15:31:50,541 DEBUG Running the insert bulk for Stock
+2010-01-19 15:32:01,979 DEBUG Prepating the delete query for Despiece
+2010-01-19 15:32:14,245 DEBUG Running the delete query for Despiece: 41116 
+2010-01-19 15:34:25,597 DEBUG Running the insert bulk for Despiece
+2010-01-19 15:34:30,832 DEBUG Running the exclude products cleaning for Despiece
+2010-01-19 15:34:35,363 DEBUG Process finished correctly
+2010-01-19 15:34:45,926 DEBUG Updating local data on migration
+2010-01-19 15:34:55,958 DEBUG Preparing the delete query for PurchaseOrders
+2010-01-19 15:34:57,254 DEBUG Running the insert bulk for PurchaseOrders
+2010-01-19 15:34:57,270 DEBUG Preparing the delete query for Products
+2010-01-19 15:35:01,380 DEBUG Running the delete query for Products: 11356 
+2010-01-19 15:42:09,985 DEBUG Preparing queries for 19/12/2009 to 13/04/2010
+2010-01-19 15:42:09,985 DEBUG Preparing connection
+2010-01-19 15:42:09,985 DEBUG Preparing DataAdapters
+2010-01-19 15:42:09,985 DEBUG Creating DataSet
+2010-01-19 15:42:09,985 DEBUG Fill PO Dataset Table
+2010-01-19 15:42:11,860 DEBUG New Records Found: 0
+2010-01-19 15:42:11,860 DEBUG Fill Stock Dataset Table
+2010-01-20 10:37:10,818 DEBUG Preparing queries for 20/12/2009 to 14/04/2010
+2010-01-20 10:37:11,678 DEBUG Preparing connection
+2010-01-20 10:37:11,709 DEBUG Preparing DataAdapters
+2010-01-20 10:37:11,725 DEBUG Creating DataSet
+2010-01-20 10:37:11,740 DEBUG Fill PO Dataset Table
+2010-01-20 10:37:13,116 DEBUG New Records Found: 0
+2010-01-20 10:37:13,116 DEBUG Fill Stock Dataset Table
+2010-01-20 10:40:48,470 DEBUG New Records Found: 11361
+2010-01-20 10:40:48,470 DEBUG Fill Productos Dataset Table
+2010-01-20 10:40:50,174 DEBUG New Records Found: 11356
+2010-01-20 10:40:50,174 DEBUG Fill Despiece Dataset Table
+2010-01-20 10:40:50,658 DEBUG New Records Found: 41116
+2010-01-20 10:40:50,658 DEBUG Closing connection
+2010-01-20 10:40:53,002 DEBUG Sending data through WebService
+2010-01-20 10:42:58,364 DEBUG Preparing queries for 20/12/2009 to 14/04/2010
+2010-01-20 10:42:58,849 DEBUG Preparing connection
+2010-01-20 10:42:58,849 DEBUG Preparing DataAdapters
+2010-01-20 10:42:58,849 DEBUG Creating DataSet
+2010-01-20 10:42:58,849 DEBUG Fill PO Dataset Table
+2010-01-20 10:42:59,333 DEBUG New Records Found: 0
+2010-01-20 10:42:59,333 DEBUG Fill Stock Dataset Table
+2010-01-20 10:46:02,947 DEBUG New Records Found: 11361
+2010-01-20 10:46:02,947 DEBUG Fill Productos Dataset Table
+2010-01-20 10:46:04,682 DEBUG New Records Found: 11356
+2010-01-20 10:46:04,682 DEBUG Fill Despiece Dataset Table
+2010-01-20 10:46:05,244 DEBUG New Records Found: 41116
+2010-01-20 10:46:05,244 DEBUG Closing connection
+2010-01-20 10:46:07,229 DEBUG Sending data through WebService
+2010-01-20 10:53:48,628 DEBUG Preparing queries for 20/01/2009 to 14/04/2010
+2010-01-20 10:53:50,003 DEBUG Preparing connection
+2010-01-20 10:53:50,003 DEBUG Preparing DataAdapters
+2010-01-20 10:53:50,003 DEBUG Creating DataSet
+2010-01-20 10:53:50,003 DEBUG Fill PO Dataset Table
+2010-01-20 10:53:52,128 DEBUG New Records Found: 1087
+2010-01-20 10:53:52,128 DEBUG Fill Stock Dataset Table
+2010-01-20 10:57:20,162 DEBUG New Records Found: 11361
+2010-01-20 10:57:20,162 DEBUG Fill Productos Dataset Table
+2010-01-20 10:57:30,771 DEBUG New Records Found: 11356
+2010-01-20 10:57:30,771 DEBUG Fill Despiece Dataset Table
+2010-01-20 10:57:31,521 DEBUG New Records Found: 41116
+2010-01-20 10:57:31,521 DEBUG Closing connection
+2010-01-20 10:57:44,881 DEBUG Sending data through WebService
+2010-02-17 15:38:17,414 DEBUG Preparing queries for 17/12/2009 to 12/04/2010
+2010-02-17 15:38:17,445 DEBUG Preparing connection
+2010-02-17 15:40:42,461 DEBUG Preparing queries for 17/12/2009 to 12/04/2010
+2010-02-17 15:40:42,461 DEBUG Preparing connection
+2010-02-17 15:40:44,540 DEBUG Preparing DataAdapters
+2010-02-17 15:40:48,180 DEBUG Creating DataSet
+2010-02-17 15:40:50,930 DEBUG Fill PO Dataset Table
+2010-02-17 15:40:58,321 DEBUG New Records Found: 0
+2010-02-17 15:40:58,977 DEBUG Fill Stock Dataset Table
+2010-02-17 15:44:26,994 DEBUG New Records Found: 11361
+2010-02-17 15:44:27,572 DEBUG Fill Productos Dataset Table
+2010-02-17 15:44:30,963 DEBUG New Records Found: 11356
+2010-02-17 15:44:31,557 DEBUG Fill Despiece Dataset Table
+2010-02-17 15:44:34,260 DEBUG New Records Found: 41116
+2010-02-17 15:44:34,932 DEBUG Closing connection
+2010-02-17 15:44:36,588 DEBUG Sending data through WebService
+2010-02-17 15:45:23,885 DEBUG Preparing queries for 17/12/2009 to 12/04/2010
+2010-02-17 15:45:23,885 DEBUG Preparing connection
+2010-02-17 15:45:28,948 DEBUG Preparing DataAdapters
+2010-02-17 15:45:28,948 DEBUG Creating DataSet
+2010-02-17 15:45:28,948 DEBUG Fill PO Dataset Table
+2010-02-17 15:45:30,510 DEBUG New Records Found: 0
+2010-02-17 15:45:30,510 DEBUG Fill Stock Dataset Table
+2010-02-17 15:46:56,073 DEBUG New Records Found: 11361
+2010-02-17 15:46:56,073 DEBUG Fill Productos Dataset Table
+2010-02-17 15:46:57,464 DEBUG New Records Found: 11356
+2010-02-17 15:46:57,464 DEBUG Fill Despiece Dataset Table
+2010-02-17 15:46:57,933 DEBUG New Records Found: 41116
+2010-02-17 15:46:57,933 DEBUG Closing connection
+2010-02-17 15:46:57,933 DEBUG Sending data through WebService
+2010-02-17 15:56:33,358 DEBUG Preparing queries for 17/12/2009 to 12/04/2010
+2010-02-17 15:56:33,358 DEBUG Preparing connection
+2010-02-17 15:56:35,155 DEBUG Preparing DataAdapters
+2010-02-17 15:56:35,155 DEBUG Creating DataSet
+2010-02-17 15:56:35,155 DEBUG Fill PO Dataset Table
+2010-02-17 15:56:36,686 DEBUG New Records Found: 0
+2010-02-17 15:56:36,686 DEBUG Fill Stock Dataset Table
+2010-02-17 15:58:19,500 DEBUG New Records Found: 11361
+2010-02-17 15:58:19,500 DEBUG Fill Productos Dataset Table
+2010-02-17 15:58:20,859 DEBUG New Records Found: 11356
+2010-02-17 15:58:20,859 DEBUG Fill Despiece Dataset Table
+2010-02-17 15:58:21,343 DEBUG New Records Found: 41116
+2010-02-17 15:58:21,343 DEBUG Closing connection
+2010-02-17 15:58:21,343 DEBUG Sending data through WebService
+2010-02-17 15:58:34,546 DEBUG Preparing the delete query for PurchaseOrders
+2010-02-17 15:58:48,625 DEBUG Running the insert bulk for PurchaseOrders
+2010-02-17 15:58:53,890 DEBUG Preparing the delete query for Products
+2010-02-17 15:59:19,422 DEBUG Running the delete query for Products: 11356 
+2010-02-17 15:59:30,484 DEBUG Running the insert bulk for Products
+2010-02-17 15:59:30,891 DEBUG Preparing the delete query for Stock
+2010-02-17 15:59:53,328 DEBUG Running the delete query for Stock: 11361 
+2010-02-17 16:00:07,969 DEBUG Running the insert bulk for Stock
+2010-02-17 16:00:28,610 DEBUG Prepating the delete query for Despiece
+2010-02-17 16:00:28,641 DEBUG Running the delete query for Despiece: 41116 
+2010-02-17 16:04:19,439 DEBUG Running the insert bulk for Despiece
+2010-02-17 16:04:21,096 DEBUG Running the exclude products cleaning for Despiece
+2010-02-17 16:04:24,049 DEBUG Process finished correctly
+2010-02-17 16:04:27,986 DEBUG Updating local data on migration
+2010-02-17 16:07:57,988 DEBUG Preparing queries for 17/12/2009 to 12/04/2010
+2010-02-17 16:07:58,003 DEBUG Preparing connection
+2010-02-17 16:07:59,706 DEBUG Preparing DataAdapters
+2010-02-17 16:07:59,706 DEBUG Creating DataSet
+2010-02-17 16:07:59,706 DEBUG Fill PO Dataset Table
+2010-02-17 16:08:01,191 DEBUG New Records Found: 0
+2010-02-17 16:08:01,191 DEBUG Fill Stock Dataset Table
+2010-02-17 16:09:25,848 DEBUG New Records Found: 11361
+2010-02-17 16:09:25,848 DEBUG Fill Productos Dataset Table
+2010-02-17 16:09:27,191 DEBUG New Records Found: 11356
+2010-02-17 16:09:27,191 DEBUG Fill Despiece Dataset Table
+2010-02-17 16:09:27,613 DEBUG New Records Found: 41116
+2010-02-17 16:09:27,613 DEBUG Closing connection
+2010-02-17 16:09:27,613 DEBUG Sending data through WebService
+2010-02-17 16:10:22,832 DEBUG Preparing the delete query for PurchaseOrders
+2010-02-17 16:10:31,426 DEBUG Running the insert bulk for PurchaseOrders
+2010-02-17 16:10:31,426 DEBUG Preparing the delete query for Products
+2010-02-17 16:10:34,801 DEBUG Running the delete query for Products: 11356 
+2010-02-17 16:10:45,676 DEBUG Running the insert bulk for Products
+2010-02-17 16:10:46,082 DEBUG Preparing the delete query for Stock
+2010-02-17 16:10:48,754 DEBUG Running the delete query for Stock: 11361 
+2010-02-17 16:10:58,973 DEBUG Running the insert bulk for Stock
+2010-02-17 16:11:40,130 DEBUG Prepating the delete query for Despiece
+2010-02-17 16:11:40,161 DEBUG Running the delete query for Despiece: 41116 
+2010-02-17 16:15:33,209 DEBUG Running the insert bulk for Despiece
+2010-02-17 16:15:35,069 DEBUG Running the exclude products cleaning for Despiece
+2010-02-17 16:16:44,710 DEBUG Process finished correctly
+2010-02-17 16:16:44,725 DEBUG Updating local data on migration
+2010-02-17 16:16:46,038 DEBUG Preparing the delete query for PurchaseOrders
+2010-02-17 16:16:47,210 DEBUG Running the insert bulk for PurchaseOrders
+2010-02-17 16:16:47,210 DEBUG Preparing the delete query for Products
+2010-02-17 16:16:49,913 DEBUG Running the delete query for Products: 11356 
+2010-02-17 16:19:39,320 DEBUG Preparing queries for 17/01/2010 to 12/05/2010
+2010-02-17 16:19:39,351 DEBUG Preparing connection
+2010-02-17 16:19:39,367 DEBUG Preparing DataAdapters
+2010-02-17 16:19:39,367 DEBUG Creating DataSet
+2010-02-17 16:19:39,367 DEBUG Fill PO Dataset Table
+2010-02-17 16:19:40,789 DEBUG New Records Found: 0
+2010-02-17 16:19:40,789 DEBUG Fill Stock Dataset Table

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="QuoteItem" table="QuoteItem" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <many-to-one name="PriceBase" column="PriceBaseId" class="PriceBase" cascade="none" />
+    <many-to-one name="Quote" column="QuoteId" class="Quote" cascade="none" />
+
+    <property name="Observation" column="Observation" type="System.String" not-null="false"/>
+    <property name="Price" column="Price" type="System.Decimal" not-null="true"/>
+    <many-to-one name="PriceCurrency" column="PriceCurrencyId" class="Currency" cascade="none" />
+    <many-to-one name="CurrencyRate" column="CurrencyRateId" class="CurrencyRate" cascade="none" />
+
+    <property name="LastPrice" column="LastPrice" type="System.Decimal" not-null="true"/>
+    
+    <property name="Source" column="Source" type="System.String" not-null="false" />
+    <property name="Quantity" column="Quantity" type="System.Int32" not-null="true"/>
+    <property name="Subtotal" column="Subtotal" type="System.Decimal" not-null="true"/>
+    <property name="DeliveryTime" column="DeliveryTime" type="System.String" not-null="false"/>
+    <many-to-one name="DeliveryTerm" column="DeliveryTerm" class="Lookup" cascade="none" />
+    <many-to-one name="SaleCondition" column="SaleCondition" class="Lookup" cascade="none" />
+    <property name="Order" column="[Order]" type="System.Int32" not-null="true"/>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

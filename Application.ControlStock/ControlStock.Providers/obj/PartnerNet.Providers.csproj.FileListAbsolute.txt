@@ -1,0 +1,15 @@
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\bin\Debug\PartnerNet.Providers.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\bin\Debug\PartnerNet.Providers.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Debug\PartnerNet.Providers.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Debug\PartnerNet.Providers.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\bin\Release\PartnerNet.Providers.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\bin\Release\PartnerNet.Providers.pdb
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Release\PartnerNet.Providers.dll
+C:\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Release\PartnerNet.Providers.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\bin\Debug\PartnerNet.Providers.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\bin\Debug\PartnerNet.Providers.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Debug\ResolveAssemblyReference.cache
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Debug\PartnerNet.Providers.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ControlStock.Providers\obj\Debug\PartnerNet.Providers.pdb

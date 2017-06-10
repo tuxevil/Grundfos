@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="ee25577c-f0c0-42f9-90b7-de664c0bda29" Timestamp="632630698080000000" XmlDocIndexTimestamp="632630698080000000" />
+  <Assembly Name="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="f45eff92-93b3-42d1-b3ed-37becb7ce920" Timestamp="632630698100000000" XmlDocIndexTimestamp="632630698100000000" />
+  <Assembly Name="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="727bc3c1-b02c-4315-ab32-301f58048fc2" Timestamp="632630698100000000" XmlDocIndexTimestamp="632630698100000000" />
+  <Assembly Name="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="9ca2095a-d908-4cca-8079-07b7a5673506" Timestamp="632630698100000000" XmlDocIndexTimestamp="632630698100000000" />
+</Assemblies>

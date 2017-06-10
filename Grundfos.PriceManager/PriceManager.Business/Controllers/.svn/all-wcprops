@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers
+END
+IndexController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2126/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/IndexController.cs
+END
+PriceAttributeHistoryController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceAttributeHistoryController.cs
+END
+PriceCalculator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceCalculator.cs
+END
+LookupController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/LookupController.cs
+END
+DistributorController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/DistributorController.cs
+END
+QuoteRangeController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/nybble/!svn/ver/2858/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/QuoteRangeController.cs
+END
+PriceBaseHistoryController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceBaseHistoryController.cs
+END
+PriceGroupController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceGroupController.cs
+END
+WorkListItemHistoryController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/WorkListItemHistoryController.cs
+END
+ProductController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/ProductController.cs
+END
+PriceCalculationController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceCalculationController.cs
+END
+LogController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/1315/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/LogController.cs
+END
+FamilyController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/FamilyController.cs
+END
+SelectionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2737/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/SelectionController.cs
+END
+PriceAttributeController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/nybble/!svn/ver/2588/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceAttributeController.cs
+END
+CurrencyController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/CurrencyController.cs
+END
+ProviderController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/ProviderController.cs
+END
+PriceBaseController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2713/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceBaseController.cs
+END
+PriceImportController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2658/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceImportController.cs
+END
+QuoteController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2880/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/QuoteController.cs
+END
+WorkListItemController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2588/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/WorkListItemController.cs
+END
+PriceListController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PriceListController.cs
+END
+FactoryControllerManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/nybble/!svn/ver/2651/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/FactoryControllerManager.cs
+END
+PublishListController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/2537/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/PublishListController.cs
+END
+CountryController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2609/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/CountryController.cs
+END
+ProductPriceController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nybble/!svn/ver/659/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/ProductPriceController.cs
+END
+NoteController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2152/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/NoteController.cs
+END
+CtrRangeController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/724/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/CtrRangeController.cs
+END
+CurrencyRateController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2758/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Controllers/CurrencyRateController.cs
+END

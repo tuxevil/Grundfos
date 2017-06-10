@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PriceManager.Business.PriceBaseController">
+    <Position X="7" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Controllers\BasePriceController.cs</FileName>
+      <HashCode>AAUQIAAAAAAAABAAAAAAAAABAAACAFAgEBACIQIQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.SelectionController">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\SelectionController.cs</FileName>
+      <HashCode>AAIAIABAAAAAAAAAABAABAAAAAAAABAAAEBCCAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.CtrRangeController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\CtrRangeController.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.CurrencyController" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\CurrencyController.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.DiscountController" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\DiscountController.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.FamilyController">
+    <Position X="10.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Controllers\FamilyController.cs</FileName>
+      <HashCode>KAIIIAAAAgAAAABAAgAARAAAAAAAQAAAAAQAAgEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.PriceImportController" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\PriceImportController.cs</FileName>
+      <HashCode>gAAAgAgAAAAAAAAAKAAABAAAAAABAEAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.PriceListController" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\PriceListController.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.ProductAuditController" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\ProductAuditController.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.ProductController">
+    <Position X="4" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Controllers\ProductController.cs</FileName>
+      <HashCode>AAABAAAAAAAgAAAAAAAAAAEAAAACAAAgAAAAAAIQQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Business.ProviderController" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Controllers\ProviderController.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

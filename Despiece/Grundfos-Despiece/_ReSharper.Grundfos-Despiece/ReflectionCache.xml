@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="fb431841-1f77-4d32-bcfd-e778b100f0e4" Timestamp="633049197920000000" />
+  <Assembly Name="AjaxControlToolkit, Version=1.0.11119.20010, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Image="c6036325-b29f-48f4-839c-2a71b785dce9" Timestamp="633310780220000000" />
+</Assemblies>

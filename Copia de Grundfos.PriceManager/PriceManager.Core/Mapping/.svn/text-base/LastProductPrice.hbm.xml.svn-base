@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="LastProductPrice" table="viewLastProductPrice" >
+    <id name="ID" type="System.Int32" column="ProductPriceId">
+      <generator class="identity"/>
+    </id>
+
+    <many-to-one name="Product" class="Product" column="ProductId" cascade="none" />
+	<many-to-one name="PriceList" class="PriceList" column="PriceListId" cascade="none"/>
+
+    <property name="Price" column="Price" type="System.Decimal" not-null="true" length="50"/>
+    <property name="PCR" column="PriceChangeRate" type="System.Decimal" not-null="true" length="50"/>
+
+  </class>
+</hibernate-mapping>

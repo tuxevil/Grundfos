@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Grundfos.ScalaConnector" namespace="Grundfos.ScalaConnector">
+  <class name="Customer" table="SL010100" >
+    <id name="Id" type="System.String" column="SL01001">
+      <generator class="assigned"/>
+    </id>
+    <property name="Name" column="SL01002" type="System.String" not-null="true"/>
+  </class>
+</hibernate-mapping>

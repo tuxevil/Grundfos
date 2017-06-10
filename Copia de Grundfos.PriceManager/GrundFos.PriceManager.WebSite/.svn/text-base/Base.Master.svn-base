@@ -1,0 +1,166 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="GrundFos.PriceManager.WebSite.Base" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head id="Head1" runat="server">
+   <title>GrundFos - Prices</title>
+   <link rel="stylesheet" href="/css/reset-fonts-grids.css" type="text/css" />
+   <link rel="stylesheet" href="/css/main.css" type="text/css" />
+   <link rel="stylesheet" href="/css/jquery-ui-1.7.1.custom.css" type="text/css" />
+   <style type="text/css">
+a:link, a:visited {
+    color: #03c;
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: #03c;
+  }
+
+  #hd {
+    background-color: #036;
+  }
+
+  #hd h1 {
+    color: #fff;
+  }
+
+  #P2P_selector {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  #hd h3, #hd h3 a:link, #hd h3 a:visited {
+    color: #fff;
+  }
+
+  #hd h3 a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+  }
+
+  #hd h3 a.current:link, #hd h3 a.current:visited {
+    color: #fff;
+  }
+
+  #hd h3 a.current:hover {
+    color: #fff;
+    background-color: #036;
+  }
+
+  #hd h1 a:link, #hd h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #hd h1 a:hover {
+    color: #fff;
+    background-color: #036;
+    text-decoration: underline;
+  }
+
+  #hd h1 span {
+    color: #fff;
+  }
+
+  #Tabs a:link, #Tabs a:visited {
+    background-color: #1A4F85;
+    color: #fff;
+    border: 1px solid #036;
+    border-bottom: 1px solid #1A4F85;
+  }
+
+  #Tabs ul#MainTabs a:link.current, #Tabs ul#MainTabs a:visited.current,
+  div#CategoryList a.current:link, div#CategoryList a.current:visited {
+    color: #090;
+  }
+
+  #Tabs a:hover {
+    color: #fff;
+    background-color: #1D64AD;
+    border-bottom: 1px solid #1D64AD;
+  }
+
+  #Tabs li#AdminTab a:link, #Tabs li#AdminTab a:visited {
+    color: #fff;
+    background-color: #036;
+    border-bottom: 1px solid #036;
+    text-decoration: underline;
+  }
+
+  #Tabs li#AdminTab a:hover {
+    color: #fff;
+  }
+
+  #Tabs li#AdminTab a.current {
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+   <script language="javascript" type="text/javascript" src="/js/jquery-1.3.1.min.js"></script>
+   <script language="javascript" type="text/javascript" src="/js/jquery-ui-1.7.1.custom.min.js"></script>
+   <asp:ContentPlaceHolder ID="cplHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<form runat="server" id="frmBody">
+    <asp:ScriptManager ID="ScriptManager1" AsyncPostBackTimeout="1800" runat="server">
+    </asp:ScriptManager>
+    <div id="doc3">
+       <div id="hd" class="global">
+       
+        <h3>
+            <asp:LoginName ID="LoginName1" runat="server" />
+            <span class="pipe">|</span><a href="../Help.html" target="_blank">Ayuda</a>
+            <span class="pipe">|</span><asp:LoginStatus ID="LoginStatus1" runat="server" LoginText="Iniciar Sesión" LogoutText="Cerrar Sesión" />
+        </h3>
+       
+       <h1><span>Lista de Precios</span></h1>
+       
+        <div id="Tabs"> 
+            <ul id="MainTabs"> 
+              <li><a id="lnksearch" runat="server" href="/" class="current">Buscar</a></li>  
+              <li><a id="lnkresult" runat="server" visible="false"></a></li> 
+              <li runat="server" id="lnkAdmin" style="float: right" visible="false"><a href="../admin/default.aspx">Administración</a></li> 
+            </ul> 
+        </div>       
+           
+       </div>
+       <div id="bd">
+        <div class="yui-b">
+        <div class="yui-g">
+            <div class="col">
+                <asp:ContentPlaceHolder ID="cplMain" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="bottom">&nbsp;</div>
+        </div>
+        </div>
+        </div>
+       <div id="ft" class="footer">
+       
+        <p><span class="pipe_series">
+            <asp:Label ID="lblVersion" runat="server" ></asp:Label>
+        </span></p>
+        
+
+       </div>
+    </div>
+     <asp:UpdateProgress ID="ajaxProgress" runat="server"
+                     DynamicLayout="false">
+        <ProgressTemplate>
+            <div class="updateprogress">
+            <img src="/img/ajax-loader.gif" border="0" alt="Cargando" /> Cargando ...
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+
+    <cc1:AlwaysVisibleControlExtender ID="alwaysVisible"
+     runat="server" TargetControlID="ajaxProgress"
+     HorizontalSide="Right" VerticalSide="Top" HorizontalOffset="0">
+    </cc1:AlwaysVisibleControlExtender>   
+    
+
+
+</form>
+</body>
+</html>

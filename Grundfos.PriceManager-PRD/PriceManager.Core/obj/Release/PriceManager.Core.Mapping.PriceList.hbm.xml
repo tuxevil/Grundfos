@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceList" table="PriceList" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="Name" column="Name" type="System.String" not-null="true"/>
+    <property name="Description" column="Description" type="System.String" not-null="false"/>
+    <many-to-one name="PriceGroup" column="PriceGroupId" class="PriceGroup" cascade="none" />
+    <property name="Discount" column="Discount" type="System.Decimal" not-null="false"/>
+    <property name="PriceListStatus" column="Status" type="PriceManager.Core.PriceListStatus, PriceManager.Core" not-null="true"/>
+    <property name="Frecuency" column="Frecuency" type="PriceManager.Core.Frequency, PriceManager.Core" not-null="false"/>
+    <property name="SaleCondition" column="SaleCondition" type="PriceManager.Core.Incoterm, PriceManager.Core" not-null="false"/>
+
+    <one-to-one name="CurrentState" class="PriceListCurrentState" />
+
+    <many-to-one name="Type" column="Type" class="Lookup" cascade="none" />
+    <many-to-one name="Currency" column="CurrencyId" class="Currency" />
+
+    <set name="PublishLists" table="PublishList" lazy="true" cascade="none">
+      <key column="PriceListId"/>
+      <one-to-many class="PublishList"/>
+    </set>
+
+    <set name="Items" table="WorkListItems" lazy="true" inverse="true"  cascade="all-delete-orphan">
+      <key column="PriceListId"/>
+      <one-to-many class="WorkListItem"/>
+    </set>
+
+    <set name="Distributors" table="Distributor" lazy="true" where="Status > 0" cascade="none">
+      <key column="PriceListId"/>
+      <one-to-many class="Distributor"/>
+    </set>
+
+    <set name="CategoryPages" table="PriceListByCategory" lazy="true" cascade="none">
+      <key column="PriceListId"/>
+      <many-to-many class="CategoryBase" column="CategoryId"/>
+    </set>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+  
+  <sql-query name="PriceListItemCountUpdate">
+    <query-param name="PriceListId" type="int" />
+    <return-scalar column="result" type="Int32" />
+    exec PriceListItemCountUpdate @PriceListId=:PriceListId
+  </sql-query>
+  
+</hibernate-mapping>

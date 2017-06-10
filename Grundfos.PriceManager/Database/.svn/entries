@@ -1,0 +1,71 @@
+9
+
+dir
+2879
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble/GrundFos/Grundfos.PriceManager/trunk/Database
+http://sourcesafe.nybblenetwork.com:8080/svn/nybble
+
+
+
+2009-07-13T20:32:58.468544Z
+983
+sebastian.real
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+Database.dbp
+file
+
+
+
+
+2009-12-01T14:10:41.814906Z
+c7d7d6d08689843a4eb518a98f004bb8
+2009-07-07T19:36:23.467891Z
+882
+leonardo.rodriguez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1264
+
+Create Scripts
+dir
+
+Change Scripts
+dir
+
+DEV
+dir
+

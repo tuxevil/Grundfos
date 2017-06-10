@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PriceManager.Business.GridHelper">
+    <Position X="7.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>GridHelper.cs</FileName>
+      <HashCode>oECACCAIBQBAQAQCBIABAgQAEAIIEEAAABAAFAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="allSelected" Hidden="true" />
+      <Property Name="AllSelected" Hidden="true" />
+      <Field Name="changed" Hidden="true" />
+      <Field Name="currentPageNumber" Hidden="true" />
+      <Field Name="currentPageSize" Hidden="true" />
+      <Method Name="DoChanged" Hidden="true" />
+      <Field Name="itemsSelected" Hidden="true" />
+      <Property Name="ItemsSelected" Hidden="true" />
+      <Method Name="MarkOrUnMarkItems" Hidden="true" />
+      <Method Name="OnChanged" Hidden="true" />
+      <Field Name="pageSizesAvailables" Hidden="true" />
+      <Field Name="sortAscending" Hidden="true" />
+      <Field Name="sortField" Hidden="true" />
+      <Field Name="totalRecords" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Business.FilterHelper">
+    <Position X="4.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>FilterHelper.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAEIAAAAAAQAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PriceManager.Business.Filters.IFilter">
+    <Position X="12.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Filters\BaseFilters\IFilter.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAABAAAAAAAAAEkAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PriceManager.Business.Actions.IAction">
+    <Position X="10" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Actions\BaseActions\IAction.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters
+END
+IndexFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/IndexFilter.cs
+END
+AreaFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/AreaFilter.cs
+END
+LookupTypeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/LookupTypeFilter.cs
+END
+DistributorTypeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/DistributorTypeFilter.cs
+END
+ImportStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ImportStatusFilter.cs
+END
+CategoryPageStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/nybble/!svn/ver/2562/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CategoryPageStatusFilter.cs
+END
+PriceGroupFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceGroupFilter.cs
+END
+CategoryTypeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CategoryTypeFilter.cs
+END
+PriceListFrequencyFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceListFrequencyFilter.cs
+END
+IncotermFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2759/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/IncotermFilter.cs
+END
+UpdateDateFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/UpdateDateFilter.cs
+END
+CatalogPageParentFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2563/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CatalogPageParentFilter.cs
+END
+FilterLinkButton.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/928/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/FilterLinkButton.cs
+END
+PriceImportFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceImportFilter.cs
+END
+ProviderStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ProviderStatusFilter.cs
+END
+PriceListFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2562/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceListFilter.cs
+END
+WorkListItemStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/WorkListItemStatusFilter.cs
+END
+ApplicationFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ApplicationFilter.cs
+END
+SearchFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/SearchFilter.cs
+END
+CtrRangeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CtrRangeFilter.cs
+END
+PaymentTermFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2576/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PaymentTermFilter.cs
+END
+CatalogPageFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CatalogPageFilter.cs
+END
+CategoryBaseFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CategoryBaseFilter.cs
+END
+DistributorFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2737/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/DistributorFilter.cs
+END
+ModifiedOnFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ModifiedOnFilter.cs
+END
+UserFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/UserFilter.cs
+END
+DistributorstatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/DistributorstatusFilter.cs
+END
+FamilyFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/FamilyFilter.cs
+END
+ProductTypeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ProductTypeFilter.cs
+END
+ProductStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ProductStatusFilter.cs
+END
+SelectionFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2737/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/SelectionFilter.cs
+END
+LineFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/nybble/!svn/ver/2554/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/LineFilter.cs
+END
+PoliticsPriorityFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PoliticsPriorityFilter.cs
+END
+PriceListDistributorFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceListDistributorFilter.cs
+END
+CurrencyFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CurrencyFilter.cs
+END
+ProviderFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/ProviderFilter.cs
+END
+PriceListTypeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceListTypeFilter.cs
+END
+PriceBaseStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceBaseStatusFilter.cs
+END
+QuoteStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/QuoteStatusFilter.cs
+END
+PriceListStatusFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/nybble/!svn/ver/2531/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/PriceListStatusFilter.cs
+END
+CountryFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2609/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/CountryFilter.cs
+END
+FilterEvents.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/nybble/!svn/ver/764/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Business/Filters/FilterEvents.cs
+END

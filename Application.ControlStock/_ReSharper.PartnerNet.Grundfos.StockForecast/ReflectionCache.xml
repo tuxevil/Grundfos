@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="AjaxControlToolkit, Version=1.0.11119.20010, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Image="d789e4cc-68a1-4257-ad90-62522f5ac548" Timestamp="633529390280000000" />
+  <Assembly Name="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73" Image="7f521112-ff8b-417d-84f4-fa0961b4c336" Timestamp="633529390190000000" />
+  <Assembly Name="NHibernate, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="7fb3a35f-2adb-4bf8-a8fd-96a50ff1ef60" Timestamp="633529390240000000" XmlDocIndexTimestamp="633639172752656000" />
+  <Assembly Name="NHibernate.Caches.SysCache, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="2ed196bd-3027-481b-8676-73d770b76a45" Timestamp="633529390230000000" XmlDocIndexTimestamp="633639172746884000" />
+  <Assembly Name="ProjectBase.Data, Version=1.0.0.0, Culture=neutral" Image="4ce74ac0-40f8-4962-812a-5657761e2350" Timestamp="633529390260000000" />
+  <Assembly Name="ProjectBase.Utils, Version=1.0.0.0, Culture=neutral" Image="791fef5d-4d42-47f0-a0a6-4582cace9877" Timestamp="633529390260000000" />
+  <Assembly Name="RssToolkit, Version=1.0.0.1, Culture=neutral, PublicKeyToken=02e47a85b237026a" Image="2631daf6-2239-4965-a3e5-0492904b4a33" Timestamp="633529390260000000" />
+  <Assembly Name="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral" Image="c994b890-3ed4-40cd-8f85-773919724e1e" Timestamp="633529390270000000" />
+  <Assembly Name="dotnetCHARTING, Version=5.1.3169.27816, Culture=neutral, PublicKeyToken=null" Image="33f525ec-9860-402a-8d54-7911c14ed4a3" Timestamp="633561533440000000" />
+  <Assembly Name="dotnetCHARTING, Version=5.1.3169.27816, Culture=neutral" Image="682ef4a9-637d-421f-9d70-2dc1b6c16a2d" Timestamp="633561533440000000" />
+  <Assembly Name="netchartdir, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null" Image="3dcab2df-05f7-4be8-97d9-909ce2c4565d" Timestamp="632909493620000000" XmlDocIndexTimestamp="633573440797700421" />
+  <Assembly Name="netchartdir, Version=4.1.0.0, Culture=neutral" Image="5072ac18-6fa9-4516-a8f2-455f9b5a88cd" Timestamp="632909493620000000" XmlDocIndexTimestamp="633639172742672000" />
+  <Assembly Name="DBauer.Web.UI.WebControls.HierarGrid, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0cf700d027f89147" Image="33f16564-7c6b-43d0-a59f-9aef4a1ab096" Timestamp="632792779340000000" />
+  <Assembly Name="Castle.MicroKernel, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="53b05085-d2e9-45c7-a14a-38a8300301ec" Timestamp="633529390180000000" XmlDocIndexTimestamp="633639172486988000" />
+  <Assembly Name="Castle.Windsor, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="0e0c3578-bcba-41b3-ba3e-99203f1f313a" Timestamp="633529390190000000" XmlDocIndexTimestamp="633639172489796000" />
+  <Assembly Name="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="c04d4a8b-8707-4153-86cc-5942e1c1d9a7" Timestamp="632630662080000000" XmlDocIndexTimestamp="632630662080000000" />
+  <Assembly Name="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="4aaa6e01-b035-4fac-88fd-6402b814d595" Timestamp="632630662100000000" XmlDocIndexTimestamp="632630662100000000" />
+  <Assembly Name="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="88b5550d-6cf3-4bd8-8310-fd4168c3ff73" Timestamp="632630662100000000" XmlDocIndexTimestamp="632630662100000000" />
+  <Assembly Name="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="39ee409d-b9fa-4d8f-9ad8-1ce342e0de7d" Timestamp="632630662100000000" XmlDocIndexTimestamp="632630662100000000" />
+  <Assembly Name="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="23a3d26c-b73a-4c9d-8581-26e716ae6995" Timestamp="633049197920000000" />
+</Assemblies>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="WorkListItem" table="WorkListItem" >
+
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="hilo">
+        <param name="max_lo">200</param>
+        <param name="where">table_name='WorkListItem'</param>
+      </generator>
+    </id>
+
+    <many-to-one name="PriceCurrency" column="PriceCurrencyId" class="Currency" cascade="none" />
+    <property name="Price" column="Price" type="System.Decimal" not-null="true"/>
+    <many-to-one name="PriceAttribute" column="PriceAttributeId" class="PriceAttribute" cascade="none" />
+    <many-to-one name="LastApproved" column="LastApprovedHistoryId" class="WorkListItemHistory" cascade="none" />
+    <many-to-one name="LastPublishItem" column="LastPublishedItemId" class="PublishItem" cascade="none" />
+    <property name="WorkListItemStatus" column="WorkListItemStatus" type="PriceManager.Core.WorkListItemStatus, PriceManager.Core" not-null="true"/>
+    <many-to-one name="PriceList" column="PriceListId" class="PriceList" />
+
+    <many-to-one name="CurrencyRate" column="CurrencyRateId" class="CurrencyRate" cascade="none" />
+    <many-to-one name="PriceSuggestCurrencyRate" column="PriceSuggestCurrencyRateId" class="CurrencyRate" cascade="none" />
+    <many-to-one name="PricePurchaseCurrencyRate" column="PricePurchaseCurrencyRateId" class="CurrencyRate" cascade="none" />
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

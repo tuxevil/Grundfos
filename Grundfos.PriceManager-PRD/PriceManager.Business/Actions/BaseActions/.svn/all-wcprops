@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions
+END
+ImageButtonAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions/ImageButtonAction.cs
+END
+ActionEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions/ActionEvent.cs
+END
+JavascriptAnchorAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions/JavascriptAnchorAction.cs
+END
+IAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions/IAction.cs
+END
+LinkButtonAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions/LinkButtonAction.cs
+END
+ButtonAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Actions/BaseActions/ButtonAction.cs
+END

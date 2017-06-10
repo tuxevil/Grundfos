@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PriceManager.Core
+{
+
+    public class BaseQuoteNotification : BaseAuditableEntity<int>, IQuoteNotification
+    {
+        private string name;
+        private string email;
+
+        public virtual string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        public virtual string Email
+        {
+            get { return email; }
+            set { email = value; }
+        }
+    }
+
+    public class QuoteNotification : BaseQuoteNotification
+    {
+    }
+
+    public class ContactQuoteNotification : BaseQuoteNotification
+    {
+        private Contact contact;
+
+        public virtual Contact Contact
+        {
+            get { return contact; }
+            set { contact = value; }
+        }
+    }
+}

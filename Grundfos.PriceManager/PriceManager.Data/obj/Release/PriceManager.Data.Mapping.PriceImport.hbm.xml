@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceImport" table="PriceImport" >
+    <id name="ID" type="System.Guid" column="Id">
+      <generator class="guid.comb"/>
+    </id>
+    
+    <property name="ImportStatus" column="ImportStatus" type="PriceManager.Core.ImportStatus, PriceManager.Core" not-null="true"/>
+    <property name="File" column="[File]" type="System.String" not-null="true" />
+    <property name="Number" column="Number" type="System.Int32" update="false" insert="false" not-null="true" />
+    <property name="Description" column="Description" type="System.String" not-null="true" />
+    <property name="DateImported" column="DateImported" type="System.DateTime" not-null="true" />
+    <property name="HaveHeader" column="HaveHeader" type="System.Boolean" not-null="true" />
+    <property name="SeparationChar" column="SeparationChar" type="System.Char" not-null="true" />
+    
+    <set name="LogResults" table="LogResult" lazy="true" cascade="none">
+      <key column="PriceImportId"/>
+      <one-to-many class="PriceImportLog"/>
+    </set>
+
+    <one-to-one name="ImportView" class="PriceImportView" />
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

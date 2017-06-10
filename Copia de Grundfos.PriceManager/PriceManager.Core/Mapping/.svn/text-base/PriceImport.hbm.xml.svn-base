@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceImport" table="PriceImport" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="ImportStatus" column="ImportStatus" type="PriceManager.Core.ImportStatus, PriceManager.Core" not-null="true"/>
+    <property name="File" column="File" type="System.String" not-null="true" />
+    <property name="DateImported" column="DateImported" type="System.DateTime" not-null="true" />
+    <property name="LogResult" column="LogResult" type="System.String" not-null="true" />
+    
+
+    <property name="CreatedOn" column="CreatedOn" type="System.DateTime" not-null="true" />
+    <property name="CreatedBy" column="CreatedBy" type="System.Guid" not-null="true"/>
+    <property name="ModifiedOn" column="ModifiedOn" type="System.DateTime" not-null="true" />
+    <property name="ModifiedBy" column="ModifiedBy" type="System.Guid" not-null="true"/>
+  </class>
+</hibernate-mapping>

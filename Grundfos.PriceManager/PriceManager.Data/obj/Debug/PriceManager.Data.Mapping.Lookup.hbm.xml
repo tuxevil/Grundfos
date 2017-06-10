@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="Lookup" table="Lookup" >
+    <id name="ID" type="System.Int32" column="ID">
+      <generator class="identity"/>
+    </id>
+
+    <property name="LookupType" type="PriceManager.Core.LookupType, PriceManager.Core" not-null="true"/>
+    <property name="Description" column="Description" type="System.String" not-null="true" length="4000"/>
+    <property name="Title" column="Title" type="System.String" not-null="false" length="50"/>
+    <property name="IsDefault" column="IsDefault" type="System.Boolean" not-null="true" />
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

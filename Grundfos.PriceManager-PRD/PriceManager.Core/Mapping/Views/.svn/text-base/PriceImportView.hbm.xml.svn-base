@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceImportView" table="viewPriceImport">
+    <id name="ID" type="System.Guid" column="Id">
+      <generator class="guid.comb"/>
+    </id>
+
+    <property name="AmountNew" type="System.Int32" not-null="true"/>
+    <property name="AmountChange" type="System.Int32" not-null="true"/>
+    <property name="AmountError" type="System.Int32" not-null="true"/>
+
+  </class>
+</hibernate-mapping>

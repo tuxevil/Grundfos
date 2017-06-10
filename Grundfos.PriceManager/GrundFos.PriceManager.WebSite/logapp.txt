@@ -1,0 +1,1197 @@
+2009-12-02 14:50:16,711 DEBUG [[Product Import]] Start probando
+2009-12-02 14:50:17,211 DEBUG [[Product Import]] Starting to get database data probando
+2009-12-02 14:50:19,945 INFO [[Product Import]] Ready probando
+2009-12-02 14:50:20,351 INFO [[Product Import]] Finished with Identifier eb51b6cc-cb0f-4ec0-b732-9cd300f48985 and status Invalid
+2009-12-02 14:58:28,068 DEBUG [[Product Import]] Start Probando Archivo
+2009-12-02 14:58:28,365 DEBUG [[Product Import]] Starting to get database data Probando Archivo
+2009-12-02 15:01:48,740 ERROR NHibernate.HibernateException: An exception occurred when executing batch queries ---> System.Data.SqlClient.SqlException: Valor de tiempo de espera caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   en System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   en System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   en NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   en NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   en NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   en NHibernate.AdoNet.SqlClientBatchingBatcher.AddToBatch(IExpectation expectation)
+   en NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   en NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   en NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImplementor session)
+   en NHibernate.Action.EntityUpdateAction.Execute()
+   en NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   en NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   en NHibernate.Engine.ActionQueue.ExecuteActions()
+   en NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   en NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   en NHibernate.Impl.SessionImpl.Flush()
+   en PriceManager.Business.PriceImportController.Create(String newfilename, String description, Boolean haveHeader, Char separationChar, String path, String originalfilename) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Business\Controllers\PriceImportController.cs:línea 162
+   en GrundFos.PriceManager.WebSite.admin.Importation.create._default.btnUpload_Click(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\admin\Importation\create\default.aspx.cs:línea 55
+2009-12-02 15:19:17,615 DEBUG [[Product Import]] Start Probando Archivo
+2009-12-02 15:19:17,881 DEBUG [[Product Import]] Starting to get database data Probando Archivo
+2009-12-02 15:22:58,412 ERROR NHibernate.HibernateException: An exception occurred when executing batch queries ---> System.Data.SqlClient.SqlException: Valor de tiempo de espera caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   en System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   en System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   en NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery()
+   en NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+   en NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+   en NHibernate.AdoNet.SqlClientBatchingBatcher.AddToBatch(IExpectation expectation)
+   en NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   en NHibernate.Persister.Entity.AbstractEntityPersister.UpdateOrInsert(Object id, Object[] fields, Object[] oldFields, Object rowId, Boolean[] includeProperty, Int32 j, Object oldVersion, Object obj, SqlCommandInfo sql, ISessionImplementor session)
+   en NHibernate.Persister.Entity.AbstractEntityPersister.Update(Object id, Object[] fields, Int32[] dirtyFields, Boolean hasDirtyCollection, Object[] oldFields, Object oldVersion, Object obj, Object rowId, ISessionImplementor session)
+   en NHibernate.Action.EntityUpdateAction.Execute()
+   en NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   en NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   en NHibernate.Engine.ActionQueue.ExecuteActions()
+   en NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   en NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   en NHibernate.Impl.SessionImpl.Flush()
+   en PriceManager.Business.PriceImportController.Create(String newfilename, String description, Boolean haveHeader, Char separationChar, String path, String originalfilename) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Business\Controllers\PriceImportController.cs:línea 162
+   en GrundFos.PriceManager.WebSite.admin.Importation.create._default.btnUpload_Click(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\admin\Importation\create\default.aspx.cs:línea 55
+2009-12-02 15:31:34,443 DEBUG [[Product Import]] Start Probando Archivo
+2009-12-02 15:31:34,756 DEBUG [[Product Import]] Starting to get database data Probando Archivo
+2009-12-02 15:33:10,646 INFO [[Product Import]] Ready Probando Archivo
+2009-12-02 15:33:20,256 INFO [[Product Import]] Finished with Identifier 3fdfb238-56d7-4de5-a89a-9cd301004ec2 and status Invalid
+2009-12-02 16:28:04,428 DEBUG [[Product Import]] Start xcx
+2009-12-02 16:28:04,710 DEBUG [[Product Import]] Starting to get database data xcx
+2009-12-02 16:28:07,256 INFO [[Product Import]] Ready xcx
+2009-12-02 16:28:08,413 INFO [[Product Import]] Finished with Identifier edca8a4b-3911-4fa5-948d-9cd3010f6547 and status VerifiedSomeInvalid
+2009-12-02 16:29:50,131 DEBUG [[Product Import]] Start xcc
+2009-12-02 16:29:50,397 DEBUG [[Product Import]] Starting to get database data xcc
+2009-12-02 16:29:52,928 INFO [[Product Import]] Ready xcc
+2009-12-02 16:29:53,131 INFO [[Product Import]] Finished with Identifier a8243714-00e0-492c-b70b-9cd3010fe118 and status Verified
+2009-12-02 16:29:56,788 INFO [[PRODUCT IMPORT PROCESS]] Starting ID: a8243714-00e0-492c-b70b-9cd3010fe118
+2009-12-02 16:29:59,131 INFO [[PRODUCT IMPORT PROCESS]] Starting.
+2009-12-02 16:29:59,147 DEBUG [[PRODUCT IMPORT PROCESS]] Processing line: 0
+2009-12-02 16:30:06,756 DEBUG Executing data for Price Calculator
+2009-12-02 16:30:06,756 DEBUG Processing Records
+2009-12-02 16:30:06,772 DEBUG Selected formula GRP*0,5 for PriceBase [157462/2]
+2009-12-02 16:30:06,772 DEBUG Executing formula GRP*0,5 for PriceBase [157462/2]
+2009-12-02 16:30:06,772 DEBUG Setting price of 1617,190000000000000000000000 for PriceBase [157462/2]
+2009-12-02 16:30:06,772 DEBUG Selected formula GRP*0,5 for PriceBase [157463/2]
+2009-12-02 16:30:06,772 DEBUG Executing formula GRP*0,5 for PriceBase [157463/2]
+2009-12-02 16:30:06,772 DEBUG Setting price of 1240,315000000000000000000000 for PriceBase [157463/2]
+2009-12-02 16:30:06,788 DEBUG Selected formula GRP*0,5 for PriceBase [157464/2]
+2009-12-02 16:30:06,788 DEBUG Executing formula GRP*0,5 for PriceBase [157464/2]
+2009-12-02 16:30:06,788 DEBUG Setting price of 1600,315000000000000000000000 for PriceBase [157464/2]
+2009-12-02 16:30:06,788 DEBUG Selected formula GRP*0,5 for PriceBase [157465/2]
+2009-12-02 16:30:06,788 DEBUG Executing formula GRP*0,5 for PriceBase [157465/2]
+2009-12-02 16:30:06,788 DEBUG Setting price of 412,875000000000000000000000 for PriceBase [157465/2]
+2009-12-02 16:30:06,788 DEBUG Selected formula GRP*0,5 for PriceBase [157466/2]
+2009-12-02 16:30:06,788 DEBUG Executing formula GRP*0,5 for PriceBase [157466/2]
+2009-12-02 16:30:06,788 DEBUG Setting price of 1485,000000000000000000000000 for PriceBase [157466/2]
+2009-12-02 16:30:06,803 DEBUG Selected formula GRP*0,5 for PriceBase [157467/2]
+2009-12-02 16:30:06,803 DEBUG Executing formula GRP*0,5 for PriceBase [157467/2]
+2009-12-02 16:30:06,803 DEBUG Setting price of 1203,750000000000000000000000 for PriceBase [157467/2]
+2009-12-02 16:30:06,803 DEBUG Selected formula GRP*0,5 for PriceBase [157468/2]
+2009-12-02 16:30:06,803 DEBUG Executing formula GRP*0,5 for PriceBase [157468/2]
+2009-12-02 16:30:06,803 DEBUG Setting price of 423,280000000000000000000000 for PriceBase [157468/2]
+2009-12-02 16:30:06,803 DEBUG Selected formula GRP*0,5 for PriceBase [157469/2]
+2009-12-02 16:30:06,803 DEBUG Executing formula GRP*0,5 for PriceBase [157469/2]
+2009-12-02 16:30:06,803 DEBUG Setting price of 409,500000000000000000000000 for PriceBase [157469/2]
+2009-12-02 16:30:06,819 DEBUG Selected formula GRP*0,5 for PriceBase [157470/2]
+2009-12-02 16:30:06,835 DEBUG Executing formula GRP*0,5 for PriceBase [157470/2]
+2009-12-02 16:30:06,835 DEBUG Setting price of 1496,250000000000000000000000 for PriceBase [157470/2]
+2009-12-02 16:30:06,835 DEBUG Selected formula GRP*0,5 for PriceBase [157471/2]
+2009-12-02 16:30:06,835 DEBUG Executing formula GRP*0,5 for PriceBase [157471/2]
+2009-12-02 16:30:06,835 DEBUG Setting price of 1192,500000000000000000000000 for PriceBase [157471/2]
+2009-12-02 16:30:06,850 DEBUG Selected formula GRP*0,5 for PriceBase [157472/2]
+2009-12-02 16:30:06,850 DEBUG Executing formula GRP*0,5 for PriceBase [157472/2]
+2009-12-02 16:30:06,850 DEBUG Setting price of 406,125000000000000000000000 for PriceBase [157472/2]
+2009-12-02 16:30:06,850 DEBUG Selected formula GRP*0,5 for PriceBase [157473/2]
+2009-12-02 16:30:06,850 DEBUG Executing formula GRP*0,5 for PriceBase [157473/2]
+2009-12-02 16:30:06,850 DEBUG Setting price of 399,095000000000000000000000 for PriceBase [157473/2]
+2009-12-02 16:30:06,866 DEBUG Selected formula GRP*0,5 for PriceBase [157474/2]
+2009-12-02 16:30:06,866 DEBUG Executing formula GRP*0,5 for PriceBase [157474/2]
+2009-12-02 16:30:06,866 DEBUG Setting price of 1251,565000000000000000000000 for PriceBase [157474/2]
+2009-12-02 16:30:06,866 DEBUG Selected formula GRP*0,5 for PriceBase [157475/2]
+2009-12-02 16:30:06,866 DEBUG Executing formula GRP*0,5 for PriceBase [157475/2]
+2009-12-02 16:30:06,866 DEBUG Setting price of 337,780000000000000000000000 for PriceBase [157475/2]
+2009-12-02 16:30:06,866 DEBUG Selected formula GRP*0,5 for PriceBase [157476/2]
+2009-12-02 16:30:06,866 DEBUG Executing formula GRP*0,5 for PriceBase [157476/2]
+2009-12-02 16:30:06,866 DEBUG Setting price of 646,875000000000000000000000 for PriceBase [157476/2]
+2009-12-02 16:30:06,881 DEBUG Selected formula GRP*0,5 for PriceBase [157477/2]
+2009-12-02 16:30:06,881 DEBUG Executing formula GRP*0,5 for PriceBase [157477/2]
+2009-12-02 16:30:06,881 DEBUG Setting price of 773,440000000000000000000000 for PriceBase [157477/2]
+2009-12-02 16:30:06,881 DEBUG Selected formula GRP*0,5 for PriceBase [157478/2]
+2009-12-02 16:30:06,881 DEBUG Executing formula GRP*0,5 for PriceBase [157478/2]
+2009-12-02 16:30:06,881 DEBUG Setting price of 144,280000000000000000000000 for PriceBase [157478/2]
+2009-12-02 16:30:06,881 DEBUG Selected formula GRP*0,5 for PriceBase [157479/2]
+2009-12-02 16:30:06,881 DEBUG Executing formula GRP*0,5 for PriceBase [157479/2]
+2009-12-02 16:30:06,881 DEBUG Setting price of 520,315000000000000000000000 for PriceBase [157479/2]
+2009-12-02 16:30:06,897 DEBUG Selected formula GRP*0,5 for PriceBase [157480/2]
+2009-12-02 16:30:06,897 DEBUG Executing formula GRP*0,5 for PriceBase [157480/2]
+2009-12-02 16:30:06,897 DEBUG Setting price of 164,530000000000000000000000 for PriceBase [157480/2]
+2009-12-02 16:30:06,897 DEBUG Selected formula GRP*0,5 for PriceBase [157481/2]
+2009-12-02 16:30:06,897 DEBUG Executing formula GRP*0,5 for PriceBase [157481/2]
+2009-12-02 16:30:06,897 DEBUG Setting price of 422,155000000000000000000000 for PriceBase [157481/2]
+2009-12-02 16:30:06,897 DEBUG Selected formula GRP*0,5 for PriceBase [157482/2]
+2009-12-02 16:30:06,897 DEBUG Executing formula GRP*0,5 for PriceBase [157482/2]
+2009-12-02 16:30:06,897 DEBUG Setting price of 136,125000000000000000000000 for PriceBase [157482/2]
+2009-12-02 16:30:06,913 DEBUG Selected formula GRP*0,5 for PriceBase [157483/2]
+2009-12-02 16:30:06,913 DEBUG Executing formula GRP*0,5 for PriceBase [157483/2]
+2009-12-02 16:30:06,913 DEBUG Setting price of 202,500000000000000000000000 for PriceBase [157483/2]
+2009-12-02 16:30:06,913 DEBUG Selected formula GRP*0,5 for PriceBase [157484/2]
+2009-12-02 16:30:06,913 DEBUG Executing formula GRP*0,5 for PriceBase [157484/2]
+2009-12-02 16:30:06,913 DEBUG Setting price of 418,500000000000000000000000 for PriceBase [157484/2]
+2009-12-02 16:30:06,913 DEBUG Selected formula GRP*0,5 for PriceBase [157485/2]
+2009-12-02 16:30:06,913 DEBUG Executing formula GRP*0,5 for PriceBase [157485/2]
+2009-12-02 16:30:06,913 DEBUG Setting price of 156,095000000000000000000000 for PriceBase [157485/2]
+2009-12-02 16:30:06,928 DEBUG Selected formula GRP*0,5 for PriceBase [157486/2]
+2009-12-02 16:30:06,928 DEBUG Executing formula GRP*0,5 for PriceBase [157486/2]
+2009-12-02 16:30:06,928 DEBUG Setting price of 400,780000000000000000000000 for PriceBase [157486/2]
+2009-12-02 16:30:06,928 DEBUG Selected formula GRP*0,5 for PriceBase [157487/2]
+2009-12-02 16:30:06,928 DEBUG Executing formula GRP*0,5 for PriceBase [157487/2]
+2009-12-02 16:30:06,928 DEBUG Setting price of 27,565000000000000000000000 for PriceBase [157487/2]
+2009-12-02 16:30:06,928 DEBUG Selected formula GRP*0,5 for PriceBase [157488/2]
+2009-12-02 16:30:06,944 DEBUG Executing formula GRP*0,5 for PriceBase [157488/2]
+2009-12-02 16:30:06,944 DEBUG Setting price of 95,345000000000000000000000 for PriceBase [157488/2]
+2009-12-02 16:30:06,944 DEBUG Selected formula GRP*0,5 for PriceBase [157489/2]
+2009-12-02 16:30:06,944 DEBUG Executing formula GRP*0,5 for PriceBase [157489/2]
+2009-12-02 16:30:06,944 DEBUG Setting price of 18,845000000000000000000000 for PriceBase [157489/2]
+2009-12-02 16:30:06,944 DEBUG Selected formula GRP*0,5 for PriceBase [157490/2]
+2009-12-02 16:30:06,944 DEBUG Executing formula GRP*0,5 for PriceBase [157490/2]
+2009-12-02 16:30:06,944 DEBUG Setting price of 25,875000000000000000000000 for PriceBase [157490/2]
+2009-12-02 16:30:06,960 DEBUG Selected formula GRP*0,5 for PriceBase [157491/2]
+2009-12-02 16:30:06,960 DEBUG Executing formula GRP*0,5 for PriceBase [157491/2]
+2009-12-02 16:30:06,960 DEBUG Setting price of 84,095000000000000000000000 for PriceBase [157491/2]
+2009-12-02 16:30:06,960 DEBUG Selected formula GRP*0,5 for PriceBase [157492/2]
+2009-12-02 16:30:06,960 DEBUG Executing formula GRP*0,5 for PriceBase [157492/2]
+2009-12-02 16:30:06,960 DEBUG Setting price of 17,155000000000000000000000 for PriceBase [157492/2]
+2009-12-02 16:30:06,960 DEBUG Finish executing data for Price Calculator
+2009-12-02 16:30:07,303 DEBUG Finish executing data for Price Calculator
+2009-12-02 16:30:07,303 INFO [[PRODUCT IMPORT PROCESS]] Finished Processing
+2009-12-02 16:30:37,256 DEBUG Executing data for Price Calculator
+2009-12-02 16:30:37,256 DEBUG Processing Records
+2009-12-02 16:30:37,256 DEBUG Selected formula TP for PriceBase [44062/2]
+2009-12-02 16:30:37,256 DEBUG Executing formula TP for PriceBase [44062/2]
+2009-12-02 16:30:37,256 DEBUG Setting price of 9,28920700000000000000000 for PriceBase [44062/2]
+2009-12-02 16:30:37,256 DEBUG Selected formula TP for PriceBase [44069/2]
+2009-12-02 16:30:37,256 DEBUG Executing formula TP for PriceBase [44069/2]
+2009-12-02 16:30:37,256 DEBUG Setting price of 8,20641600000000000000000 for PriceBase [44069/2]
+2009-12-02 16:30:37,272 DEBUG Selected formula TP for PriceBase [44098/2]
+2009-12-02 16:30:37,272 DEBUG Executing formula TP for PriceBase [44098/2]
+2009-12-02 16:30:37,272 DEBUG Setting price of 30,60309300000000000000000 for PriceBase [44098/2]
+2009-12-02 16:30:37,272 DEBUG Selected formula TP for PriceBase [44104/2]
+2009-12-02 16:30:37,272 DEBUG Executing formula TP for PriceBase [44104/2]
+2009-12-02 16:30:37,272 DEBUG Setting price of 536,95035800000000000000000 for PriceBase [44104/2]
+2009-12-02 16:30:37,288 DEBUG Selected formula TP for PriceBase [44114/2]
+2009-12-02 16:30:37,288 DEBUG Executing formula TP for PriceBase [44114/2]
+2009-12-02 16:30:37,288 DEBUG Setting price of 1398,39608200000000000000000 for PriceBase [44114/2]
+2009-12-02 16:30:37,288 DEBUG Selected formula TP for PriceBase [44123/2]
+2009-12-02 16:30:37,288 DEBUG Executing formula TP for PriceBase [44123/2]
+2009-12-02 16:30:37,288 DEBUG Setting price of 2137,48642300000000000000000 for PriceBase [44123/2]
+2009-12-02 16:30:37,288 DEBUG Selected formula TP for PriceBase [44181/2]
+2009-12-02 16:30:37,288 DEBUG Executing formula TP for PriceBase [44181/2]
+2009-12-02 16:30:37,288 DEBUG Setting price of 10,65694300000000000000000 for PriceBase [44181/2]
+2009-12-02 16:30:37,303 DEBUG Selected formula TP for PriceBase [44185/2]
+2009-12-02 16:30:37,303 DEBUG Executing formula TP for PriceBase [44185/2]
+2009-12-02 16:30:37,303 DEBUG Setting price of 4,04621900000000000000000 for PriceBase [44185/2]
+2009-12-02 16:30:37,303 DEBUG Selected formula TP for PriceBase [44203/2]
+2009-12-02 16:30:37,303 DEBUG Executing formula TP for PriceBase [44203/2]
+2009-12-02 16:30:37,303 DEBUG Setting price of 271,03968400000000000000000 for PriceBase [44203/2]
+2009-12-02 16:30:37,303 DEBUG Selected formula TP for PriceBase [156260/2]
+2009-12-02 16:30:37,303 DEBUG Executing formula TP for PriceBase [156260/2]
+2009-12-02 16:30:37,303 DEBUG Setting price of 0,20000000000000000000000 for PriceBase [156260/2]
+2009-12-02 16:30:37,319 DEBUG Selected formula TP for PriceBase [156261/2]
+2009-12-02 16:30:37,319 DEBUG Executing formula TP for PriceBase [156261/2]
+2009-12-02 16:30:37,319 DEBUG Setting price of 0,01000000000000000000000 for PriceBase [156261/2]
+2009-12-02 16:30:37,319 DEBUG Selected formula GRP for PriceBase [157462/2]
+2009-12-02 16:30:37,319 DEBUG Executing formula GRP for PriceBase [157462/2]
+2009-12-02 16:30:37,319 DEBUG Setting price of 3234,38000000000000000000000 for PriceBase [157462/2]
+2009-12-02 16:30:37,335 DEBUG Selected formula GRP for PriceBase [157463/2]
+2009-12-02 16:30:37,335 DEBUG Executing formula GRP for PriceBase [157463/2]
+2009-12-02 16:30:37,335 DEBUG Setting price of 2480,63000000000000000000000 for PriceBase [157463/2]
+2009-12-02 16:30:37,335 DEBUG Selected formula GRP for PriceBase [157464/2]
+2009-12-02 16:30:37,335 DEBUG Executing formula GRP for PriceBase [157464/2]
+2009-12-02 16:30:37,335 DEBUG Setting price of 3200,63000000000000000000000 for PriceBase [157464/2]
+2009-12-02 16:30:37,335 DEBUG Selected formula GRP for PriceBase [157465/2]
+2009-12-02 16:30:37,335 DEBUG Executing formula GRP for PriceBase [157465/2]
+2009-12-02 16:30:37,335 DEBUG Setting price of 825,75000000000000000000000 for PriceBase [157465/2]
+2009-12-02 16:30:37,350 DEBUG Selected formula GRP for PriceBase [157466/2]
+2009-12-02 16:30:37,350 DEBUG Executing formula GRP for PriceBase [157466/2]
+2009-12-02 16:30:37,350 DEBUG Setting price of 2970,00000000000000000000000 for PriceBase [157466/2]
+2009-12-02 16:30:37,350 DEBUG Selected formula GRP for PriceBase [157467/2]
+2009-12-02 16:30:37,350 DEBUG Executing formula GRP for PriceBase [157467/2]
+2009-12-02 16:30:37,350 DEBUG Setting price of 2407,50000000000000000000000 for PriceBase [157467/2]
+2009-12-02 16:30:37,350 DEBUG Selected formula GRP for PriceBase [157468/2]
+2009-12-02 16:30:37,350 DEBUG Executing formula GRP for PriceBase [157468/2]
+2009-12-02 16:30:37,350 DEBUG Setting price of 846,56000000000000000000000 for PriceBase [157468/2]
+2009-12-02 16:30:37,366 DEBUG Selected formula GRP for PriceBase [157469/2]
+2009-12-02 16:30:37,366 DEBUG Executing formula GRP for PriceBase [157469/2]
+2009-12-02 16:30:37,366 DEBUG Setting price of 819,00000000000000000000000 for PriceBase [157469/2]
+2009-12-02 16:30:37,366 DEBUG Selected formula GRP for PriceBase [157470/2]
+2009-12-02 16:30:37,366 DEBUG Executing formula GRP for PriceBase [157470/2]
+2009-12-02 16:30:37,366 DEBUG Setting price of 2992,50000000000000000000000 for PriceBase [157470/2]
+2009-12-02 16:30:37,366 DEBUG Selected formula GRP for PriceBase [157471/2]
+2009-12-02 16:30:37,381 DEBUG Executing formula GRP for PriceBase [157471/2]
+2009-12-02 16:30:37,381 DEBUG Setting price of 2385,00000000000000000000000 for PriceBase [157471/2]
+2009-12-02 16:30:37,381 DEBUG Selected formula GRP for PriceBase [157472/2]
+2009-12-02 16:30:37,381 DEBUG Executing formula GRP for PriceBase [157472/2]
+2009-12-02 16:30:37,381 DEBUG Setting price of 812,25000000000000000000000 for PriceBase [157472/2]
+2009-12-02 16:30:37,381 DEBUG Selected formula GRP for PriceBase [157473/2]
+2009-12-02 16:30:37,381 DEBUG Executing formula GRP for PriceBase [157473/2]
+2009-12-02 16:30:37,381 DEBUG Setting price of 798,19000000000000000000000 for PriceBase [157473/2]
+2009-12-02 16:30:37,397 DEBUG Selected formula GRP for PriceBase [157474/2]
+2009-12-02 16:30:37,397 DEBUG Executing formula GRP for PriceBase [157474/2]
+2009-12-02 16:30:37,397 DEBUG Setting price of 2503,13000000000000000000000 for PriceBase [157474/2]
+2009-12-02 16:30:37,397 DEBUG Selected formula GRP for PriceBase [157475/2]
+2009-12-02 16:30:37,397 DEBUG Executing formula GRP for PriceBase [157475/2]
+2009-12-02 16:30:37,397 DEBUG Setting price of 675,56000000000000000000000 for PriceBase [157475/2]
+2009-12-02 16:30:37,397 DEBUG Selected formula GRP for PriceBase [157476/2]
+2009-12-02 16:30:37,397 DEBUG Executing formula GRP for PriceBase [157476/2]
+2009-12-02 16:30:37,397 DEBUG Setting price of 1293,75000000000000000000000 for PriceBase [157476/2]
+2009-12-02 16:30:37,413 DEBUG Selected formula GRP for PriceBase [157477/2]
+2009-12-02 16:30:37,413 DEBUG Executing formula GRP for PriceBase [157477/2]
+2009-12-02 16:30:37,413 DEBUG Setting price of 1546,88000000000000000000000 for PriceBase [157477/2]
+2009-12-02 16:30:37,413 DEBUG Selected formula GRP for PriceBase [157478/2]
+2009-12-02 16:30:37,413 DEBUG Executing formula GRP for PriceBase [157478/2]
+2009-12-02 16:30:37,413 DEBUG Setting price of 288,56000000000000000000000 for PriceBase [157478/2]
+2009-12-02 16:30:37,413 DEBUG Selected formula GRP for PriceBase [157479/2]
+2009-12-02 16:30:37,413 DEBUG Executing formula GRP for PriceBase [157479/2]
+2009-12-02 16:30:37,413 DEBUG Setting price of 1040,63000000000000000000000 for PriceBase [157479/2]
+2009-12-02 16:30:37,428 DEBUG Selected formula GRP for PriceBase [157480/2]
+2009-12-02 16:30:37,428 DEBUG Executing formula GRP for PriceBase [157480/2]
+2009-12-02 16:30:37,428 DEBUG Setting price of 329,06000000000000000000000 for PriceBase [157480/2]
+2009-12-02 16:30:37,428 DEBUG Selected formula GRP for PriceBase [157481/2]
+2009-12-02 16:30:37,428 DEBUG Executing formula GRP for PriceBase [157481/2]
+2009-12-02 16:30:37,428 DEBUG Setting price of 844,31000000000000000000000 for PriceBase [157481/2]
+2009-12-02 16:30:37,444 DEBUG Selected formula GRP for PriceBase [157482/2]
+2009-12-02 16:30:37,444 DEBUG Executing formula GRP for PriceBase [157482/2]
+2009-12-02 16:30:37,444 DEBUG Setting price of 272,25000000000000000000000 for PriceBase [157482/2]
+2009-12-02 16:30:37,444 DEBUG Selected formula GRP for PriceBase [157483/2]
+2009-12-02 16:30:37,444 DEBUG Executing formula GRP for PriceBase [157483/2]
+2009-12-02 16:30:37,444 DEBUG Setting price of 405,00000000000000000000000 for PriceBase [157483/2]
+2009-12-02 16:30:37,444 DEBUG Selected formula GRP for PriceBase [157484/2]
+2009-12-02 16:30:37,444 DEBUG Executing formula GRP for PriceBase [157484/2]
+2009-12-02 16:30:37,444 DEBUG Setting price of 837,00000000000000000000000 for PriceBase [157484/2]
+2009-12-02 16:30:37,460 DEBUG Selected formula GRP for PriceBase [157485/2]
+2009-12-02 16:30:37,460 DEBUG Executing formula GRP for PriceBase [157485/2]
+2009-12-02 16:30:37,460 DEBUG Setting price of 312,19000000000000000000000 for PriceBase [157485/2]
+2009-12-02 16:30:37,460 DEBUG Selected formula GRP for PriceBase [157486/2]
+2009-12-02 16:30:37,460 DEBUG Executing formula GRP for PriceBase [157486/2]
+2009-12-02 16:30:37,460 DEBUG Setting price of 801,56000000000000000000000 for PriceBase [157486/2]
+2009-12-02 16:30:37,460 DEBUG Selected formula GRP for PriceBase [157487/2]
+2009-12-02 16:30:37,460 DEBUG Executing formula GRP for PriceBase [157487/2]
+2009-12-02 16:30:37,460 DEBUG Setting price of 55,13000000000000000000000 for PriceBase [157487/2]
+2009-12-02 16:30:37,475 DEBUG Selected formula GRP for PriceBase [157488/2]
+2009-12-02 16:30:37,475 DEBUG Executing formula GRP for PriceBase [157488/2]
+2009-12-02 16:30:37,475 DEBUG Setting price of 190,69000000000000000000000 for PriceBase [157488/2]
+2009-12-02 16:30:37,475 DEBUG Selected formula GRP for PriceBase [157489/2]
+2009-12-02 16:30:37,475 DEBUG Executing formula GRP for PriceBase [157489/2]
+2009-12-02 16:30:37,475 DEBUG Setting price of 37,69000000000000000000000 for PriceBase [157489/2]
+2009-12-02 16:30:37,491 DEBUG Selected formula GRP for PriceBase [157490/2]
+2009-12-02 16:30:37,491 DEBUG Executing formula GRP for PriceBase [157490/2]
+2009-12-02 16:30:37,491 DEBUG Setting price of 51,75000000000000000000000 for PriceBase [157490/2]
+2009-12-02 16:30:37,491 DEBUG Selected formula GRP for PriceBase [157491/2]
+2009-12-02 16:30:37,491 DEBUG Executing formula GRP for PriceBase [157491/2]
+2009-12-02 16:30:37,491 DEBUG Setting price of 168,19000000000000000000000 for PriceBase [157491/2]
+2009-12-02 16:30:37,491 DEBUG Selected formula GRP for PriceBase [157492/2]
+2009-12-02 16:30:37,491 DEBUG Executing formula GRP for PriceBase [157492/2]
+2009-12-02 16:30:37,491 DEBUG Setting price of 34,31000000000000000000000 for PriceBase [157492/2]
+2009-12-02 16:30:37,491 DEBUG Finish executing data for Price Calculator
+2009-12-02 16:30:37,710 DEBUG Finish executing data for Price Calculator
+2009-12-02 16:36:11,881 DEBUG Executing data for Price Calculator
+2009-12-02 16:36:11,897 DEBUG Processing Records
+2009-12-02 16:36:12,038 DEBUG Selected formula GRP for PriceBase [157462/2]
+2009-12-02 16:36:12,038 DEBUG Executing formula GRP for PriceBase [157462/2]
+2009-12-02 16:36:12,100 DEBUG Selected formula GRP for PriceBase [157463/2]
+2009-12-02 16:36:12,100 DEBUG Executing formula GRP for PriceBase [157463/2]
+2009-12-02 16:36:12,147 DEBUG Selected formula GRP for PriceBase [157464/2]
+2009-12-02 16:36:12,147 DEBUG Executing formula GRP for PriceBase [157464/2]
+2009-12-02 16:36:12,210 DEBUG Selected formula GRP for PriceBase [157465/2]
+2009-12-02 16:36:12,210 DEBUG Executing formula GRP for PriceBase [157465/2]
+2009-12-02 16:36:12,256 DEBUG Selected formula GRP for PriceBase [157466/2]
+2009-12-02 16:36:12,256 DEBUG Executing formula GRP for PriceBase [157466/2]
+2009-12-02 16:36:12,319 DEBUG Selected formula GRP for PriceBase [157467/2]
+2009-12-02 16:36:12,319 DEBUG Executing formula GRP for PriceBase [157467/2]
+2009-12-02 16:36:12,381 DEBUG Selected formula GRP for PriceBase [157468/2]
+2009-12-02 16:36:12,381 DEBUG Executing formula GRP for PriceBase [157468/2]
+2009-12-02 16:36:12,428 DEBUG Selected formula GRP for PriceBase [157469/2]
+2009-12-02 16:36:12,428 DEBUG Executing formula GRP for PriceBase [157469/2]
+2009-12-02 16:36:12,491 DEBUG Selected formula GRP for PriceBase [157470/2]
+2009-12-02 16:36:12,491 DEBUG Executing formula GRP for PriceBase [157470/2]
+2009-12-02 16:36:12,538 DEBUG Selected formula GRP for PriceBase [157471/2]
+2009-12-02 16:36:12,538 DEBUG Executing formula GRP for PriceBase [157471/2]
+2009-12-02 16:36:12,600 DEBUG Selected formula GRP for PriceBase [157472/2]
+2009-12-02 16:36:12,600 DEBUG Executing formula GRP for PriceBase [157472/2]
+2009-12-02 16:36:12,647 DEBUG Selected formula GRP for PriceBase [157473/2]
+2009-12-02 16:36:12,647 DEBUG Executing formula GRP for PriceBase [157473/2]
+2009-12-02 16:36:12,710 DEBUG Selected formula GRP for PriceBase [157474/2]
+2009-12-02 16:36:12,710 DEBUG Executing formula GRP for PriceBase [157474/2]
+2009-12-02 16:36:12,772 DEBUG Selected formula GRP for PriceBase [157475/2]
+2009-12-02 16:36:12,772 DEBUG Executing formula GRP for PriceBase [157475/2]
+2009-12-02 16:36:12,819 DEBUG Selected formula GRP for PriceBase [157476/2]
+2009-12-02 16:36:12,819 DEBUG Executing formula GRP for PriceBase [157476/2]
+2009-12-02 16:36:12,881 DEBUG Selected formula GRP for PriceBase [157477/2]
+2009-12-02 16:36:12,881 DEBUG Executing formula GRP for PriceBase [157477/2]
+2009-12-02 16:36:12,928 DEBUG Selected formula GRP for PriceBase [157478/2]
+2009-12-02 16:36:12,944 DEBUG Executing formula GRP for PriceBase [157478/2]
+2009-12-02 16:36:12,991 DEBUG Selected formula GRP for PriceBase [157479/2]
+2009-12-02 16:36:12,991 DEBUG Executing formula GRP for PriceBase [157479/2]
+2009-12-02 16:36:13,053 DEBUG Selected formula GRP for PriceBase [157480/2]
+2009-12-02 16:36:13,053 DEBUG Executing formula GRP for PriceBase [157480/2]
+2009-12-02 16:36:13,100 DEBUG Selected formula GRP for PriceBase [157481/2]
+2009-12-02 16:36:13,100 DEBUG Executing formula GRP for PriceBase [157481/2]
+2009-12-02 16:36:13,163 DEBUG Selected formula GRP for PriceBase [157482/2]
+2009-12-02 16:36:13,163 DEBUG Executing formula GRP for PriceBase [157482/2]
+2009-12-02 16:36:13,210 DEBUG Selected formula GRP for PriceBase [157483/2]
+2009-12-02 16:36:13,210 DEBUG Executing formula GRP for PriceBase [157483/2]
+2009-12-02 16:36:13,272 DEBUG Selected formula GRP for PriceBase [157484/2]
+2009-12-02 16:36:13,272 DEBUG Executing formula GRP for PriceBase [157484/2]
+2009-12-02 16:36:13,319 DEBUG Selected formula GRP for PriceBase [157485/2]
+2009-12-02 16:36:13,319 DEBUG Executing formula GRP for PriceBase [157485/2]
+2009-12-02 16:36:13,381 DEBUG Selected formula GRP for PriceBase [157486/2]
+2009-12-02 16:36:13,381 DEBUG Executing formula GRP for PriceBase [157486/2]
+2009-12-02 16:36:13,428 DEBUG Selected formula GRP for PriceBase [157487/2]
+2009-12-02 16:36:13,428 DEBUG Executing formula GRP for PriceBase [157487/2]
+2009-12-02 16:36:13,475 DEBUG Selected formula GRP for PriceBase [157488/2]
+2009-12-02 16:36:13,491 DEBUG Executing formula GRP for PriceBase [157488/2]
+2009-12-02 16:36:13,538 DEBUG Selected formula GRP for PriceBase [157489/2]
+2009-12-02 16:36:13,538 DEBUG Executing formula GRP for PriceBase [157489/2]
+2009-12-02 16:36:13,600 DEBUG Selected formula GRP for PriceBase [157490/2]
+2009-12-02 16:36:13,600 DEBUG Executing formula GRP for PriceBase [157490/2]
+2009-12-02 16:36:13,647 DEBUG Selected formula GRP for PriceBase [157491/2]
+2009-12-02 16:36:13,647 DEBUG Executing formula GRP for PriceBase [157491/2]
+2009-12-02 16:36:13,710 DEBUG Selected formula GRP for PriceBase [157492/2]
+2009-12-02 16:36:13,710 DEBUG Executing formula GRP for PriceBase [157492/2]
+2009-12-02 16:36:13,710 DEBUG Finish executing data for Price Calculator
+2009-12-02 16:36:13,725 DEBUG Finish executing data for Price Calculator
+2009-12-02 17:14:00,585 DEBUG Executing data for Price Calculator
+2009-12-02 17:14:00,600 DEBUG Processing Records
+2009-12-02 17:14:00,678 DEBUG Selected formula GRP for PriceBase [157462/2]
+2009-12-02 17:14:00,678 DEBUG Executing formula GRP for PriceBase [157462/2]
+2009-12-02 17:14:00,741 DEBUG Selected formula GRP for PriceBase [157463/2]
+2009-12-02 17:14:00,741 DEBUG Executing formula GRP for PriceBase [157463/2]
+2009-12-02 17:14:00,788 DEBUG Selected formula GRP for PriceBase [157464/2]
+2009-12-02 17:14:00,788 DEBUG Executing formula GRP for PriceBase [157464/2]
+2009-12-02 17:14:00,835 DEBUG Selected formula GRP for PriceBase [157465/2]
+2009-12-02 17:14:00,835 DEBUG Executing formula GRP for PriceBase [157465/2]
+2009-12-02 17:14:00,881 DEBUG Selected formula GRP for PriceBase [157466/2]
+2009-12-02 17:14:00,881 DEBUG Executing formula GRP for PriceBase [157466/2]
+2009-12-02 17:14:00,944 DEBUG Selected formula GRP for PriceBase [157467/2]
+2009-12-02 17:14:00,944 DEBUG Executing formula GRP for PriceBase [157467/2]
+2009-12-02 17:14:00,991 DEBUG Selected formula GRP for PriceBase [157468/2]
+2009-12-02 17:14:00,991 DEBUG Executing formula GRP for PriceBase [157468/2]
+2009-12-02 17:14:01,038 DEBUG Selected formula GRP for PriceBase [157469/2]
+2009-12-02 17:14:01,038 DEBUG Executing formula GRP for PriceBase [157469/2]
+2009-12-02 17:14:01,085 DEBUG Selected formula GRP for PriceBase [157470/2]
+2009-12-02 17:14:01,085 DEBUG Executing formula GRP for PriceBase [157470/2]
+2009-12-02 17:14:01,147 DEBUG Selected formula GRP for PriceBase [157471/2]
+2009-12-02 17:14:01,147 DEBUG Executing formula GRP for PriceBase [157471/2]
+2009-12-02 17:14:01,194 DEBUG Selected formula GRP for PriceBase [157472/2]
+2009-12-02 17:14:01,194 DEBUG Executing formula GRP for PriceBase [157472/2]
+2009-12-02 17:14:01,241 DEBUG Selected formula GRP for PriceBase [157473/2]
+2009-12-02 17:14:01,241 DEBUG Executing formula GRP for PriceBase [157473/2]
+2009-12-02 17:14:01,303 DEBUG Selected formula GRP for PriceBase [157474/2]
+2009-12-02 17:14:01,303 DEBUG Executing formula GRP for PriceBase [157474/2]
+2009-12-02 17:14:01,350 DEBUG Selected formula GRP for PriceBase [157475/2]
+2009-12-02 17:14:01,350 DEBUG Executing formula GRP for PriceBase [157475/2]
+2009-12-02 17:14:01,413 DEBUG Selected formula GRP for PriceBase [157476/2]
+2009-12-02 17:14:01,413 DEBUG Executing formula GRP for PriceBase [157476/2]
+2009-12-02 17:14:01,460 DEBUG Selected formula GRP for PriceBase [157477/2]
+2009-12-02 17:14:01,460 DEBUG Executing formula GRP for PriceBase [157477/2]
+2009-12-02 17:14:01,506 DEBUG Selected formula GRP for PriceBase [157478/2]
+2009-12-02 17:14:01,522 DEBUG Executing formula GRP for PriceBase [157478/2]
+2009-12-02 17:14:01,569 DEBUG Selected formula GRP for PriceBase [157479/2]
+2009-12-02 17:14:01,569 DEBUG Executing formula GRP for PriceBase [157479/2]
+2009-12-02 17:14:01,616 DEBUG Selected formula GRP for PriceBase [157480/2]
+2009-12-02 17:14:01,616 DEBUG Executing formula GRP for PriceBase [157480/2]
+2009-12-02 17:14:01,678 DEBUG Selected formula GRP for PriceBase [157481/2]
+2009-12-02 17:14:01,678 DEBUG Executing formula GRP for PriceBase [157481/2]
+2009-12-02 17:14:01,725 DEBUG Selected formula GRP for PriceBase [157482/2]
+2009-12-02 17:14:01,725 DEBUG Executing formula GRP for PriceBase [157482/2]
+2009-12-02 17:14:01,788 DEBUG Selected formula GRP for PriceBase [157483/2]
+2009-12-02 17:14:01,788 DEBUG Executing formula GRP for PriceBase [157483/2]
+2009-12-02 17:14:01,835 DEBUG Selected formula GRP for PriceBase [157484/2]
+2009-12-02 17:14:01,835 DEBUG Executing formula GRP for PriceBase [157484/2]
+2009-12-02 17:14:01,897 DEBUG Selected formula GRP for PriceBase [157485/2]
+2009-12-02 17:14:01,897 DEBUG Executing formula GRP for PriceBase [157485/2]
+2009-12-02 17:14:01,944 DEBUG Selected formula GRP for PriceBase [157486/2]
+2009-12-02 17:14:01,944 DEBUG Executing formula GRP for PriceBase [157486/2]
+2009-12-02 17:14:02,006 DEBUG Selected formula GRP for PriceBase [157487/2]
+2009-12-02 17:14:02,006 DEBUG Executing formula GRP for PriceBase [157487/2]
+2009-12-02 17:14:02,053 DEBUG Selected formula GRP for PriceBase [157488/2]
+2009-12-02 17:14:02,053 DEBUG Executing formula GRP for PriceBase [157488/2]
+2009-12-02 17:14:02,100 DEBUG Selected formula GRP for PriceBase [157489/2]
+2009-12-02 17:14:02,100 DEBUG Executing formula GRP for PriceBase [157489/2]
+2009-12-02 17:14:02,163 DEBUG Selected formula GRP for PriceBase [157490/2]
+2009-12-02 17:14:02,163 DEBUG Executing formula GRP for PriceBase [157490/2]
+2009-12-02 17:14:02,210 DEBUG Selected formula GRP for PriceBase [157491/2]
+2009-12-02 17:14:02,210 DEBUG Executing formula GRP for PriceBase [157491/2]
+2009-12-02 17:14:02,256 DEBUG Selected formula GRP for PriceBase [157492/2]
+2009-12-02 17:14:02,256 DEBUG Executing formula GRP for PriceBase [157492/2]
+2009-12-02 17:14:02,256 DEBUG Finish executing data for Price Calculator
+2009-12-02 17:14:02,288 DEBUG Finish executing data for Price Calculator
+2009-12-03 15:34:38,106 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 15:50:06,280 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.Data.SqlClient.SqlException: Error mientras se establecía la conexión con el servidor. Al conectar con SQL Server 2005, el error se puede producir porque la configuración predeterminada de SQL Server no admite conexiones remotas. (provider: Proveedor de canalizaciones con nombre, error: 40 - No se pudo abrir una conexión con SQL Server)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   en System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   en System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   en NHibernate.AdoNet.ConnectionManager.GetConnection()
+   en NHibernate.AdoNet.AbstractBatcher.Prepare(IDbCommand cmd)
+   en NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   en NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   en NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   en NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   en NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+2009-12-03 19:08:44,688 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:09:27,532 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:09:43,438 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:09:51,610 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:10:27,422 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:17:53,168 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:18:32,827 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:19:06,829 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:20:31,178 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:21:38,760 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:22:40,809 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:24:00,092 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:24:37,516 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:24:53,875 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:24:57,938 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:25:03,766 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:25:26,392 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:25:30,502 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:25:44,096 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:25:47,533 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:26:31,722 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:27:00,347 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:27:30,926 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:28:09,489 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:28:15,161 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:28:19,411 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:28:27,192 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:28:40,474 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:29:09,771 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:15,365 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:22,428 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:28,334 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:30,787 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:38,116 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:56,882 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:30:59,413 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:31:12,241 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:31:24,413 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:32:06,210 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:32:31,007 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:32:44,851 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:32:54,789 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:33:07,257 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-03 19:33:59,664 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.Web.Services.Protocols.SoapException: System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mime.MailBnfHelper.ReadMailAddress(String data, Int32& offset, String& displayName)
+   at System.Net.Mime.MailBnfHelper.ReadMailAddress(String data, Int32& offset)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at ProjectBase.MailSender.Mail.SendEmailWithAttachment(String from, String to, String subject, String body, String replyToAddress, String replyToName, String filename, Byte[] fileContent) in E:\Projects\Nybble\ProjectBase\ProjectBase.MailSender\Mail.asmx.cs:line 32
+   --- End of inner exception stack trace ---
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en ProjectBase.Utils.MailSender.Mail.SendEmailWithAttachment(String from, String to, String subject, String body, String replyToAddress, String replyToName, String filename, Byte[] fileContent) en E:\Projects\Nybble\ProjectBase\ProjectBase.Utils\Web References\MailSender\Reference.cs:línea 121
+   en ProjectBase.Utils.Email.WebMailing.SendMail(String to, String title, String subject, String body, Boolean sendToAdmins, Boolean async, String replyToAddress, String replyToName, String filename, Byte[] filecontent) en E:\Projects\Nybble\ProjectBase\ProjectBase.Utils\Email\WebMailing.cs:línea 38
+   en PriceManager.Business.QuoteController.Send(Quote q, Byte[] filecontent) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Business\Controllers\QuoteController.cs:línea 108
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.btnSendPDF_Click(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 164
+   en System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   en System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-03 19:35:22,211 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteEditor.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteEditor.ascx.cs:línea 143
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteEditor.DataBind() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteEditor.ascx.cs:línea 93
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteView.ChangeView() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteView.ascx.cs:línea 50
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.lnkEdit_Click(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 174
+   en System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   en System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-04 10:47:39,518 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 10:57:26,219 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:13:09,196 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:14:28,304 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteEditor.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteEditor.ascx.cs:línea 143
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteEditor.DataBind() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteEditor.ascx.cs:línea 93
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteView.ChangeView() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteView.ascx.cs:línea 50
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.lnkEdit_Click(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 174
+   en System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   en System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-04 11:21:57,277 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:25:04,774 ERROR deleted object would be re-saved by cascade (remove deleted object from associations)[PriceManager.Core.ContactQuoteNotification#202]
+NHibernate.ObjectDeletedException: deleted object would be re-saved by cascade (remove deleted object from associations)[PriceManager.Core.ContactQuoteNotification#202]
+   en NHibernate.Impl.SessionImpl.ForceFlush(EntityEntry entityEntry)
+   en NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   en NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   en NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   en NHibernate.Impl.SessionImpl.FireSaveOrUpdate(SaveOrUpdateEvent event)
+   en NHibernate.Impl.SessionImpl.SaveOrUpdate(String entityName, Object obj)
+   en NHibernate.Engine.CascadingAction.SaveUpdateCascadingAction.Cascade(IEventSource session, Object child, String entityName, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeToOne(Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeAssociation(Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeProperty(Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeCollectionElements(Object child, CollectionType collectionType, CascadeStyle style, IType elemType, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeCollection(Object child, CascadeStyle style, Object anything, CollectionType type)
+   en NHibernate.Engine.Cascade.CascadeAssociation(Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeProperty(Object child, IType type, CascadeStyle style, Object anything, Boolean isCascadeDeleteEnabled)
+   en NHibernate.Engine.Cascade.CascadeOn(IEntityPersister persister, Object parent, Object anything)
+   en NHibernate.Event.Default.AbstractFlushingEventListener.CascadeOnFlush(IEventSource session, IEntityPersister persister, Object key, Object anything)
+   en NHibernate.Event.Default.AbstractFlushingEventListener.PrepareEntityFlushes(IEventSource session)
+   en NHibernate.Event.Default.AbstractFlushingEventListener.FlushEverythingToExecutions(FlushEvent event)
+   en NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   en NHibernate.Impl.SessionImpl.Flush()
+   en ProjectBase.Data.NHibernateSessionManager.CloseSessionOn(String sessionFactoryConfigPath)
+   en ProjectBase.Data.NHibernateSessionModule.CommitAndCloseSession(Object sender, EventArgs e)
+   en System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:27:34,221 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:30:24,290 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:30:46,775 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:33:01,267 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:33:09,363 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:33:12,505 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:33:28,275 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:33:31,479 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:33:47,655 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:34:02,003 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:34:24,776 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:34:28,386 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:34:37,748 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:34:56,925 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:34:59,223 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:35:19,354 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:47:46,193 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:47:51,428 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:47:56,272 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:53:43,877 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:54:00,144 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:55:59,979 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 11:56:16,198 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 12:04:09,138 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 12:04:27,419 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 12:06:42,914 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 12:06:46,054 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 12:10:10,439 ERROR El archivo no existe.
+System.Web.HttpException: El archivo no existe.
+   en System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   en System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   en System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2009-12-04 15:57:50,836 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en PriceManager.Data.ControllerRepositories.DistributorRepository.GetDistributors(String name, Country country, PriceList priceList, Lookup paymentTerm, Nullable`1 status, GridState gridState, Int32& totalRecords, Nullable`1 saleCondition, Lookup type, CatalogPage page, IList priceListIds, Boolean isActive) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Data\ControllerRepositories\DistributorRepository.cs:línea 59
+   en PriceManager.Business.DistributorController.GetDistributors() en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Business\Controllers\DistributorController.cs:línea 344
+   en PriceManager.Business.Filters.DistributorFilter.Refresh() en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Business\Filters\DistributorFilter.cs:línea 43
+   en PriceManager.Business.Filters.DistributorFilter.OnLoad(EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Business\Filters\DistributorFilter.cs:línea 35
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-07 12:31:43,925 DEBUG Executing data for Price Calculator
+2009-12-07 12:31:43,941 DEBUG Processing Records
+2009-12-07 12:31:44,066 DEBUG Selected formula GRP*1.05 for PriceBase [121402/5]
+2009-12-07 12:31:44,066 DEBUG Executing formula GRP*1.05 for PriceBase [121402/5]
+2009-12-07 12:31:44,066 DEBUG Setting price of 484,1434100307496553877960000 for PriceBase [121402/5]
+2009-12-07 12:31:44,066 DEBUG Finish executing data for Price Calculator
+2009-12-07 12:31:44,253 DEBUG Finish executing data for Price Calculator
+2009-12-09 14:52:17,611 DEBUG Executing data for Price Calculator
+2009-12-09 14:52:17,627 DEBUG Processing Records
+2009-12-09 14:52:17,736 DEBUG Selected formula GRP*2 for PriceBase [15280/1]
+2009-12-09 14:52:17,736 DEBUG Executing formula GRP*2 for PriceBase [15280/1]
+2009-12-09 14:52:17,736 DEBUG Setting price of 40,00000000000000000000000 for PriceBase [15280/1]
+2009-12-09 14:52:17,736 DEBUG Finish executing data for Price Calculator
+2009-12-09 14:52:17,752 DEBUG Finish executing data for Price Calculator
+2009-12-16 10:59:27,617 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: input
+   en System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   en PriceManager.Common.StringFormat.StripHtmlTags(String htmlText) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Common\StringFormat.cs:línea 67
+   en PriceManager.Common.StringFormat.Cut(String instr, Int32 len) en C:\Projects\Grundfos\Grundfos.PriceManager\PriceManager.Common\StringFormat.cs:línea 77
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 128
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.DataBind() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 118
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.rptQuoteLine_ItemDataBound(Object sender, RepeaterItemEventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 280
+   en System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   en System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   en System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   en System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.Repeater.DataBind()
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 154
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.Page_Load(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 50
+   en System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   en System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnLoad(EventArgs e)
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-16 11:13:20,362 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.MissingMethodException: Método no encontrado: 'System.Collections.IList NybbleMembership.PermissionManager.GetPermissionIdentifiersFromFunction(System.Type, NybbleMembership.Core.PermissionAction)'.
+   en PriceManager.Business.QuoteRangeController.GetRange()
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.LoadInsideFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 167
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.DataBind() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 121
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.rptQuoteLine_ItemDataBound(Object sender, RepeaterItemEventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 280
+   en System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   en System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   en System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   en System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.Repeater.DataBind()
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 154
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.Page_Load(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 50
+   en System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   en System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnLoad(EventArgs e)
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-16 11:29:44,644 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.MissingMethodException: Método no encontrado: 'System.Collections.IList NybbleMembership.PermissionManager.GetPermissionIdentifiersFromFunction(System.Type, NybbleMembership.Core.PermissionAction)'.
+   en PriceManager.Business.QuoteRangeController.GetRange()
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.LoadInsideFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 167
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.DataBind() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 121
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.rptQuoteLine_ItemDataBound(Object sender, RepeaterItemEventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 280
+   en System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   en System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   en System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   en System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.Repeater.DataBind()
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 154
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.Page_Load(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 50
+   en System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   en System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnLoad(EventArgs e)
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2009-12-16 11:38:36,046 ERROR Se produjo una excepción de tipo 'System.Web.HttpUnhandledException'.
+System.MissingMethodException: Método no encontrado: 'System.Collections.IList NybbleMembership.PermissionManager.GetPermissionIdentifiersFromFunction(System.Type, NybbleMembership.Core.PermissionAction)'.
+   en PriceManager.Business.QuoteRangeController.GetRange()
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.LoadInsideFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 167
+   en GrundFos.PriceManager.WebSite.ctrl.editors.QuoteLineEditor.DataBind() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\editors\QuoteLineEditor.ascx.cs:línea 121
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.rptQuoteLine_ItemDataBound(Object sender, RepeaterItemEventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 280
+   en System.Web.UI.WebControls.Repeater.OnItemDataBound(RepeaterItemEventArgs e)
+   en System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   en System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   en System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.Repeater.DataBind()
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.LoadFields() en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 154
+   en GrundFos.PriceManager.WebSite.ctrl.Viewers.QuoteDetailView.Page_Load(Object sender, EventArgs e) en C:\Projects\Grundfos\Grundfos.PriceManager\GrundFos.PriceManager.WebSite\ctrl\Viewers\QuoteDetailView.ascx.cs:línea 50
+   en System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   en System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   en System.Web.UI.Control.OnLoad(EventArgs e)
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Control.LoadRecursive()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

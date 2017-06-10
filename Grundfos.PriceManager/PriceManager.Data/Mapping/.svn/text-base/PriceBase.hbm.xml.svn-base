@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceBase" table="PriceBase" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="hilo">
+        <param name="max_lo">200</param>
+        <param name="where">table_name='PriceBase'</param>
+      </generator>
+    </id>
+
+    <property name="PricePurchase" column="PricePurchase" type="System.Decimal" not-null="true" />
+    <many-to-one name="PricePurchaseCurrency" column="PricePurchaseCurrencyId" class="Currency" />
+    <property name="PriceSuggest" column="PriceSuggest" type="System.Decimal" not-null="true" />
+    <many-to-one name="PriceSuggestCurrency" column="PriceSuggestCurrencyId" class="Currency"  />
+    <property name="ProviderCode" column="ProviderCode" type="System.String" not-null="false" unique-key="UK_PriceBaseCode" />
+    <many-to-one name="Provider" column="ProviderId" class="Provider" cascade="none" fetch="join" unique-key="UK_PriceBaseCode" />
+    <many-to-one name="Product" column="ProductId" class="Product" cascade="none" fetch="join" />
+
+    <set name="PriceImports" table="PriceBaseByPriceImport" lazy="true" cascade="none">
+      <key column="PriceBaseId"/>
+      <many-to-many class="PriceImport" column="PriceImportId"/>
+    </set>
+    
+    <property name="PriceList" column="PriceList" type="System.Decimal" not-null="true" />
+    <many-to-one name="PriceListCurrency" column="PriceListCurrencyId" class="Currency" />
+    <property name="Status" column="Status" type="PriceManager.Core.PriceBaseStatus, PriceManager.Core" not-null="true" index="IX_PriceBaseStatus"/>
+    <many-to-one name="CurrencyRate" column="CurrencyRateId" class="CurrencyRate" cascade="none" />
+    <many-to-one name="PriceSuggestCurrencyRate" column="PriceSuggestCurrencyRateId" class="CurrencyRate" cascade="none" />
+    <many-to-one name="PricePurchaseCurrencyRate" column="PricePurchaseCurrencyRateId" class="CurrencyRate" cascade="none" />
+
+    <set name="PriceAttributes" table="PriceAttributes" lazy="true" cascade="none">
+      <key column="PriceBaseId"/>
+      <one-to-many class="PriceAttribute"/>
+    </set>
+
+    <set name="PublishItems" table="PublishItem" lazy="true" cascade="none">
+      <key column="PriceBaseId"/>
+      <one-to-many class="PublishItem"/>
+    </set>
+
+    <component name="TimeStamp" class="ProjectBase.Data.TimeStamp, ProjectBase.Data">
+      <property name="CreatedOn" type="System.DateTime" not-null="true" />
+      <property name="ModifiedOn" type="System.DateTime" not-null="false" />
+      <property name="CreatedBy" type="System.Guid" not-null="false"/>
+      <property name="ModifiedBy" type="System.Guid" not-null="false"/>
+    </component>
+  </class>
+</hibernate-mapping>

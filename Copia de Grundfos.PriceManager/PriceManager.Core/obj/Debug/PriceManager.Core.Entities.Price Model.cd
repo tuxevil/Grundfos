@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PriceManager.Core.Product">
+    <Position X="4" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Entities\Product.cs</FileName>
+      <HashCode>AAQIAAAECAAggACAIAAgADIAIgAwAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Families" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="code" Hidden="true" />
+      <Field Name="description" Hidden="true" />
+      <Field Name="pricePurchase" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.CtrRange" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CtrRange.cs</FileName>
+      <NewMemberFileName>Entities\Family.cs</NewMemberFileName>
+      <HashCode>AAAAEAAAABAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.Selection">
+    <Position X="1" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Selection.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="description" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Discount">
+    <Position X="4" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Entities\Discount.cs</FileName>
+      <HashCode>AAAAAAAAAAAggAAAIIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="description" Hidden="true" />
+      <Field Name="maxDiscount" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.UserAudit">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\UserAudit.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAACAAAAAgAAAAQAAAAEAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+    <Members>
+      <Field Name="action" Hidden="true" />
+      <Field Name="coments" Hidden="true" />
+      <Field Name="products" Hidden="true" />
+      <Field Name="userID" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.Family">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Family.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAABAIAAAQAQAAAAEAAAAAAAABAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Field Name="description" Hidden="true" />
+    </Members>
+  </Class>
+  <Class Name="PriceManager.Core.PriceList">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\PriceList.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAABAAAAAwAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Discount" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PriceManager.Core.ProductPrice">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\ProductPrice.cs</FileName>
+      <HashCode>MAADCDAAAwAAAAAAABCQAgAAgACAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PriceList" />
+      <Property Name="Product" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="PriceManager.Core.ProductAudit" Collapsed="true">
+    <Position X="4" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Audit.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriceManager.Core.ProductPriceAudit" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\Audit.cs</FileName>
+      <HashCode>MAADCDAAAwAAAAAAABCQAAAAgAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

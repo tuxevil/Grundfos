@@ -1,0 +1,15 @@
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\bin\Debug\ParnerNet.Integrators.Scala.dll
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\bin\Debug\ParnerNet.Integrators.Scala.pdb
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Debug\ParnerNet.Integrators.Scala.dll
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Debug\ParnerNet.Integrators.Scala.pdb
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\bin\Release\ParnerNet.Integrators.Scala.dll
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\bin\Release\ParnerNet.Integrators.Scala.pdb
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Release\ParnerNet.Integrators.Scala.dll
+C:\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Release\ParnerNet.Integrators.Scala.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\bin\Debug\ParnerNet.Integrators.Scala.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\bin\Debug\ParnerNet.Integrators.Scala.pdb
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Debug\ResolveAssemblyReference.cache
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Debug\ParnerNet.Integrators.Scala.dll
+C:\Compartida\Respaldo Nybble\Projects\Grundfos\Application.ControlStock\ParnerNet.Integrators.Scala\obj\Debug\ParnerNet.Integrators.Scala.pdb

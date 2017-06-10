@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nybble/!svn/ver/564/GrundFos/Grundfos.PriceManager/trunk/Database/Change%20Scripts/V1.0.29
+END
+script roles.sql
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/nybble/!svn/ver/564/GrundFos/Grundfos.PriceManager/trunk/Database/Change%20Scripts/V1.0.29/script%20roles.sql
+END

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="Provider" table="Provider" >
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="identity"/>
+    </id>
+
+    <property name="Name" column="Name" type="System.String" not-null="true" />
+    <property name="Description" column="Description" type="System.String" not-null="true" />
+    <property name="SaleConditions" column="SaleConditions" type="System.String" not-null="true" />
+    <property name="PurchaseConditions" column="PurchaseConditions" type="System.String" not-null="true" />
+    <property name="City" column="City" type="System.String" not-null="true" />
+    <property name="Country" column="Country" type="System.String" not-null="true" />
+    <property name="Email" column="Email" type="System.String" not-null="true" />
+    <property name="Telephone" column="Telephone" type="System.String" not-null="true" />
+    <property name="Contact" column="Contact" type="System.String" not-null="true" />
+    <property name="ProviderStatus" column="ProviderStatus" type="PriceManager.Core.ProviderStatus, PriceManager.Core" not-null="true"/>
+    <bag name="BasePrices" table="BasePrices" lazy="true" cascade="all-delete-orphan">
+      <key column="BasePriceId"/>
+      <one-to-many class="BasePrice"/>
+    </bag>
+    <bag name="Products" table="ProductByProvider" lazy="true">
+      <key column="ProviderId"/>
+      <many-to-many class="Product" column="ProductId"/>
+    </bag>
+    
+    <property name="CreatedOn" column="CreatedOn" type="System.DateTime" not-null="true" />
+    <property name="CreatedBy" column="CreatedBy" type="System.Guid" not-null="true"/>
+    <property name="ModifiedOn" column="ModifiedOn" type="System.DateTime" not-null="true" />
+    <property name="ModifiedBy" column="ModifiedBy" type="System.Guid" not-null="true"/>
+  </class>
+</hibernate-mapping>

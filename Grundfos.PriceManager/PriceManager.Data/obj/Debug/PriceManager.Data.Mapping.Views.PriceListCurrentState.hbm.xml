@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="PriceManager.Core" namespace="PriceManager.Core">
+  <class name="PriceListCurrentState" table="viewPriceListStatus">
+    <id name="ID" type="System.Int32" column="Id">
+      <generator class="assigned"/>
+    </id>
+
+    <property name="PublishOn" type="System.DateTime" not-null="false"/>
+    <property name="LastPublishedOn" type="System.DateTime" not-null="false"/>
+    <property name="Status" type="PriceManager.Core.PublishListStatus, PriceManager.Core" not-null="true"/>
+    <property name="PendingToApproveCount" type="System.Int32" not-null="true"/>
+    <property name="ModifiedSinceLastApproval" type="System.Int32" not-null="true"/>
+    <many-to-one class="PriceList" column="PriceListId" name="PriceList" />
+    
+  </class>
+</hibernate-mapping>

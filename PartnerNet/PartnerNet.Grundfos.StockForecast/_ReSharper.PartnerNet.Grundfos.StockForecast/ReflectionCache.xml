@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="f155105f-92b6-49f1-8c92-a0b7b1e7ea89" Timestamp="632630662080000000" XmlDocIndexTimestamp="632630662080000000" />
+  <Assembly Name="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="8889b9c6-d64c-41cb-a58d-8075c4d38071" Timestamp="632630662100000000" XmlDocIndexTimestamp="632630662100000000" />
+  <Assembly Name="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="9543542b-12ce-49b0-9129-baef6c3015a0" Timestamp="632630662100000000" XmlDocIndexTimestamp="632630662100000000" />
+  <Assembly Name="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" Image="69fb2dfd-ea2b-4d85-a1b8-a8cb7287b7c5" Timestamp="632630662100000000" XmlDocIndexTimestamp="632630662100000000" />
+  <Assembly Name="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="a2e3ec34-8406-4982-b851-7bef9b976918" Timestamp="633049197920000000" />
+  <Assembly Name="AjaxControlToolkit, Version=1.0.11119.20010, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Image="7b9afbea-11c8-464a-b1bb-676d14dc9e3e" Timestamp="633310780220000000" />
+  <Assembly Name="Castle.DynamicProxy, Version=1.1.5.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="08488124-88b9-4c49-857a-674b79271baa" Timestamp="633063787400000000" XmlDocIndexTimestamp="633635754291260649" />
+  <Assembly Name="Castle.MicroKernel, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="ca7763a4-94df-4f91-86e7-f768a7402ec4" Timestamp="633220111780000000" XmlDocIndexTimestamp="633661688113840000" />
+  <Assembly Name="Castle.Windsor, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="4c90058a-bdf9-4e7e-95d6-189cf9c07695" Timestamp="633220111790000000" XmlDocIndexTimestamp="633661688118730000" />
+  <Assembly Name="dotnetCHARTING, Version=5.1.3169.27816, Culture=neutral" Image="821b8c8d-b214-4fa4-9349-0acf25dd4707" Timestamp="633584803800000000" />
+  <Assembly Name="Iesi.Collections, Version=1.0.0.3, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="1ebd464a-cdfc-44e8-9687-f46872dfb4b6" Timestamp="633137965560000000" XmlDocIndexTimestamp="633635754359120649" />
+  <Assembly Name="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821" Image="b7564310-2b25-4de2-8bba-9348cd0cacd2" Timestamp="632978056240000000" XmlDocIndexTimestamp="633635754381120649" />
+  <Assembly Name="netchartdir, Version=4.1.0.0, Culture=neutral" Image="03e4297c-e48a-4b00-8955-3350ecb4b8ed" Timestamp="633584848200000000" />
+  <Assembly Name="NHibernate, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="f1705488-bdf3-42cc-89b8-96a057866486" Timestamp="633137965620000000" XmlDocIndexTimestamp="633661688144640000" />
+  <Assembly Name="NHibernate.Caches.SysCache, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="a291c430-1cc9-480e-8bba-945e534828ea" Timestamp="633137965720000000" XmlDocIndexTimestamp="633661688136790000" />
+  <Assembly Name="ProjectBase.Data, Version=1.0.0.0, Culture=neutral" Image="55628283-1d10-48b7-85fe-847169135e09" Timestamp="633476871490000000" />
+  <Assembly Name="ProjectBase.Utils, Version=1.0.0.0, Culture=neutral" Image="ff76fe60-91ce-444e-bd80-b075f52b80de" Timestamp="633476871490000000" />
+  <Assembly Name="RssToolkit, Version=1.0.0.1, Culture=neutral, PublicKeyToken=02e47a85b237026a" Image="82a8196b-c206-4c30-9542-4c4b9509fab3" Timestamp="632789375640000000" />
+  <Assembly Name="UrlRewritingNet.UrlRewriter, Version=2.0.60829.1, Culture=neutral" Image="5c87f995-c392-4ef7-b96e-f7265237fc49" Timestamp="633398970720000000" />
+  <Assembly Name="netchartdir, Version=4.1.0.0, Culture=neutral, PublicKeyToken=null" Image="b52733b7-d779-4168-b94c-5d35ce8d72a2" Timestamp="633584848200000000" />
+</Assemblies>

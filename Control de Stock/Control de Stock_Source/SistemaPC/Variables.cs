@@ -1,0 +1,107 @@
+namespace SistemaPC
+{
+    using Microsoft.VisualBasic.CompilerServices;
+    using System;
+
+    [StandardModule]
+    internal sealed class Variables
+    {
+        public static string gAlmacen1;
+        public static string gAlmacen2;
+        public static int gCantMeses;
+        public static string gCliente;
+        public static string gCodAduana;
+        public static string gCodAlmacen;
+        public static string gCodCli;
+        public static int gCodEstado;
+        public static string gCodMetEnt;
+        public static string gCodProd;
+        public static string gCodProdDesde;
+        public static string gCodProdHasta;
+        public static string gCodProv;
+        public static string gColor;
+        public static string gDescMetEnt;
+        public static string gDescProd;
+        public static string gDescProd1;
+        public static string gDescProd2;
+        public static string gDescProdDesde1;
+        public static string gDescProdDesde2;
+        public static string gDescProdHasta1;
+        public static string gDescProdHasta2;
+        public static string gDesde;
+        public static string gDesdeFechaEnt;
+        public static string gDesdeFechaOV;
+        public static string gDesdeRack;
+        public static string gDespacho;
+        public static int gDiasDif;
+        public static string gDirEnt1;
+        public static string gDirEnt2;
+        public static string gDirEnt3;
+        public static string gDirEnt4;
+        public static string gDirEnt5;
+        public static bool gEnsPend;
+        public static string gEstado;
+        public static bool gFcProfIng;
+        public static DateTime gFechaDesde;
+        public static DateTime gFechaEnt;
+        public static string gFechaEntOC;
+        public static string gFechaEntOV;
+        public static string gFechaExp;
+        public static DateTime gFechaHasta;
+        public static DateTime gFechaImp;
+        public static DateTime gFechaInv;
+        public static string gFechaLec;
+        public static string gFechaOC;
+        public static DateTime gFechaOV;
+        public static string gFechaPrep;
+        public static DateTime gFechaRec;
+        public static string gFechaRecConfCli;
+        public static bool gGenDifInv;
+        public static string gHasta;
+        public static string gHastaFechaEnt;
+        public static string gHastaFechaOV;
+        public static string gHastaRack;
+        public static bool gIntr01;
+        public static bool gIntr02;
+        public static bool gIntr03;
+        public static bool gIntr04;
+        public static string gLugarEnt;
+        public static string gMenuOV;
+        public static int gMesesNRNue;
+        public static bool gNoDespachado;
+        public static string gNomAduana;
+        public static string gNomAlmacen;
+        public static string gNomCli;
+        public static string gNomIntr01;
+        public static string gNomIntr02;
+        public static string gNomIntr03;
+        public static string gNomIntr04;
+        public static string gNomProv;
+        public static string gNroLinea;
+        public static string gNroOC;
+        public static string gNroOCCons;
+        public static string gNroOE;
+        public static string gNroOV;
+        public static string gNroOVCons;
+        public static string gNroRemito;
+        public static string gObserva1;
+        public static string gObserva2;
+        public static string gOpc;
+        public static string gOperario;
+        public static int gOrdenDisc;
+        public static int gOrdenList;
+        public static int gOrdenOA;
+        public static int gOrdenProdPend;
+        public static int gOVaListar;
+        public static string gPackList;
+        public static string gPaisOrigen;
+        public static string gPathTxt;
+        public static string gReferencia;
+        public static bool gSalir;
+        public static string gServer;
+        public static string gTermi;
+        public static string gTipoList;
+        public static int gTipoOV;
+    }
+}
+

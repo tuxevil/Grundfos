@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters
+END
+LinkedDropDownFilters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/LinkedDropDownFilters.cs
+END
+RadioButtonListFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/RadioButtonListFilter.cs
+END
+IFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/IFilter.cs
+END
+CalendarFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/CalendarFilter.cs
+END
+DropDownFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/DropDownFilter.cs
+END
+RangeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/RangeFilter.cs
+END
+TextBoxFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/TextBoxFilter.cs
+END
+FixedFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2649/GrundFos/Grundfos.PriceManager/tags/v2.0.65/PriceManager.Business/Filters/BaseFilters/FixedFilter.cs
+END

@@ -1,0 +1,77 @@
+9
+
+dir
+619
+http://sourcesafe.app.nybblenetwork.com:8080/svn/nybble/GrundFos/Grundfos.PriceManager/trunk
+http://sourcesafe.app.nybblenetwork.com:8080/svn/nybble
+
+
+
+2009-06-02T21:30:47.551841Z
+564
+sebastian.real
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+420dda77-6af4-1841-a513-76830d1e3cad
+
+Database
+dir
+
+GrundFos.PriceManager.WebSite
+dir
+
+PriceManager.Common
+dir
+
+PriceManager.Core
+dir
+
+PriceManager.Business
+dir
+
+Grundfos.PriceManager.sln
+file
+
+
+
+
+2009-06-16T15:29:43.057871Z
+1bea2252caab12c2a49f562aea5f1cdb
+2009-04-23T18:16:08.646913Z
+20
+emiliano.galizio
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3548
+

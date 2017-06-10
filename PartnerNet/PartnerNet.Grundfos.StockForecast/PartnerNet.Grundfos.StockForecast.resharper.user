@@ -1,0 +1,86 @@
+<Configuration>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <EditorManager>
+    <RecentFiles>
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:TransactionHistoryWeekly.hbm.xml" caret="929" scrollPosition="0|0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:TransactionHistoryWeekly.cs" caret="461" scrollPosition="0|0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:PurchaseOrderItemController.cs" caret="1496" scrollPosition="0|22" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:forecast/f:default.aspx" caret="251" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Properties/f:AssemblyInfo.cs" caret="1417" scrollPosition="0|3" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:services.aspx.cs" caret="18116" scrollPosition="0|361" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:TransactionHistoryMonthly.cs" caret="0" scrollPosition="0|18" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:TransactionHistoryWeeklyCurrent.cs" caret="1836" scrollPosition="0|0" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Entities/f:Product.cs" caret="2914" scrollPosition="0|69" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:TransactionHistoryMonthlyController.cs" caret="503" scrollPosition="0|4" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:TransactionHistoryWeeklyController.cs" caret="3148" scrollPosition="0|80" />
+      <File id="61B5D2FC-0FC6-40FA-934A-30E7D463A48E/d:Mapping/f:TransactionHistoryMonthly.hbm.xml" caret="1599" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:product-list/f:default.aspx.cs" caret="0" scrollPosition="0|0" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:Templates/f:Detalle.ascx.cs" caret="1111" scrollPosition="0|21" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/d:forecast/f:default.aspx.cs" caret="3463" scrollPosition="0|57" />
+      <File id="39075640-FA8C-46D3-B35A-E866087823CB/f:Web.config" caret="9568" scrollPosition="0|123" />
+      <File id="9A85AF73-8E47-48BB-A537-6297A12CD64F/d:Controllers/f:ForecastController.cs" caret="9049" scrollPosition="0|208" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:Stock.hbm.xml" caret="0" scrollPosition="0|0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:ProductDetail.cs" caret="0" scrollPosition="0|0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Entities/f:Product.cs" caret="0" scrollPosition="0|0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:Product.hbm.xml" caret="0" scrollPosition="0|0" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Mapping/f:ProductDetail.hbm.xml" caret="0" scrollPosition="0|0" />
+      <File id="C56CF077-4A68-47DA-9792-1D1D84CB2C3C/f:ForecastProcessor.cs" caret="8738" scrollPosition="0|49" />
+      <File id="EF0DB014-E4AF-4190-940F-72EBC3BA68AD/d:Controllers/f:ProductDetailController.cs" caret="751" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@PartnerNet.Common.Config.CurrentDate">
+      <Item value="Month" priority="0" />
+      <Item value="AddMonths" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PartnerNet.Domain.TransactionHistoryMonthly">
+      <Item value="Month" priority="1" />
+      <Item value="Sale" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Globalization.Calendar">
+      <Item value="GetMonthsInYear" priority="0" />
+      <Item value="GetMonth" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:T">
+      <Item value="Sale" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="SetMaxResults" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Grundfos.ScalaConnector.Product">
+      <Item value="Detail" priority="1" />
+      <Item value="StockQ" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Common
+END
+PriceManager.Common.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/nybble/!svn/ver/2262/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Common/PriceManager.Common.csproj
+END
+StringFormat.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nybble/!svn/ver/2027/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Common/StringFormat.cs
+END
+Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/nybble/!svn/ver/2473/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Common/Utils.cs
+END
+Config.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/nybble/!svn/ver/2877/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Common/Config.cs
+END
+Resource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nybble/!svn/ver/737/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Common/Resource.cs
+END

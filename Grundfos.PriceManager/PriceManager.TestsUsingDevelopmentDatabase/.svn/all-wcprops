@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/nybble/!svn/ver/2776/GrundFos/Grundfos.PriceManager/trunk/PriceManager.TestsUsingDevelopmentDatabase
+END
+WebNHibernate.config
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/nybble/!svn/ver/2697/GrundFos/Grundfos.PriceManager/trunk/PriceManager.TestsUsingDevelopmentDatabase/WebNHibernate.config
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/nybble/!svn/ver/2698/GrundFos/Grundfos.PriceManager/trunk/PriceManager.TestsUsingDevelopmentDatabase/App.config
+END
+DatabaseRepositoryTestsBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/nybble/!svn/ver/2677/GrundFos/Grundfos.PriceManager/trunk/PriceManager.TestsUsingDevelopmentDatabase/DatabaseRepositoryTestsBase.cs
+END
+PriceManager.TestsUsingDevelopmentDatabase.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/nybble/!svn/ver/2705/GrundFos/Grundfos.PriceManager/trunk/PriceManager.TestsUsingDevelopmentDatabase/PriceManager.TestsUsingDevelopmentDatabase.csproj
+END

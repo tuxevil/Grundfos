@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/nybble/!svn/ver/2713/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Entities/Notifications
+END
+BaseQuoteNotification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/nybble/!svn/ver/2713/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Entities/Notifications/BaseQuoteNotification.cs
+END
+ContactQuoteNotification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/nybble/!svn/ver/2699/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Entities/Notifications/ContactQuoteNotification.cs
+END
+QuoteNotification.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/nybble/!svn/ver/2699/GrundFos/Grundfos.PriceManager/trunk/PriceManager.Core/Entities/Notifications/QuoteNotification.cs
+END
